@@ -81,6 +81,7 @@ ClickCenterOfImageInWindow(winTitle, imageFile, timeoutMs := 10000, intervalMs :
             if ImageSearch(&x, &y, wx, wy, wx + ww, wy + wh, Format("*10 {}", imageFile))
             {
                 ClickWithMarker(x + Floor(width / 2), y + Floor(height / 2))
+                Log("Found button!")
                 return
             }
         }

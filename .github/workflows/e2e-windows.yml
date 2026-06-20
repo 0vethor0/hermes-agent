@@ -208,6 +208,7 @@ jobs:
 
             $logReader  = $null
             $logStream  = $null
+            $logPath    = Join-Path $env:HERMES_HOME "logs\bootstrap-installer.log"
             # can take a long time for installer!
             $deadline   = (Get-Date).AddSeconds(60 * 8)
 
