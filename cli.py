@@ -9890,7 +9890,7 @@ class HermesCLI(CLIAgentSetupMixin, CLICommandsMixin):
         if self._normalize_slash_confirm_choice(raw, confirm_choices) != "yes":
             print("  🟡 Cancelled. No plan change.")
             return
-        self._subscription_apply(state, action)
+        self._subscription_apply(state, action, allow_stepup=allow_stepup)
 
     def _subscription_confirm_cancel(self, state):
         """Confirm, then schedule a cancellation at period end."""
@@ -9937,7 +9937,17 @@ class HermesCLI(CLIAgentSetupMixin, CLICommandsMixin):
             key = idempotency_key or new_idempotency_key()
         try:
             if kind == "upgrade":
-                res = post_subscription_upgrade(subscription_type_id=arg, idempotency_key=key) or {}
+                try:
+                    res = post_subscription_upgrade(subscription_type_id=arg, idempotency_key=key) or {}
+                except BillingScopeRequired:
+                    raise  # a scope denial rejects BEFORE charging → route to the step-up
+                except BillingError as exc:
+                    # Any OTHER error on the charging route (transport / timeout / 500)
+                    # is AMBIGUOUS — NAS may have already prorated + charged. Steer to a
+                    # re-check; never a flat failure that invites a blind retry (which
+                    # mints a fresh key the server can't dedup → a real second charge).
+                    self._subscription_render_upgrade_ambiguous(exc)
+                    return
                 status = res.get("status")
                 name = res.get("targetTierName") or "your new plan"
                 _url = res.get("recoveryUrl")
@@ -9948,13 +9958,14 @@ class HermesCLI(CLIAgentSetupMixin, CLICommandsMixin):
                 elif status == "requires_action":
                     _cprint("  🟡 This upgrade needs extra verification (3DS). Finish it on the portal.")
                     if _url:
-                        print(f"  Portal: {_url}")
+                        _cprint(f"  Portal: {_url}")
                 elif status == "payment_failed":
                     _cprint("  🔴 Your card was declined. Update your payment method on the portal and try again.")
                     if _url:
-                        print(f"  Portal: {_url}")
+                        _cprint(f"  Portal: {_url}")
                 else:
-                    _cprint("  🟡 The upgrade could not be completed.")
+                    # Unknown / absent 2xx status → also ambiguous, not a flat failure.
+                    self._subscription_render_upgrade_ambiguous(None)
                 return
             if kind == "schedule":
                 put_subscription_pending_change(subscription_type_id=arg)
@@ -10048,7 +10059,19 @@ class HermesCLI(CLIAgentSetupMixin, CLICommandsMixin):
             _cprint(f"  🔴 {msg}")
         _url = getattr(exc, "portal_url", None)
         if _url:
-            print(f"  Portal: {_url}")
+            _cprint(f"  Portal: {_url}")
+
+    def _subscription_render_upgrade_ambiguous(self, exc):
+        """A charge-route failure (transport / timeout / 500 / unknown status) is
+        AMBIGUOUS — NAS may have already prorated + charged. Steer to a re-check,
+        never a flat failure that invites a blind retry (mirrors the TUI's
+        upgradeResult(null) — the CLI can't persist the key across a command re-run,
+        so a re-check is the safe path)."""
+        _cprint("  🟡 Couldn't confirm the upgrade — your card may or may not have been charged.")
+        _cprint(f"  {_d('Re-run /subscription to check your plan before trying again.')}")
+        _url = getattr(exc, "portal_url", None) if exc is not None else None
+        if _url:
+            _cprint(f"  Portal: {_url}")
 
     # ------------------------------------------------------------------
     # /billing — Phase 2b terminal billing (CLI surface, all 5 screens)

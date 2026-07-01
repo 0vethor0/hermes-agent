@@ -236,3 +236,31 @@ def test_bounded_stepup_does_not_loop_on_repeat_denial(cli, monkeypatch, capsys)
 
     assert calls["n"] == 2  # applied, granted, replayed once — no third attempt
     assert "still isn't enabled" in out
+
+
+def test_upgrade_transport_failure_is_ambiguous_not_flat_failure(cli, monkeypatch, capsys):
+    # BUG B: a charge-route failure must warn "may or may not have been charged"
+    # (steer to a re-check), never a flat failure that invites a blind retry (which
+    # would mint a fresh idempotency key the server can't dedup → a real 2nd charge).
+    cli._app = object()
+    st = _sub_state(tier_id="plus", tier_name="Plus")
+    tiers = tuple(
+        SubscriptionTier(tier_id=t.tier_id, name=t.name, tier_order=t.tier_order, dollars_per_month=t.dollars_per_month, monthly_credits=t.monthly_credits, is_current=(t.tier_id == "plus"), is_enabled=True)
+        for t in _TIERS
+    )
+    object.__setattr__(st, "tiers", tiers)
+    monkeypatch.setattr(sv, "build_subscription_state", lambda *a, **kw: st)
+    monkeypatch.setattr(HermesCLI, "_prompt_text_input_modal", _scripted_modal("change", "ultra", "yes"), raising=False)
+    monkeypatch.setattr(nb, "post_subscription_preview", lambda **kw: {"effect": "charge_now", "targetTierName": "Ultra", "amountDueNowCents": 4630})
+
+    def _boom(**kw):
+        raise nb.BillingError("Could not reach Nous Portal", error="endpoint_unavailable")
+
+    monkeypatch.setattr(nb, "post_subscription_upgrade", _boom)
+
+    cli._show_subscription()
+    out = capsys.readouterr().out
+
+    assert "may or may not have been charged" in out
+    assert "Re-run /subscription" in out
+    assert "could not be completed" not in out  # not the old flat failure
