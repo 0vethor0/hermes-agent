@@ -47,6 +47,7 @@ from typing import Any, Optional
 # paths can never be confused: BOOTSTRAP seeds a fresh volume; REBOOTSTRAP
 # overwrites a terminally-dead Nous entry on an existing volume.
 REBOOTSTRAP_ENV = "HERMES_AUTH_JSON_REBOOTSTRAP"
+BOOTSTRAP_CLIENT_ID = "hermes-cli-vps"
 
 
 def _nous_entry_is_terminal(nous_state: Any) -> bool:
@@ -73,8 +74,9 @@ def _nous_entry_is_terminal(nous_state: Any) -> bool:
 def _extract_nous_from_seed(seed_raw: str) -> Optional[dict]:
     """Pull the ``providers.nous`` block out of a HERMES_AUTH_JSON_REBOOTSTRAP
     payload. The payload is a full auth.json document (same shape as
-    HERMES_AUTH_JSON_BOOTSTRAP). Returns None if it can't be parsed or carries no
-    nous entry — caller treats None as "nothing to do"."""
+    HERMES_AUTH_JSON_BOOTSTRAP). Returns None unless it carries the expected VPS
+    bootstrap client plus non-empty access and refresh tokens — caller treats
+    None as "nothing to do"."""
     try:
         seed = json.loads(seed_raw)
     except (ValueError, TypeError):
@@ -87,6 +89,15 @@ def _extract_nous_from_seed(seed_raw: str) -> Optional[dict]:
     nous = providers.get("nous")
     if not isinstance(nous, dict) or not nous:
         return None
+    if nous.get("client_id") != BOOTSTRAP_CLIENT_ID:
+        return None
+    if not (
+        isinstance(nous.get("access_token"), str)
+        and nous["access_token"].strip()
+        and isinstance(nous.get("refresh_token"), str)
+        and nous["refresh_token"].strip()
+    ):
+        return None
     return nous
 
 
@@ -96,11 +107,14 @@ def _parse_timestamp(value: Any) -> Optional[datetime]:
         return None
     try:
         parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
-    except ValueError:
+    except (ValueError, OverflowError):
         return None
     if parsed.tzinfo is None:
-        parsed = parsed.replace(tzinfo=timezone.utc)
-    return parsed.astimezone(timezone.utc)
+        return None
+    try:
+        return parsed.astimezone(timezone.utc)
+    except (OverflowError, ValueError):
+        return None
 
 
 def _seed_is_newer(local_nous: Any, seed_nous: dict) -> bool:
