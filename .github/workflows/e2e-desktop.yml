@@ -1,0 +1,91 @@
+name: E2E Desktop
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: e2e-desktop-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  e2e:
+    name: Playwright E2E (Linux)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      # ── System deps for Electron on headless Ubuntu ───────────────────
+      # Electron needs GTK, NSS,atk, etc. even under xvfb. Playwright's
+      # install-deps covers browsers; for Electron we install the apt
+      # packages directly.
+      - name: Install system dependencies for Electron
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq \
+            xvfb \
+            libgtk-3-0 libnotify4 libnss3 libxss1 libxtst6 \
+            xdg-utils libatspi2.0-0 libdrm2 libgbm1 libasound2t64
+
+      # ── Node ───────────────────────────────────────────────────────────
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: npm
+      # Full npm ci (not --ignore-scripts): electron's postinstall
+      # downloads the binary we launch, and node-pty's native build is
+      # needed for the terminal pane.
+      - uses: ./.github/actions/retry
+        with:
+          command: npm ci
+
+      # ── Python (for the hermes serve backend) ──────────────────────────
+      - name: Install uv
+        uses: astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39 # 8.2.0
+        with:
+          enable-cache: true
+          cache-dependency-glob: |
+            pyproject.toml
+            uv.lock
+      - name: Set up Python 3.11
+        run: uv python install 3.11
+      - name: Install Python dependencies
+        uses: ./.github/actions/retry
+        with:
+          command: uv sync --locked --python 3.11 --extra all --extra dev
+
+      # ── Build desktop app ─────────────────────────────────────────────
+      - run: npm run --prefix apps/desktop build
+
+      # ── Run Playwright E2E under xvfb ─────────────────────────────────
+      - name: Run Playwright E2E tests
+        working-directory: apps/desktop
+        run: xvfb-run -a npx playwright test --reporter=list
+        env:
+          # Ensure no real API keys leak into the test env.
+          OPENROUTER_API_KEY: ""
+          OPENAI_API_KEY: ""
+          NOUS_API_KEY: ""
+
+      # ── Upload Playwright report (HTML + traces) ──────────────────────
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: playwright-report-${{ github.sha }}
+          path: apps/desktop/playwright-report
+          retention-days: 14
+          overwrite: true
+
+      # ── Upload test results (screenshots, traces) ─────────────────────
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: playwright-test-results-${{ github.sha }}
+          path: apps/desktop/test-results
+          retention-days: 14
+          overwrite: true
