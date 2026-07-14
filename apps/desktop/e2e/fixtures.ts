@@ -497,7 +497,8 @@ export async function setupPackagedApp(): Promise<PackagedAppFixture> {
  * sessions are loaded. We detect this by waiting for the boot/connecting
  * overlay to become invisible and the main app shell to be present.
  */
-export async function waitForAppReady(page: Page, timeoutMs = 60_000): Promise<void> {
+export async function waitForAppReady(fixture: MockBackendFixture | NoProviderFixture | DeadBackendFixture, timeoutMs = 60_000): Promise<void> {
+  const { page, app } = fixture
   // The connecting overlay has a data-testid or we can check for the
   // absence of boot indicators. The simplest reliable approach is to wait
   // for the composer (chat input) to become visible — it's disabled until
@@ -506,6 +507,24 @@ export async function waitForAppReady(page: Page, timeoutMs = 60_000): Promise<v
     state: 'visible',
     timeout: timeoutMs,
   })
+
+  // On Electron 40.x, ready-to-show may never fire (electron/electron#51972)
+  // and the window stays hidden even though the DOM is rendered. The main
+  // process has a TEST_WORKER_INDEX-gated fallback that force-shows the
+  // window, but the DOM can be ready before that fires. Poll until the
+  // window is actually visible so interactions (click, screenshot) don't
+  // hit a hidden surface.
+  if (app) {
+    const deadline = Date.now() + timeoutMs
+    while (Date.now() < deadline) {
+      const visible = await app.evaluate(({ BrowserWindow }) => {
+        const w = BrowserWindow.getAllWindows()[0]
+        return w ? w.isVisible() : false
+      }).catch(() => false)
+      if (visible) break
+      await page.waitForTimeout(500)
+    }
+  }
 }
 
 /**

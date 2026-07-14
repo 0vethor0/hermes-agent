@@ -20,7 +20,7 @@ let fixture: MockBackendFixture | null = null
 
 test.beforeAll(async () => {
   fixture = await setupMockBackend()
-  await waitForAppReady(fixture.page, 120_000)
+  await waitForAppReady(fixture!, 120_000)
 })
 
 test.afterAll(async () => {
@@ -78,11 +78,7 @@ test.describe('chat interaction with mock backend', () => {
   })
 
   test('screenshot of chat with messages', async () => {
-    const screenshot = await fixture!.page.screenshot({ timeout: 10_000 }).catch(() => null)
-    if (screenshot) {
-      expect(screenshot.byteLength).toBeGreaterThan(0)
-    } else {
-      test.skip(true, 'Screenshot timed out — likely a GPU/rendering issue in headless mode')
-    }
+    const screenshot = await fixture!.page.screenshot({ timeout: 30_000 })
+    expect(screenshot.byteLength).toBeGreaterThan(0)
   })
 })

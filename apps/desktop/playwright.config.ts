@@ -1,5 +1,7 @@
 import { defineConfig } from '@playwright/test'
 
+import './e2e/fix-electron-tracing'
+
 export default defineConfig({
   /* Test files live under e2e/ so they never collide with the vitest suite
    * under src/ or the node:test files under electron/. */
@@ -13,6 +15,6 @@ export default defineConfig({
   reporter: [['list'], ['html', { open: 'never', outputFolder: 'playwright-report' }]],
   use: {
     screenshot: 'on',
-    trace: 'on',
+    trace: { mode: 'on', screenshots: true, snapshots: true, sources: true },
   },
 })

@@ -53,7 +53,7 @@ test.describe('dev-mode boot with mock backend', () => {
     // This is the big one — wait for the full boot chain to complete:
     // electron starts → hermes serve is spawned → WS connects → config
     // loaded → sessions loaded → boot overlay dismissed → composer visible.
-    await waitForAppReady(fixture!.page, 120_000)
+    await waitForAppReady(fixture!, 120_000)
   })
 
   test('screenshot after boot', async () => {
