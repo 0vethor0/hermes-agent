@@ -1,0 +1,3542 @@
+[
+  {
+    "keyPath": "common.error",
+    "en": "Error",
+    "ja": "エラー"
+  },
+  {
+    "keyPath": "notifications.errors.elevenLabsNeedsKey",
+    "en": "ElevenLabs STT needs ELEVENLABS_API_KEY.",
+    "ja": "ElevenLabs STT には ELEVENLABS_API_KEY が必要です。"
+  },
+  {
+    "keyPath": "notifications.errors.elevenLabsRejectedKey",
+    "en": "ElevenLabs rejected the API key (401).",
+    "ja": "ElevenLabs が API キーを拒否しました (401)。"
+  },
+  {
+    "keyPath": "notifications.errors.microphonePermission",
+    "en": "Microphone permission was denied.",
+    "ja": "マイクのアクセス許可が拒否されました。"
+  },
+  {
+    "keyPath": "notifications.errors.openaiRejectedApiKey",
+    "en": "OpenAI rejected the API key.",
+    "ja": "OpenAI が API キーを拒否しました。"
+  },
+  {
+    "keyPath": "notifications.errors.openaiTtsNeedsKey",
+    "en": "OpenAI TTS needs VOICE_TOOLS_OPENAI_KEY or OPENAI_API_KEY.",
+    "ja": "OpenAI TTS には VOICE_TOOLS_OPENAI_KEY または OPENAI_API_KEY が必要です。"
+  },
+  {
+    "keyPath": "notifications.voice.configureSpeechToText",
+    "en": "Configure speech-to-text to use voice mode.",
+    "ja": "音声モードを使用するには音声認識を設定してください。"
+  },
+  {
+    "keyPath": "notifications.voice.microphoneAccessDenied",
+    "en": "Microphone access denied.",
+    "ja": "マイクへのアクセスが拒否されました。"
+  },
+  {
+    "keyPath": "notifications.voice.microphoneConstraintsUnsupported",
+    "en": "Microphone constraints are not supported by this device.",
+    "ja": "このデバイスはマイクの制約をサポートしていません。"
+  },
+  {
+    "keyPath": "notifications.voice.microphoneInUse",
+    "en": "Microphone is already in use by another app.",
+    "ja": "マイクは他のアプリで使用中です。"
+  },
+  {
+    "keyPath": "notifications.voice.microphonePermissionDenied",
+    "en": "Microphone permission was denied.",
+    "ja": "マイクのアクセス許可が拒否されました。"
+  },
+  {
+    "keyPath": "notifications.voice.microphoneUnsupported",
+    "en": "This runtime does not support microphone recording.",
+    "ja": "このランタイムはマイク録音をサポートしていません。"
+  },
+  {
+    "keyPath": "notifications.voice.noSpeechDetected",
+    "en": "No speech detected",
+    "ja": "音声が検出されませんでした"
+  },
+  {
+    "keyPath": "notifications.voice.transcriptionUnavailable",
+    "en": "Voice transcription is not available yet.",
+    "ja": "音声文字起こしはまだ利用できません。"
+  },
+  {
+    "keyPath": "notifications.voice.tryRecordingAgain",
+    "en": "Try recording again.",
+    "ja": "もう一度録音してください。"
+  },
+  {
+    "keyPath": "notifications.native.inputBody",
+    "en": "Hermes is waiting for your response.",
+    "ja": "Hermes が応答を待っています。"
+  },
+  {
+    "keyPath": "notifications.native.turnDoneBody",
+    "en": "The response is ready.",
+    "ja": "応答の準備ができました。"
+  },
+  {
+    "keyPath": "titlebar.swapSidebarSides",
+    "en": "Swap sidebar sides",
+    "ja": "サイドバーの向きを切り替え"
+  },
+  {
+    "keyPath": "titlebar.swapSidebarSidesTitle",
+    "en": "Swap the sessions and file browser sides",
+    "ja": "セッションとファイルブラウザーの位置を入れ替える"
+  },
+  {
+    "keyPath": "titlebar.muteHaptics",
+    "en": "Mute haptics",
+    "ja": "触覚フィードバックをオフ"
+  },
+  {
+    "keyPath": "titlebar.unmuteHaptics",
+    "en": "Unmute haptics",
+    "ja": "触覚フィードバックをオン"
+  },
+  {
+    "keyPath": "keybinds.actions.session.newWindow",
+    "en": "New session in window"
+  },
+  {
+    "keyPath": "keybinds.actions.session.next",
+    "en": "Next session"
+  },
+  {
+    "keyPath": "keybinds.actions.session.prev",
+    "en": "Previous session"
+  },
+  {
+    "keyPath": "keybinds.actions.session.slot.1",
+    "en": "Switch to recent session 1"
+  },
+  {
+    "keyPath": "keybinds.actions.session.slot.2",
+    "en": "Switch to recent session 2"
+  },
+  {
+    "keyPath": "keybinds.actions.session.slot.3",
+    "en": "Switch to recent session 3"
+  },
+  {
+    "keyPath": "keybinds.actions.session.slot.4",
+    "en": "Switch to recent session 4"
+  },
+  {
+    "keyPath": "keybinds.actions.session.slot.5",
+    "en": "Switch to recent session 5"
+  },
+  {
+    "keyPath": "keybinds.actions.session.slot.6",
+    "en": "Switch to recent session 6"
+  },
+  {
+    "keyPath": "keybinds.actions.session.slot.7",
+    "en": "Switch to recent session 7"
+  },
+  {
+    "keyPath": "keybinds.actions.session.slot.8",
+    "en": "Switch to recent session 8"
+  },
+  {
+    "keyPath": "keybinds.actions.session.slot.9",
+    "en": "Switch to recent session 9"
+  },
+  {
+    "keyPath": "keybinds.actions.session.togglePin",
+    "en": "Pin / unpin current session"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.focus",
+    "en": "Focus composer"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.voice",
+    "en": "Start / stop voice conversation"
+  },
+  {
+    "keyPath": "keybinds.actions.view.toggleSidebar",
+    "en": "Toggle sessions sidebar"
+  },
+  {
+    "keyPath": "keybinds.actions.view.toggleRightSidebar",
+    "en": "Toggle file browser"
+  },
+  {
+    "keyPath": "keybinds.actions.view.toggleReview",
+    "en": "Toggle review pane"
+  },
+  {
+    "keyPath": "keybinds.actions.view.showTerminal",
+    "en": "Toggle terminal"
+  },
+  {
+    "keyPath": "keybinds.actions.view.terminalSelection",
+    "en": "Send terminal selection to composer"
+  },
+  {
+    "keyPath": "keybinds.actions.view.flipPanes",
+    "en": "Swap sidebar sides"
+  },
+  {
+    "keyPath": "keybinds.actions.appearance.toggleMode",
+    "en": "Toggle light / dark"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.default",
+    "en": "Switch to default profile"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.1",
+    "en": "Switch to profile 1"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.2",
+    "en": "Switch to profile 2"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.3",
+    "en": "Switch to profile 3"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.4",
+    "en": "Switch to profile 4"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.5",
+    "en": "Switch to profile 5"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.6",
+    "en": "Switch to profile 6"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.7",
+    "en": "Switch to profile 7"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.8",
+    "en": "Switch to profile 8"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.9",
+    "en": "Switch to profile 9"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.10",
+    "en": "Switch to profile 10"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.11",
+    "en": "Switch to profile 11"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.12",
+    "en": "Switch to profile 12"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.13",
+    "en": "Switch to profile 13"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.14",
+    "en": "Switch to profile 14"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.15",
+    "en": "Switch to profile 15"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.16",
+    "en": "Switch to profile 16"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.17",
+    "en": "Switch to profile 17"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.switch.18",
+    "en": "Switch to profile 18"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.next",
+    "en": "Next profile"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.prev",
+    "en": "Previous profile"
+  },
+  {
+    "keyPath": "keybinds.actions.profile.toggleAll",
+    "en": "Toggle all-profiles view"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.send",
+    "en": "Send message"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.newline",
+    "en": "Insert newline"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.steer",
+    "en": "Steer the running turn"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.sendQueued",
+    "en": "Send next queued turn"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.mention",
+    "en": "Reference files, folders, URLs"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.slash",
+    "en": "Slash command palette"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.help",
+    "en": "Quick help"
+  },
+  {
+    "keyPath": "keybinds.actions.composer.history",
+    "en": "Cycle popover / history"
+  },
+  {
+    "keyPath": "settings.nav.gateway",
+    "en": "Gateway",
+    "ja": "ゲートウェイ"
+  },
+  {
+    "keyPath": "settings.nav.mcp",
+    "en": "MCP",
+    "ja": "MCP"
+  },
+  {
+    "keyPath": "settings.notifications.enableAllDesc",
+    "en": "Master switch. Turn this off to silence every notification below.",
+    "ja": "マスタースイッチ。オフにすると以下のすべての通知を無効にします。"
+  },
+  {
+    "keyPath": "settings.notifications.focusedHint",
+    "en": "Completion alerts only fire while Hermes is in the background.",
+    "ja": "完了通知は Hermes がバックグラウンドにあるときのみ表示されます。"
+  },
+  {
+    "keyPath": "settings.notifications.kinds.approval.description",
+    "en": "A command is waiting for you to approve or reject it.",
+    "ja": "コマンドが承認または拒否を待っています。"
+  },
+  {
+    "keyPath": "settings.notifications.kinds.input.description",
+    "en": "Hermes asked a question or needs a password or secret.",
+    "ja": "Hermes が質問したか、パスワードやシークレットを必要としています。"
+  },
+  {
+    "keyPath": "settings.notifications.kinds.turnDone.label",
+    "en": "Response ready",
+    "ja": "応答完了"
+  },
+  {
+    "keyPath": "settings.notifications.kinds.turnDone.description",
+    "en": "A turn finished while Hermes was in the background.",
+    "ja": "Hermes がバックグラウンドのときにターンが完了しました。"
+  },
+  {
+    "keyPath": "settings.notifications.kinds.turnError.description",
+    "en": "A turn ended with an error.",
+    "ja": "ターンがエラーで終了しました。"
+  },
+  {
+    "keyPath": "settings.notifications.kinds.backgroundDone.description",
+    "en": "A backgrounded terminal command completed.",
+    "ja": "バックグラウンドのターミナルコマンドが完了しました。"
+  },
+  {
+    "keyPath": "settings.notifications.testTitle",
+    "en": "Hermes",
+    "ja": "Hermes"
+  },
+  {
+    "keyPath": "settings.notifications.testSent",
+    "en": "Test sent. If nothing appears, check your OS notification permissions and Focus/Do Not Disturb."
+  },
+  {
+    "keyPath": "settings.notifications.testUnsupported",
+    "en": "This system does not support native notifications.",
+    "ja": "このシステムはネイティブ通知に対応していません。"
+  },
+  {
+    "keyPath": "settings.notifications.completionSoundDesc",
+    "en": "Plays when an agent turn finishes. Pick a preset and preview it here.",
+    "ja": "エージェントのターン終了時に再生されます。プリセットを選んでここで試聴できます。"
+  },
+  {
+    "keyPath": "settings.sections.chat",
+    "en": "Chat",
+    "ja": "チャット"
+  },
+  {
+    "keyPath": "settings.sections.memory",
+    "en": "Memory & Context",
+    "ja": "メモリとコンテキスト"
+  },
+  {
+    "keyPath": "settings.searchPlaceholder.about",
+    "en": "About Hermes Desktop",
+    "ja": "Hermes Desktop について"
+  },
+  {
+    "keyPath": "settings.searchPlaceholder.gateway",
+    "en": "Gateway connection...",
+    "ja": "ゲートウェイ接続…"
+  },
+  {
+    "keyPath": "settings.appearance.colorModeDesc",
+    "en": "Pick a fixed mode or let Hermes follow your system setting.",
+    "ja": "固定モードを選ぶか、Hermes をシステム設定に合わせます。"
+  },
+  {
+    "keyPath": "settings.appearance.toolViewDesc",
+    "en": "Product hides raw tool payloads; Technical shows full input/output.",
+    "ja": "プロダクト表示は生のツールペイロードを隠し、テクニカル表示は入出力をすべて表示します。"
+  },
+  {
+    "keyPath": "settings.appearance.translucencyDesc",
+    "en": "See your desktop through the whole window. macOS and Windows only.",
+    "ja": "ウィンドウ全体を透過させてデスクトップを表示します。macOS と Windows のみ。"
+  },
+  {
+    "keyPath": "settings.appearance.backdropDesc",
+    "en": "The faint statue image behind the conversation.",
+    "ja": "会話の背後に表示される淡い彫像の画像。"
+  },
+  {
+    "keyPath": "settings.appearance.productDesc",
+    "en": "Human-friendly tool activity with concise summaries.",
+    "ja": "読みやすいツール活動と簡潔な要約を表示します。"
+  },
+  {
+    "keyPath": "settings.appearance.technicalDesc",
+    "en": "Include raw tool args/results and low-level details.",
+    "ja": "生のツール引数、結果、低レベルの詳細を含めます。"
+  },
+  {
+    "keyPath": "settings.appearance.themeDesc",
+    "en": "Desktop palettes only. The selected mode is applied on top.",
+    "ja": "デスクトップ専用のパレットです。選択したモードの上に適用されます。"
+  },
+  {
+    "keyPath": "settings.appearance.installPlaceholder",
+    "en": "publisher.extension",
+    "ja": "publisher.extension"
+  },
+  {
+    "keyPath": "settings.appearance.installing",
+    "en": "Installing…",
+    "ja": "インストール中…"
+  },
+  {
+    "keyPath": "settings.appearance.importedBadge",
+    "en": "Imported",
+    "ja": "インポート済み"
+  },
+  {
+    "keyPath": "settings.appearance.pet.scaleDesc",
+    "en": "Resize the floating mascot. Applies everywhere instantly.",
+    "ja": "浮遊マスコットの大きさを変更します。すべての画面に即時反映されます。"
+  },
+  {
+    "keyPath": "settings.appearance.pet.roamDesc",
+    "en": "Let the pet wander the window on its own while idle.",
+    "ja": "アイドル中にペットがウィンドウ内を自由に歩き回ります。"
+  },
+  {
+    "keyPath": "settings.appearance.pet.chooseDesc",
+    "en": "Picking one installs it (if needed) and makes it active.",
+    "ja": "選ぶと（必要に応じて）インストールされ、アクティブになります。"
+  },
+  {
+    "keyPath": "settings.appearance.pet.installedTag",
+    "en": "installed",
+    "ja": "インストール済み"
+  },
+  {
+    "keyPath": "settings.appearance.pet.renamePlaceholder",
+    "en": "Name your pet",
+    "ja": "ペットに名前を付ける"
+  },
+  {
+    "keyPath": "settings.appearance.pet.noneAvailable",
+    "en": "No pets available to turn on right now.",
+    "ja": "オンにできるペットがありません。"
+  },
+  {
+    "keyPath": "settings.about.heading",
+    "en": "Hermes Desktop",
+    "ja": "Hermes Desktop"
+  },
+  {
+    "keyPath": "settings.about.updates",
+    "en": "Updates",
+    "ja": "更新"
+  },
+  {
+    "keyPath": "settings.about.checkNow",
+    "en": "Check now",
+    "ja": "今すぐ確認"
+  },
+  {
+    "keyPath": "settings.about.checking",
+    "en": "Checking…",
+    "ja": "確認中…"
+  },
+  {
+    "keyPath": "settings.about.releaseNotes",
+    "en": "Release notes",
+    "ja": "リリースノート"
+  },
+  {
+    "keyPath": "settings.about.installing",
+    "en": "An update is currently installing.",
+    "ja": "更新をインストール中です。"
+  },
+  {
+    "keyPath": "settings.about.tapCheck",
+    "en": "Tap \"Check now\" to look for updates.",
+    "ja": "更新を探すには「今すぐ確認」を押してください。"
+  },
+  {
+    "keyPath": "settings.about.justNowSuffix",
+    "en": " · just now",
+    "ja": " · たった今"
+  },
+  {
+    "keyPath": "settings.about.automaticUpdates",
+    "en": "Automatic updates",
+    "ja": "自動更新"
+  },
+  {
+    "keyPath": "settings.about.never",
+    "en": "never",
+    "ja": "未確認"
+  },
+  {
+    "keyPath": "settings.about.justNow",
+    "en": "just now",
+    "ja": "たった今"
+  },
+  {
+    "keyPath": "settings.config.noneParen",
+    "en": "(none)",
+    "ja": "(なし)"
+  },
+  {
+    "keyPath": "settings.config.commaSeparated",
+    "en": "comma-separated values",
+    "ja": "カンマ区切りの値"
+  },
+  {
+    "keyPath": "settings.config.emptyTitle",
+    "en": "Nothing to configure",
+    "ja": "設定項目がありません"
+  },
+  {
+    "keyPath": "settings.config.emptyDesc",
+    "en": "This section has no adjustable settings.",
+    "ja": "このセクションには調整できる設定がありません。"
+  },
+  {
+    "keyPath": "settings.config.imported",
+    "en": "Config imported",
+    "ja": "設定をインポートしました"
+  },
+  {
+    "keyPath": "settings.config.invalidJson",
+    "en": "Invalid config JSON",
+    "ja": "設定 JSON が無効です"
+  },
+  {
+    "keyPath": "settings.credentials.pasteKey",
+    "en": "Paste key",
+    "ja": "キーを貼り付け"
+  },
+  {
+    "keyPath": "settings.credentials.enterValueFirst",
+    "en": "Enter a value first.",
+    "ja": "最初に値を入力してください。"
+  },
+  {
+    "keyPath": "settings.envActions.credentialActions",
+    "en": "Credential actions",
+    "ja": "認証情報のアクション"
+  },
+  {
+    "keyPath": "settings.envActions.revealValue",
+    "en": "Reveal value",
+    "ja": "値を表示"
+  },
+  {
+    "keyPath": "settings.gateway.unavailableDesc",
+    "en": "The desktop IPC bridge does not expose gateway settings.",
+    "ja": "デスクトップ IPC ブリッジはゲートウェイ設定を公開していません。"
+  },
+  {
+    "keyPath": "settings.gateway.title",
+    "en": "Gateway Connection",
+    "ja": "ゲートウェイ接続"
+  },
+  {
+    "keyPath": "settings.gateway.envOverride",
+    "en": "env override",
+    "ja": "env オーバーライド"
+  },
+  {
+    "keyPath": "settings.gateway.appliesTo",
+    "en": "Applies to",
+    "ja": "適用対象"
+  },
+  {
+    "keyPath": "settings.gateway.defaultConnection",
+    "en": "Default connection for every profile that has no override of its own.",
+    "ja": "独自のオーバーライドがないすべてのプロファイルのデフォルト接続。"
+  },
+  {
+    "keyPath": "settings.gateway.envOverrideTitle",
+    "en": "Environment variables are controlling this desktop session.",
+    "ja": "環境変数がこのデスクトップセッションを制御しています。"
+  },
+  {
+    "keyPath": "settings.gateway.modeTitle",
+    "en": "Connection mode"
+  },
+  {
+    "keyPath": "settings.gateway.localTitle",
+    "en": "Local gateway",
+    "ja": "ローカルゲートウェイ"
+  },
+  {
+    "keyPath": "settings.gateway.localDesc",
+    "en": "Start a private Hermes backend on localhost. This is the default and works offline."
+  },
+  {
+    "keyPath": "settings.gateway.remoteTitle",
+    "en": "Remote gateway",
+    "ja": "リモートゲートウェイ"
+  },
+  {
+    "keyPath": "settings.gateway.cloudTitle",
+    "en": "Hermes Cloud"
+  },
+  {
+    "keyPath": "settings.gateway.cloudDesc",
+    "en": "Sign in once to Hermes Cloud and pick from the agents on your account — no URL to paste."
+  },
+  {
+    "keyPath": "settings.gateway.cloudSignInTitle",
+    "en": "Hermes Cloud"
+  },
+  {
+    "keyPath": "settings.gateway.cloudSignedIn",
+    "en": "Signed in to Hermes Cloud"
+  },
+  {
+    "keyPath": "settings.gateway.cloudSignedInDesc",
+    "en": "You are signed in. Pick an agent below; the session refreshes automatically."
+  },
+  {
+    "keyPath": "settings.gateway.cloudAgentsTitle",
+    "en": "Your agents"
+  },
+  {
+    "keyPath": "settings.gateway.cloudOrgPickerTitle",
+    "en": "Choose an organization"
+  },
+  {
+    "keyPath": "settings.gateway.cloudOrgSelect",
+    "en": "Select"
+  },
+  {
+    "keyPath": "settings.gateway.cloudOrgChange",
+    "en": "Change org"
+  },
+  {
+    "keyPath": "settings.gateway.cloudNoAgents.before",
+    "en": "No agents found on this account. Create one in the "
+  },
+  {
+    "keyPath": "settings.gateway.cloudNoAgents.linkText",
+    "en": "Nous portal"
+  },
+  {
+    "keyPath": "settings.gateway.cloudNoAgents.after",
+    "en": ", then refresh."
+  },
+  {
+    "keyPath": "settings.gateway.cloudConnecting",
+    "en": "Connecting…"
+  },
+  {
+    "keyPath": "settings.gateway.cloudSignedOutTitle",
+    "en": "Signed out of Hermes Cloud"
+  },
+  {
+    "keyPath": "settings.gateway.cloudSignedOutMessage",
+    "en": "Cleared the Hermes Cloud session."
+  },
+  {
+    "keyPath": "settings.gateway.cloudAgentProvisioning",
+    "en": "Provisioning…"
+  },
+  {
+    "keyPath": "settings.gateway.remoteUrlTitle",
+    "en": "Remote URL",
+    "ja": "リモート URL"
+  },
+  {
+    "keyPath": "settings.gateway.remoteUrlDesc",
+    "en": "Base URL for the remote dashboard backend. Path prefixes are supported, for example /hermes."
+  },
+  {
+    "keyPath": "settings.gateway.probing",
+    "en": "Checking how this gateway authenticates…",
+    "ja": "このゲートウェイの認証方法を確認中…"
+  },
+  {
+    "keyPath": "settings.gateway.authSignedInOauth",
+    "en": "This gateway uses OAuth. You are signed in; the session refreshes automatically."
+  },
+  {
+    "keyPath": "settings.gateway.authNeedsPassword",
+    "en": "This gateway uses a username and password. Sign in to authorize this desktop app."
+  },
+  {
+    "keyPath": "settings.gateway.tokenTitle",
+    "en": "Session token",
+    "ja": "セッショントークン"
+  },
+  {
+    "keyPath": "settings.gateway.tokenDesc",
+    "en": "The dashboard session token used for REST and WebSocket access. Leave blank to keep the saved token."
+  },
+  {
+    "keyPath": "settings.gateway.savedToken",
+    "en": "saved",
+    "ja": "保存済み"
+  },
+  {
+    "keyPath": "settings.gateway.pasteSessionToken",
+    "en": "Paste session token",
+    "ja": "セッショントークンを貼り付け"
+  },
+  {
+    "keyPath": "settings.gateway.testRemote",
+    "en": "Test remote",
+    "ja": "リモートをテスト"
+  },
+  {
+    "keyPath": "settings.gateway.diagnosticsDesc",
+    "en": "Reveal desktop.log in your file manager — useful when the gateway fails to start.",
+    "ja": "ファイルマネージャーで desktop.log を表示します。ゲートウェイの起動に失敗した際に役立ちます。"
+  },
+  {
+    "keyPath": "settings.gateway.incompleteTitle",
+    "en": "Remote gateway incomplete",
+    "ja": "リモートゲートウェイの設定が不完全です"
+  },
+  {
+    "keyPath": "settings.gateway.incompleteSignIn",
+    "en": "Enter a remote URL and sign in before switching to remote.",
+    "ja": "リモートに切り替える前にリモート URL を入力してサインインしてください。"
+  },
+  {
+    "keyPath": "settings.gateway.incompleteToken",
+    "en": "Enter a remote URL and session token before switching to remote.",
+    "ja": "リモートに切り替える前にリモート URL とセッショントークンを入力してください。"
+  },
+  {
+    "keyPath": "settings.gateway.incompleteSignInTest",
+    "en": "Enter a remote URL and sign in before testing.",
+    "ja": "テストする前にリモート URL を入力してサインインしてください。"
+  },
+  {
+    "keyPath": "settings.gateway.incompleteTokenTest",
+    "en": "Enter a remote URL and session token before testing.",
+    "ja": "テストする前にリモート URL とセッショントークンを入力してください。"
+  },
+  {
+    "keyPath": "settings.gateway.enterUrlFirst",
+    "en": "Enter a remote URL first.",
+    "ja": "最初にリモート URL を入力してください。"
+  },
+  {
+    "keyPath": "settings.gateway.restartingTitle",
+    "en": "Gateway connection restarting",
+    "ja": "ゲートウェイ接続を再起動中"
+  },
+  {
+    "keyPath": "settings.gateway.restartingMessage",
+    "en": "Hermes Desktop will reconnect using the saved settings — the shell stays open.",
+    "ja": "Hermes Desktop は保存された設定を使用して再接続します。"
+  },
+  {
+    "keyPath": "settings.gateway.savedMessage",
+    "en": "Saved for the next restart.",
+    "ja": "次回起動時に保存されます。"
+  },
+  {
+    "keyPath": "settings.gateway.reachableTitle",
+    "en": "Remote gateway reachable",
+    "ja": "リモートゲートウェイに到達可能"
+  },
+  {
+    "keyPath": "settings.gateway.signedOutTitle",
+    "en": "Signed out",
+    "ja": "サインアウトしました"
+  },
+  {
+    "keyPath": "settings.gateway.signedOutMessage",
+    "en": "Cleared the remote gateway session.",
+    "ja": "リモートゲートウェイセッションをクリアしました。"
+  },
+  {
+    "keyPath": "settings.keys.empty",
+    "en": "Nothing configured in this category yet.",
+    "ja": "このカテゴリーにはまだ設定がありません。"
+  },
+  {
+    "keyPath": "settings.mcp.nameRequiredMessage",
+    "en": "Give this MCP server a config key.",
+    "ja": "この MCP サーバーに設定キーを付けてください。"
+  },
+  {
+    "keyPath": "settings.mcp.objectRequired",
+    "en": "Server config must be a JSON object",
+    "ja": "サーバー設定は JSON オブジェクトである必要があります"
+  },
+  {
+    "keyPath": "settings.mcp.invalidJson",
+    "en": "Invalid MCP JSON",
+    "ja": "無効な MCP JSON"
+  },
+  {
+    "keyPath": "settings.mcp.gatewayUnavailableMessage",
+    "en": "Reconnect the gateway before reloading MCP.",
+    "ja": "MCP を再読み込みする前にゲートウェイを再接続してください。"
+  },
+  {
+    "keyPath": "settings.mcp.reloadedTitle",
+    "en": "MCP tools reloaded",
+    "ja": "MCP ツールを再読み込みしました"
+  },
+  {
+    "keyPath": "settings.mcp.reloadedMessage",
+    "en": "New tool schemas apply to fresh turns.",
+    "ja": "新しいツールスキーマは新しいターンに適用されます。"
+  },
+  {
+    "keyPath": "settings.mcp.reloading",
+    "en": "Reloading...",
+    "ja": "再読み込み中..."
+  },
+  {
+    "keyPath": "settings.mcp.emptyDesc",
+    "en": "Add a stdio or HTTP server to expose MCP tools.",
+    "ja": "MCP ツールを公開するには stdio または HTTP サーバーを追加してください。"
+  },
+  {
+    "keyPath": "settings.mcp.serverJson",
+    "en": "Server JSON",
+    "ja": "サーバー JSON"
+  },
+  {
+    "keyPath": "settings.mcp.testing",
+    "en": "Testing..."
+  },
+  {
+    "keyPath": "settings.mcp.catalogEmpty",
+    "en": "No catalog entries available."
+  },
+  {
+    "keyPath": "settings.mcp.catalogNeedsInstall",
+    "en": "Needs build"
+  },
+  {
+    "keyPath": "settings.mcp.catalogInstalling",
+    "en": "Installing..."
+  },
+  {
+    "keyPath": "settings.mcp.catalogEnvRequired",
+    "en": "Fill in the required values before installing."
+  },
+  {
+    "keyPath": "settings.mcp.statusConnecting",
+    "en": "Connecting…",
+    "ja": "接続中…"
+  },
+  {
+    "keyPath": "settings.mcp.statusNeedsAuth",
+    "en": "Needs authentication",
+    "ja": "認証が必要です"
+  },
+  {
+    "keyPath": "settings.mcp.statusError",
+    "en": "Error",
+    "ja": "エラー"
+  },
+  {
+    "keyPath": "settings.mcp.allServers",
+    "en": "All servers",
+    "ja": "すべてのサーバー"
+  },
+  {
+    "keyPath": "settings.mcp.authenticatedTitle",
+    "en": "Authenticated",
+    "ja": "認証済み"
+  },
+  {
+    "keyPath": "settings.mcp.waitingForBrowser",
+    "en": "Waiting for browser…",
+    "ja": "ブラウザを待機中…"
+  },
+  {
+    "keyPath": "settings.mcp.unsavedConnect",
+    "en": "Unsaved — save mcp.json to connect.",
+    "ja": "未保存 — 接続するには mcp.json を保存してください。"
+  },
+  {
+    "keyPath": "settings.model.appliesDesc",
+    "en": "Applies to new sessions. Use the model picker in the composer to hot-swap the active chat."
+  },
+  {
+    "keyPath": "settings.model.applying",
+    "en": "Applying...",
+    "ja": "適用中..."
+  },
+  {
+    "keyPath": "settings.model.defaultsLabel",
+    "en": "Defaults"
+  },
+  {
+    "keyPath": "settings.model.reasoning",
+    "en": "Reasoning"
+  },
+  {
+    "keyPath": "settings.model.auxiliaryTitle",
+    "en": "Auxiliary models",
+    "ja": "補助モデル"
+  },
+  {
+    "keyPath": "settings.model.resetAllToMain",
+    "en": "Reset all to main",
+    "ja": "すべてメインにリセット"
+  },
+  {
+    "keyPath": "settings.model.auxiliaryDesc",
+    "en": "Helper tasks run on the main model by default. Assign a dedicated model to any task to override."
+  },
+  {
+    "keyPath": "settings.model.setToMain",
+    "en": "Set to main",
+    "ja": "メインに設定"
+  },
+  {
+    "keyPath": "settings.model.autoUseMain",
+    "en": "auto · use main model",
+    "ja": "自動 · メインモデルを使用"
+  },
+  {
+    "keyPath": "settings.model.providerDefault",
+    "en": "(provider default)",
+    "ja": "(プロバイダーのデフォルト)"
+  },
+  {
+    "keyPath": "settings.model.fallbackEmpty",
+    "en": "No fallback models — the default model is used unless it fails."
+  },
+  {
+    "keyPath": "settings.providers.haveApiKey",
+    "en": "Have an API key instead?",
+    "ja": "API キーをお持ちですか？"
+  },
+  {
+    "keyPath": "settings.providers.disconnectInTerminal",
+    "en": "Disconnect (runs the removal command in the terminal)"
+  },
+  {
+    "keyPath": "settings.providers.removedTitle",
+    "en": "Account removed",
+    "ja": "アカウントを削除しました"
+  },
+  {
+    "keyPath": "settings.providers.noProviderKeys",
+    "en": "No provider API keys available.",
+    "ja": "利用可能なプロバイダー API キーがありません。"
+  },
+  {
+    "keyPath": "settings.providers.noKeysMatch",
+    "en": "No providers match your search.",
+    "ja": "一致するプロバイダーがありません。"
+  },
+  {
+    "keyPath": "settings.sessions.emptyArchivedTitle",
+    "en": "Nothing archived",
+    "ja": "アーカイブがありません"
+  },
+  {
+    "keyPath": "settings.sessions.emptyArchivedDesc",
+    "en": "Archive a chat to hide it here.",
+    "ja": "チャットをアーカイブするとここに表示されます。"
+  },
+  {
+    "keyPath": "settings.sessions.defaultDirTitle",
+    "en": "Default project directory",
+    "ja": "デフォルトのプロジェクトディレクトリ"
+  },
+  {
+    "keyPath": "settings.sessions.defaultDirUpdated",
+    "en": "Default project directory updated — start a new chat (Ctrl/⌘+N) for it to take effect",
+    "ja": "デフォルトのプロジェクトディレクトリを更新しました"
+  },
+  {
+    "keyPath": "settings.toolsets.loadingConfig",
+    "en": "Loading configuration",
+    "ja": "設定を読み込み中"
+  },
+  {
+    "keyPath": "settings.toolsets.removedTitle",
+    "en": "Credential removed",
+    "ja": "認証情報を削除しました"
+  },
+  {
+    "keyPath": "settings.toolsets.selectedTitle",
+    "en": "Provider selected",
+    "ja": "プロバイダーを選択しました"
+  },
+  {
+    "keyPath": "settings.toolsets.noProviderOptions",
+    "en": "This toolset has no provider options — enable it and it works with your current setup."
+  },
+  {
+    "keyPath": "settings.toolsets.noProviders",
+    "en": "No providers are available for this toolset right now.",
+    "ja": "現在このツールセットに利用可能なプロバイダーがありません。"
+  },
+  {
+    "keyPath": "settings.toolsets.ready",
+    "en": "Ready",
+    "ja": "準備完了"
+  },
+  {
+    "keyPath": "settings.toolsets.nousIncluded",
+    "en": "Included with a Nous subscription — sign in to Nous Portal to activate.",
+    "ja": "Nous サブスクリプションに含まれています。有効にするには Nous Portal にサインインしてください。"
+  },
+  {
+    "keyPath": "settings.toolsets.postSetupRun",
+    "en": "Run setup",
+    "ja": "セットアップを実行"
+  },
+  {
+    "keyPath": "settings.toolsets.postSetupRunning",
+    "en": "Installing…",
+    "ja": "インストール中…"
+  },
+  {
+    "keyPath": "settings.toolsets.postSetupStarting",
+    "en": "Starting…",
+    "ja": "開始中…"
+  },
+  {
+    "keyPath": "settings.toolsets.postSetupCompleteTitle",
+    "en": "Setup complete",
+    "ja": "セットアップ完了"
+  },
+  {
+    "keyPath": "settings.toolsets.postSetupErrorTitle",
+    "en": "Setup finished with errors",
+    "ja": "セットアップはエラーで終了しました"
+  },
+  {
+    "keyPath": "settings.toolsets.modelInUse",
+    "en": "In use"
+  },
+  {
+    "keyPath": "settings.toolsets.modelInactiveHint",
+    "en": "Select this backend first to change its model."
+  },
+  {
+    "keyPath": "settings.toolsets.modelSelectedTitle",
+    "en": "Model selected"
+  },
+  {
+    "keyPath": "skills.tabMcp",
+    "en": "MCP",
+    "ja": "MCP"
+  },
+  {
+    "keyPath": "skills.tabHub",
+    "en": "Browse Hub"
+  },
+  {
+    "keyPath": "skills.refreshing",
+    "en": "Refreshing skills",
+    "ja": "スキルを更新中"
+  },
+  {
+    "keyPath": "skills.noSkillsDesc",
+    "en": "Try a broader search or different category.",
+    "ja": "検索を広げるか、別のカテゴリーを試してください。"
+  },
+  {
+    "keyPath": "skills.noToolsetsDesc",
+    "en": "Try a broader search query.",
+    "ja": "検索キーワードを広げてください。"
+  },
+  {
+    "keyPath": "skills.noDescription",
+    "en": "No description.",
+    "ja": "説明はありません。"
+  },
+  {
+    "keyPath": "skills.configured",
+    "en": "Configured",
+    "ja": "設定済み"
+  },
+  {
+    "keyPath": "skills.needsKeys",
+    "en": "Needs keys",
+    "ja": "キーが必要"
+  },
+  {
+    "keyPath": "skills.toolsetsRefreshFailed",
+    "en": "Toolsets failed to refresh",
+    "ja": "ツールセットの更新に失敗しました"
+  },
+  {
+    "keyPath": "skills.sortAlpha",
+    "en": "A–Z",
+    "ja": "A–Z"
+  },
+  {
+    "keyPath": "skills.sortMostUsedDesc",
+    "en": "↓ Most used",
+    "ja": "↓ 使用頻度順"
+  },
+  {
+    "keyPath": "skills.sortLeastUsedAsc",
+    "en": "↑ Least used",
+    "ja": "↑ 使用頻度が低い順"
+  },
+  {
+    "keyPath": "skills.bulkNoChange",
+    "en": "Nothing to change.",
+    "ja": "変更するものはありません。"
+  },
+  {
+    "keyPath": "skills.provenance.hub",
+    "en": "Hub",
+    "ja": "ハブ"
+  },
+  {
+    "keyPath": "skills.changesApplyNewSessions",
+    "en": "Changes apply to new sessions.",
+    "ja": "変更は新しいセッションに適用されます。"
+  },
+  {
+    "keyPath": "skills.skillArchivedTitle",
+    "en": "Skill archived",
+    "ja": "スキルをアーカイブしました"
+  },
+  {
+    "keyPath": "skills.skillArchivedMessage",
+    "en": "Restorable via hermes curator restore.",
+    "ja": "hermes curator restore で復元できます。"
+  },
+  {
+    "keyPath": "skills.hub.searching",
+    "en": "Searching..."
+  },
+  {
+    "keyPath": "skills.hub.connectingHubs",
+    "en": "Connecting to skill hubs..."
+  },
+  {
+    "keyPath": "skills.hub.connectedHubs",
+    "en": "Connected hubs:"
+  },
+  {
+    "keyPath": "skills.hub.featured",
+    "en": "Featured skills"
+  },
+  {
+    "keyPath": "skills.hub.noResults",
+    "en": "No matching skills found in the hub."
+  },
+  {
+    "keyPath": "skills.hub.installing",
+    "en": "Installing..."
+  },
+  {
+    "keyPath": "skills.hub.uninstall",
+    "en": "Uninstall"
+  },
+  {
+    "keyPath": "skills.hub.uninstalling",
+    "en": "Uninstalling..."
+  },
+  {
+    "keyPath": "skills.hub.updating",
+    "en": "Updating..."
+  },
+  {
+    "keyPath": "skills.hub.scanning",
+    "en": "Scanning..."
+  },
+  {
+    "keyPath": "skills.hub.noReadme",
+    "en": "This skill has no SKILL.md preview."
+  },
+  {
+    "keyPath": "skills.hub.trust.builtin",
+    "en": "builtin"
+  },
+  {
+    "keyPath": "skills.hub.trust.trusted",
+    "en": "trusted"
+  },
+  {
+    "keyPath": "skills.hub.trust.community",
+    "en": "community"
+  },
+  {
+    "keyPath": "skills.hub.policyAllow",
+    "en": "Install allowed"
+  },
+  {
+    "keyPath": "skills.hub.policyAsk",
+    "en": "Review before installing"
+  },
+  {
+    "keyPath": "skills.hub.policyBlock",
+    "en": "Install blocked by policy"
+  },
+  {
+    "keyPath": "skills.hub.noFindings",
+    "en": "No security findings."
+  },
+  {
+    "keyPath": "skills.hub.updateStarted",
+    "en": "Updating installed skills..."
+  },
+  {
+    "keyPath": "starmap.filterUsed",
+    "en": "Used",
+    "ja": "使用済み"
+  },
+  {
+    "keyPath": "starmap.viewGraph",
+    "en": "Graph",
+    "ja": "グラフ"
+  },
+  {
+    "keyPath": "starmap.emptyTitle",
+    "en": "Nothing learned yet",
+    "ja": "まだ学習はありません"
+  },
+  {
+    "keyPath": "starmap.emptyDesc",
+    "en": "As Hermes builds skills and memories for your work, they appear here.",
+    "ja": "Hermes がスキルやメモリを蓄積すると、ここに表示されます。"
+  },
+  {
+    "keyPath": "starmap.share",
+    "en": "Share map"
+  },
+  {
+    "keyPath": "starmap.shareTitle",
+    "en": "Import / export map"
+  },
+  {
+    "keyPath": "starmap.sharePlaceholder",
+    "en": "Paste a map code…"
+  },
+  {
+    "keyPath": "starmap.copied",
+    "en": "Copied!"
+  },
+  {
+    "keyPath": "starmap.importMap",
+    "en": "Import a map"
+  },
+  {
+    "keyPath": "starmap.importBtn",
+    "en": "Load"
+  },
+  {
+    "keyPath": "starmap.importEmpty",
+    "en": "Paste a map code to load it."
+  },
+  {
+    "keyPath": "starmap.importedBadge",
+    "en": "imported map"
+  },
+  {
+    "keyPath": "starmap.resetToMine",
+    "en": "Back to my map"
+  },
+  {
+    "keyPath": "agents.subtitle",
+    "en": "Live subagent activity for the current turn.",
+    "ja": "現在のターンのライブサブエージェントのアクティビティ。"
+  },
+  {
+    "keyPath": "agents.emptyTitle",
+    "en": "No live subagents",
+    "ja": "ライブサブエージェントはありません"
+  },
+  {
+    "keyPath": "agents.emptyDesc",
+    "en": "When a turn delegates work, child agents stream their progress here.",
+    "ja": "ターンで作業を委任すると、子エージェントの進捗状況がここにストリームされます。"
+  },
+  {
+    "keyPath": "agents.streaming",
+    "en": "Streaming",
+    "ja": "ストリーミング中"
+  },
+  {
+    "keyPath": "agents.ageNow",
+    "en": "now",
+    "ja": "たった今"
+  },
+  {
+    "keyPath": "commandCenter.goToSession",
+    "en": "Go to session",
+    "ja": "セッションへ移動"
+  },
+  {
+    "keyPath": "commandCenter.changeTheme",
+    "en": "Change theme",
+    "ja": "テーマを変更"
+  },
+  {
+    "keyPath": "commandCenter.changeColorMode",
+    "en": "Change color mode…",
+    "ja": "カラーモードを変更…"
+  },
+  {
+    "keyPath": "commandCenter.pets.staleBackend",
+    "en": "Restart Hermes to use pets — the backend predates this feature.",
+    "ja": "ペット機能を使うには Hermes を再起動してください。"
+  },
+  {
+    "keyPath": "commandCenter.pets.empty",
+    "en": "No matching pets.",
+    "ja": "一致するペットがありません。"
+  },
+  {
+    "keyPath": "commandCenter.pets.turnOff",
+    "en": "Turn off",
+    "ja": "オフ"
+  },
+  {
+    "keyPath": "commandCenter.pets.turnOn",
+    "en": "Turn on",
+    "ja": "オン"
+  },
+  {
+    "keyPath": "commandCenter.pets.noneAvailable",
+    "en": "No pets available — pick one below to install.",
+    "ja": "利用可能なペットがありません。"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.placeholder",
+    "en": "Describe a pet to generate…",
+    "ja": "生成するペットを説明…"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.promptHint",
+    "en": "Type a description, then press Enter to draft four looks.",
+    "ja": "説明を入力して Enter を押すと、4 つの見た目を生成します。"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.readyHint",
+    "en": "Press Enter to draft four looks from your description.",
+    "ja": "Enter を押すと、説明から 4 つの見た目を生成します。"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.generating",
+    "en": "Generating…",
+    "ja": "生成中…"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.spawning",
+    "en": "Spawning…",
+    "ja": "スポーン中…"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.hatching",
+    "en": "Hatching your pet…",
+    "ja": "ペットを孵化しています…"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.hatchingSub",
+    "en": "Bringing it to life…",
+    "ja": "命を吹き込んでいます…"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.hatched",
+    "en": "It hatched!",
+    "ja": "孵化しました！"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.hatchComposing",
+    "en": "Piecing it together…",
+    "ja": "まとめています…"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.namePlaceholder",
+    "en": "Name your pet",
+    "ja": "ペットに名前を付ける"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.backgroundHint",
+    "en": "You can close this — Hermes will notify you when it’s done.",
+    "ja": "このウィンドウは閉じても大丈夫です。完了したら Hermes が通知します。"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.slowProviderHint",
+    "en": "This can take several minutes",
+    "ja": "数分かかることがあります"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.remixConfirmTitle",
+    "en": "Remix this look?",
+    "ja": "この見た目でリミックスしますか？"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.genericError",
+    "en": "Generation failed — try again or pick a suggestion.",
+    "ja": "生成に失敗しました。もう一度試すか、候補を選んでください。"
+  },
+  {
+    "keyPath": "commandCenter.generatePet.referenceImageTooLarge",
+    "en": "Reference image is too large. Use one under 16 MB.",
+    "ja": "参照画像が大きすぎます。16 MB 未満の画像を使ってください。"
+  },
+  {
+    "keyPath": "commandCenter.installTheme.title",
+    "en": "Install theme…",
+    "ja": "テーマをインストール…"
+  },
+  {
+    "keyPath": "commandCenter.installTheme.loading",
+    "en": "Searching the Marketplace...",
+    "ja": "Marketplace を検索中..."
+  },
+  {
+    "keyPath": "commandCenter.installTheme.empty",
+    "en": "No matching themes.",
+    "ja": "一致するテーマがありません。"
+  },
+  {
+    "keyPath": "commandCenter.installTheme.installing",
+    "en": "Installing...",
+    "ja": "インストール中..."
+  },
+  {
+    "keyPath": "commandCenter.sectionDescriptions.maintenance",
+    "en": "Diagnostics, backups, curator, and memory data"
+  },
+  {
+    "keyPath": "commandCenter.sectionDescriptions.system",
+    "en": "Status, logs, and system actions",
+    "ja": "ステータス、ログ、システムアクション"
+  },
+  {
+    "keyPath": "commandCenter.sectionDescriptions.usage",
+    "en": "Token, cost, and skill activity over time",
+    "ja": "トークン、コスト、スキルの活動履歴"
+  },
+  {
+    "keyPath": "commandCenter.providerNavigate",
+    "en": "Navigate",
+    "ja": "ナビゲート"
+  },
+  {
+    "keyPath": "commandCenter.refreshing",
+    "en": "Refreshing...",
+    "ja": "更新中..."
+  },
+  {
+    "keyPath": "commandCenter.gatewayRunning",
+    "en": "Messaging gateway running",
+    "ja": "メッセージングゲートウェイが実行中"
+  },
+  {
+    "keyPath": "commandCenter.gatewayStopped",
+    "en": "Messaging gateway stopped",
+    "ja": "メッセージングゲートウェイが停止中"
+  },
+  {
+    "keyPath": "commandCenter.actionDone",
+    "en": "done",
+    "ja": "完了"
+  },
+  {
+    "keyPath": "commandCenter.actionFailed",
+    "en": "failed",
+    "ja": "失敗"
+  },
+  {
+    "keyPath": "commandCenter.actionStartedWaiting",
+    "en": "Action started, waiting for status...",
+    "ja": "アクションが開始されました。ステータスを待機中..."
+  },
+  {
+    "keyPath": "commandCenter.statApiCalls",
+    "en": "API calls",
+    "ja": "API コール"
+  },
+  {
+    "keyPath": "commandCenter.statTokens",
+    "en": "Tokens in/out",
+    "ja": "トークン入力/出力"
+  },
+  {
+    "keyPath": "commandCenter.statCost",
+    "en": "Est. cost",
+    "ja": "推定コスト"
+  },
+  {
+    "keyPath": "commandCenter.input",
+    "en": "input",
+    "ja": "入力"
+  },
+  {
+    "keyPath": "commandCenter.output",
+    "en": "output",
+    "ja": "出力"
+  },
+  {
+    "keyPath": "commandCenter.noDailyActivity",
+    "en": "No daily activity.",
+    "ja": "日別アクティビティがありません。"
+  },
+  {
+    "keyPath": "commandCenter.logFile",
+    "en": "Log file"
+  },
+  {
+    "keyPath": "commandCenter.logLevel",
+    "en": "Level"
+  },
+  {
+    "keyPath": "commandCenter.logSearchPlaceholder",
+    "en": "Filter log lines..."
+  },
+  {
+    "keyPath": "commandCenter.maintenance.doctorDesc",
+    "en": "Health-check the install, config, and providers"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.securityAuditDesc",
+    "en": "Scan config and skills for risky settings"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.backupDesc",
+    "en": "Zip config, memories, skills, and sessions"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.debugShareDesc",
+    "en": "Upload a redacted report + logs, get shareable links (auto-deletes in 6h)"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.debugShareRunning",
+    "en": "Uploading debug report..."
+  },
+  {
+    "keyPath": "commandCenter.maintenance.debugShareLinks",
+    "en": "Share links"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.linkCopied",
+    "en": "Link copied"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.curator",
+    "en": "Skill curator"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.curatorDesc",
+    "en": "Background review that archives stale agent-created skills"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.curatorNeverRan",
+    "en": "Never ran"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.memoryDataDesc",
+    "en": "Built-in memory files injected into every session"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.builtinMemory",
+    "en": "built-in"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.memoryFile",
+    "en": "Agent memory (MEMORY.md)"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.userFile",
+    "en": "User profile (USER.md)"
+  },
+  {
+    "keyPath": "commandCenter.maintenance.running",
+    "en": "Running..."
+  },
+  {
+    "keyPath": "messaging.states.fatal",
+    "en": "Error",
+    "ja": "エラー"
+  },
+  {
+    "keyPath": "messaging.states.gateway_stopped",
+    "en": "Messaging gateway stopped",
+    "ja": "メッセージングゲートウェイが停止中"
+  },
+  {
+    "keyPath": "messaging.states.pending_restart",
+    "en": "Restart needed",
+    "ja": "再起動が必要"
+  },
+  {
+    "keyPath": "messaging.states.retrying",
+    "en": "Retrying",
+    "ja": "再試行中"
+  },
+  {
+    "keyPath": "messaging.hintPendingRestart",
+    "en": "Restart the gateway from the status bar to apply this change.",
+    "ja": "この変更を適用するにはステータスバーからゲートウェイを再起動してください。"
+  },
+  {
+    "keyPath": "messaging.hintGatewayStopped",
+    "en": "Start the gateway from the status bar to connect.",
+    "ja": "ステータスバーからゲートウェイを起動して接続してください。"
+  },
+  {
+    "keyPath": "messaging.credentialsSet",
+    "en": "Credentials set",
+    "ja": "認証情報を設定しました"
+  },
+  {
+    "keyPath": "messaging.gatewayStopped",
+    "en": "Messaging gateway stopped",
+    "ja": "メッセージングゲートウェイが停止中"
+  },
+  {
+    "keyPath": "messaging.getCredentials",
+    "en": "Get your credentials",
+    "ja": "認証情報を取得"
+  },
+  {
+    "keyPath": "messaging.noTokenNeeded",
+    "en": "This platform does not need a token here. Use the setup guide above, then enable it below."
+  },
+  {
+    "keyPath": "messaging.saving",
+    "en": "Saving...",
+    "ja": "保存中..."
+  },
+  {
+    "keyPath": "messaging.replaceValue",
+    "en": "Replace current value",
+    "ja": "現在の値を置き換え"
+  },
+  {
+    "keyPath": "messaging.restartToApply",
+    "en": "This change takes effect after a gateway restart.",
+    "ja": "この変更はゲートウェイの再起動後に有効になります。"
+  },
+  {
+    "keyPath": "messaging.restartToReconnect",
+    "en": "New credentials take effect after a gateway restart.",
+    "ja": "新しい認証情報はゲートウェイの再起動後に有効になります。"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.TELEGRAM_BOT_TOKEN.label",
+    "en": "Bot token",
+    "ja": "ボットトークン"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.TELEGRAM_BOT_TOKEN.placeholder",
+    "en": "Paste Telegram bot token",
+    "ja": "Telegram ボットトークンを貼り付け"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.TELEGRAM_ALLOWED_USERS.label",
+    "en": "Allowed Telegram user IDs",
+    "ja": "許可する Telegram ユーザー ID"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.TELEGRAM_ALLOWED_USERS.help",
+    "en": "Recommended. Comma-separated numeric IDs from @userinfobot. Without this, anyone can DM your bot.",
+    "ja": "推奨。@userinfobot の数値 ID をカンマ区切りで。設定しないと誰でもボットに DM できます。"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.DISCORD_ALLOW_ALL_USERS.label",
+    "en": "Allow all Discord users",
+    "ja": "すべての Discord ユーザーを許可"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.DISCORD_ALLOW_ALL_USERS.help",
+    "en": "Development only. When true, anyone can DM the bot without an allowlist.",
+    "ja": "開発用のみ。true にすると、許可リストなしで誰でもボットに DM できます。"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.SLACK_BOT_TOKEN.label",
+    "en": "Slack bot token",
+    "ja": "Slack ボットトークン"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.SLACK_BOT_TOKEN.help",
+    "en": "Use the bot token from OAuth & Permissions after installing your Slack app.",
+    "ja": "Slack アプリをインストール後、OAuth & Permissions のボットトークンを使用してください。"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.SLACK_BOT_TOKEN.placeholder",
+    "en": "Paste Slack bot token",
+    "ja": "Slack ボットトークンを貼り付け"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.SLACK_APP_TOKEN.label",
+    "en": "Slack app token",
+    "ja": "Slack アプリトークン"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.SLACK_APP_TOKEN.help",
+    "en": "Use the app-level token required for Socket Mode.",
+    "ja": "Socket Mode に必要なアプリレベルのトークンを使用してください。"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.SLACK_APP_TOKEN.placeholder",
+    "en": "Paste Slack app token",
+    "ja": "Slack アプリトークンを貼り付け"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.SIGNAL_HTTP_URL.label",
+    "en": "Signal bridge URL",
+    "ja": "Signal ブリッジ URL"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.SIGNAL_HTTP_URL.placeholder",
+    "en": "http://127.0.0.1:8080",
+    "ja": "http://127.0.0.1:8080"
+  },
+  {
+    "keyPath": "messaging.fieldCopy.SIGNAL_HTTP_URL.help",
+    "en": "URL of a running signal-cli REST bridge.",
+    "ja": "実行中の signal-cli REST ブリッジの URL。"
+  },
+  {
+    "keyPath": "profiles.nameHint",
+    "en": "Lowercase letters, digits, hyphens, and underscores. Must start with a letter or digit.",
+    "ja": "小文字、数字、ハイフン、アンダースコア。文字または数字で始める必要があります。"
+  },
+  {
+    "keyPath": "profiles.color",
+    "en": "Color…",
+    "ja": "カラー…"
+  },
+  {
+    "keyPath": "profiles.autoColor",
+    "en": "Auto",
+    "ja": "自動"
+  },
+  {
+    "keyPath": "profiles.selectPrompt",
+    "en": "Select a profile to view its details.",
+    "ja": "詳細を表示するにはプロファイルを選択してください。"
+  },
+  {
+    "keyPath": "profiles.refreshing",
+    "en": "Refreshing profiles",
+    "ja": "プロファイルを更新中"
+  },
+  {
+    "keyPath": "profiles.env",
+    "en": "env",
+    "ja": "env"
+  },
+  {
+    "keyPath": "profiles.defaultBadge",
+    "en": "Default",
+    "ja": "デフォルト"
+  },
+  {
+    "keyPath": "profiles.copying",
+    "en": "Copying...",
+    "ja": "コピー中..."
+  },
+  {
+    "keyPath": "profiles.soulDesc",
+    "en": "The system prompt and persona instructions baked into this profile.",
+    "ja": "このプロファイルに組み込まれたシステムプロンプトとペルソナの指示。"
+  },
+  {
+    "keyPath": "profiles.soulOptional",
+    "en": "optional",
+    "ja": "省略可能"
+  },
+  {
+    "keyPath": "profiles.soulPlaceholderCloned",
+    "en": "cloned",
+    "ja": "クローン済み"
+  },
+  {
+    "keyPath": "profiles.emptySoul",
+    "en": "Empty SOUL.md — start writing the persona...",
+    "ja": "空の SOUL.md — ペルソナの記述を始めてください..."
+  },
+  {
+    "keyPath": "profiles.saving",
+    "en": "Saving...",
+    "ja": "保存中..."
+  },
+  {
+    "keyPath": "profiles.deleteDescPrefix",
+    "en": "This will delete ",
+    "ja": "これにより "
+  },
+  {
+    "keyPath": "profiles.deleteDescMid",
+    "en": " and remove its ",
+    "ja": " が削除され、その "
+  },
+  {
+    "keyPath": "profiles.deleteDescSuffix",
+    "en": " directory. This cannot be undone.",
+    "ja": " ディレクトリが削除されます。この操作は元に戻せません。"
+  },
+  {
+    "keyPath": "profiles.deleting",
+    "en": "Deleting...",
+    "ja": "削除中..."
+  },
+  {
+    "keyPath": "profiles.createDesc",
+    "en": "Profiles are independent Hermes environments: separate config, skills, and SOUL.md.",
+    "ja": "プロファイルは独立した Hermes 環境です：設定、スキル、SOUL.md が別々になります。"
+  },
+  {
+    "keyPath": "profiles.cloneFrom",
+    "en": "Clone from",
+    "ja": "複製元"
+  },
+  {
+    "keyPath": "profiles.cloneFromNone",
+    "en": "None (blank)",
+    "ja": "なし（空）"
+  },
+  {
+    "keyPath": "profiles.cloneFromDesc",
+    "en": "Copies config, skills, and SOUL.md from the selected source profile.",
+    "ja": "選択したプロファイルから設定、スキル、SOUL.md をコピーします。"
+  },
+  {
+    "keyPath": "profiles.cloneFromDefault",
+    "en": "Clone from default",
+    "ja": "デフォルトプロファイルから設定を複製"
+  },
+  {
+    "keyPath": "profiles.creating",
+    "en": "Creating...",
+    "ja": "作成中..."
+  },
+  {
+    "keyPath": "profiles.renameDescPrefix",
+    "en": "Renaming updates the profile directory and any wrapper scripts in ",
+    "ja": "名前を変更するとプロファイルディレクトリと "
+  },
+  {
+    "keyPath": "profiles.renameDescSuffix",
+    "en": ".",
+    "ja": " 内のラッパースクリプトが更新されます。"
+  },
+  {
+    "keyPath": "profiles.renaming",
+    "en": "Renaming...",
+    "ja": "名前を変更中..."
+  },
+  {
+    "keyPath": "profiles.renamed",
+    "en": "Profile renamed",
+    "ja": "名前を変更しました"
+  },
+  {
+    "keyPath": "profiles.setupCopied",
+    "en": "Setup command copied",
+    "ja": "セットアップコマンドをコピーしました"
+  },
+  {
+    "keyPath": "cron.states.error",
+    "en": "error",
+    "ja": "エラー"
+  },
+  {
+    "keyPath": "cron.deliveryLabels.telegram",
+    "en": "Telegram",
+    "ja": "Telegram"
+  },
+  {
+    "keyPath": "cron.deliveryLabels.discord",
+    "en": "Discord",
+    "ja": "Discord"
+  },
+  {
+    "keyPath": "cron.deliveryLabels.slack",
+    "en": "Slack",
+    "ja": "Slack"
+  },
+  {
+    "keyPath": "cron.scheduleLabels.every-15-minutes",
+    "en": "Every 15 minutes",
+    "ja": "15 分ごと"
+  },
+  {
+    "keyPath": "cron.scheduleHints.daily",
+    "en": "Every day at 9:00 AM",
+    "ja": "毎日午前 9:00"
+  },
+  {
+    "keyPath": "cron.scheduleHints.weekdays",
+    "en": "Monday through Friday at 9:00 AM",
+    "ja": "月曜日から金曜日の午前 9:00"
+  },
+  {
+    "keyPath": "cron.scheduleHints.weekly",
+    "en": "Every Monday at 9:00 AM",
+    "ja": "毎週月曜日午前 9:00"
+  },
+  {
+    "keyPath": "cron.scheduleHints.monthly",
+    "en": "The first day of each month at 9:00 AM",
+    "ja": "毎月 1 日午前 9:00"
+  },
+  {
+    "keyPath": "cron.scheduleHints.hourly",
+    "en": "At the top of every hour",
+    "ja": "毎時 0 分"
+  },
+  {
+    "keyPath": "cron.scheduleHints.every-15-minutes",
+    "en": "Every 15 minutes",
+    "ja": "15 分ごと"
+  },
+  {
+    "keyPath": "cron.scheduleHints.custom",
+    "en": "Cron syntax or natural language",
+    "ja": "Cron 構文または自然言語"
+  },
+  {
+    "keyPath": "cron.topOfHour",
+    "en": "At the top of every hour",
+    "ja": "毎時 0 分"
+  },
+  {
+    "keyPath": "cron.emptyDescSearch",
+    "en": "Try a broader search query.",
+    "ja": "検索キーワードを広げてください。"
+  },
+  {
+    "keyPath": "cron.emptyTitleSearch",
+    "en": "No matches",
+    "ja": "一致なし"
+  },
+  {
+    "keyPath": "cron.last",
+    "en": "Last:",
+    "ja": "前回"
+  },
+  {
+    "keyPath": "cron.next",
+    "en": "Next:",
+    "ja": "次回"
+  },
+  {
+    "keyPath": "cron.actionsTitle",
+    "en": "Cron job actions",
+    "ja": "Cron ジョブのアクション"
+  },
+  {
+    "keyPath": "cron.resume",
+    "en": "Resume cron",
+    "ja": "再開"
+  },
+  {
+    "keyPath": "cron.pause",
+    "en": "Pause cron",
+    "ja": "一時停止"
+  },
+  {
+    "keyPath": "cron.deleteDescPrefix",
+    "en": "This will remove ",
+    "ja": "これにより "
+  },
+  {
+    "keyPath": "cron.deleteDescSuffix",
+    "en": " permanently. It will stop firing immediately.",
+    "ja": " が完全に削除され、即座に実行が停止されます。"
+  },
+  {
+    "keyPath": "cron.deleting",
+    "en": "Deleting...",
+    "ja": "削除中..."
+  },
+  {
+    "keyPath": "cron.resumed",
+    "en": "Cron resumed",
+    "ja": "Cron を再開しました"
+  },
+  {
+    "keyPath": "cron.paused",
+    "en": "Cron paused",
+    "ja": "Cron を一時停止しました"
+  },
+  {
+    "keyPath": "cron.triggered",
+    "en": "Cron triggered",
+    "ja": "Cron をトリガーしました"
+  },
+  {
+    "keyPath": "cron.createDesc",
+    "en": "Schedule a prompt to run automatically. Use cron syntax or a natural phrase like \"every 15 minutes\"."
+  },
+  {
+    "keyPath": "cron.namePlaceholder",
+    "en": "Morning briefing",
+    "ja": "例: 日次サマリー"
+  },
+  {
+    "keyPath": "cron.promptLabel",
+    "en": "Prompt",
+    "ja": "プロンプト"
+  },
+  {
+    "keyPath": "cron.promptPlaceholder",
+    "en": "Summarize my unread Slack threads and email me the top 5...",
+    "ja": "実行ごとにエージェントが行う内容は？"
+  },
+  {
+    "keyPath": "cron.customPlaceholder",
+    "en": "0 9 * * * or weekdays at 9am",
+    "ja": "0 9 * * * または weekdays at 9am"
+  },
+  {
+    "keyPath": "cron.customHint",
+    "en": "Cron expression, or phrases like \"every hour\" or \"weekdays at 9am\".",
+    "ja": "Cron 式、または「every hour」「weekdays at 9am」のようなフレーズ。"
+  },
+  {
+    "keyPath": "cron.scriptOnlyEditHint",
+    "en": "Script-only job (no AI prompt). Job id:",
+    "ja": "スクリプトのみのジョブ（AI プロンプトなし）。ジョブ ID:"
+  },
+  {
+    "keyPath": "artifacts.refreshing",
+    "en": "Refreshing artifacts",
+    "ja": "アーティファクトを更新中"
+  },
+  {
+    "keyPath": "artifacts.indexing",
+    "en": "Indexing recent session artifacts",
+    "ja": "最近のセッションのアーティファクトをインデックス中"
+  },
+  {
+    "keyPath": "artifacts.noArtifactsDesc",
+    "en": "Generated images and file outputs will appear here as sessions produce them.",
+    "ja": "セッションで生成された画像やファイルの出力がここに表示されます。"
+  },
+  {
+    "keyPath": "artifacts.itemsImage",
+    "en": "images",
+    "ja": "画像"
+  },
+  {
+    "keyPath": "artifacts.itemsLink",
+    "en": "links",
+    "ja": "リンク"
+  },
+  {
+    "keyPath": "artifacts.itemsFile",
+    "en": "files",
+    "ja": "ファイル"
+  },
+  {
+    "keyPath": "artifacts.itemsGeneric",
+    "en": "items",
+    "ja": "項目"
+  },
+  {
+    "keyPath": "artifacts.zero",
+    "en": "0",
+    "ja": "0"
+  },
+  {
+    "keyPath": "artifacts.colTitleLink",
+    "en": "Link title",
+    "ja": "リンクタイトル"
+  },
+  {
+    "keyPath": "artifacts.colTitleDefault",
+    "en": "Title / name",
+    "ja": "タイトル / 名前"
+  },
+  {
+    "keyPath": "artifacts.colLocationLink",
+    "en": "URL",
+    "ja": "URL"
+  },
+  {
+    "keyPath": "artifacts.colLocationFile",
+    "en": "Path",
+    "ja": "パス"
+  },
+  {
+    "keyPath": "artifacts.colLocationDefault",
+    "en": "Location",
+    "ja": "場所"
+  },
+  {
+    "keyPath": "artifacts.kindImage",
+    "en": "image",
+    "ja": "画像"
+  },
+  {
+    "keyPath": "artifacts.kindFile",
+    "en": "file",
+    "ja": "ファイル"
+  },
+  {
+    "keyPath": "artifacts.kindLink",
+    "en": "link",
+    "ja": "リンク"
+  },
+  {
+    "keyPath": "artifacts.chat",
+    "en": "Chat",
+    "ja": "チャット"
+  },
+  {
+    "keyPath": "sidebar.groupAriaUngrouped",
+    "en": "Group sessions by workspace",
+    "ja": "ワークスペースごとにセッションをグループ化"
+  },
+  {
+    "keyPath": "sidebar.groupTitleGrouped",
+    "en": "Ungroup sessions",
+    "ja": "セッションのグループ化を解除"
+  },
+  {
+    "keyPath": "sidebar.groupTitleUngrouped",
+    "en": "Group by workspace",
+    "ja": "ワークスペースでグループ化"
+  },
+  {
+    "keyPath": "sidebar.allPinned",
+    "en": "Everything here is pinned. Unpin a chat to show it in recents.",
+    "ja": "ここにあるものはすべてピン留めされています。チャットのピン留めを解除すると最近のものに表示されます。"
+  },
+  {
+    "keyPath": "sidebar.shiftClickHint",
+    "en": "Shift-click a chat to pin",
+    "ja": "Shift クリックでピン留め · ドラッグで並べ替え"
+  },
+  {
+    "keyPath": "sidebar.noWorkspace",
+    "en": "No workspace",
+    "ja": "ワークスペースなし"
+  },
+  {
+    "keyPath": "sidebar.projects.createDesc",
+    "en": "Name a workspace and add one or more folders.",
+    "ja": "ワークスペースに名前を付け、1つ以上のフォルダを追加します。"
+  },
+  {
+    "keyPath": "sidebar.projects.renameTitle",
+    "en": "Rename project",
+    "ja": "プロジェクト名を変更"
+  },
+  {
+    "keyPath": "sidebar.projects.namePlaceholder",
+    "en": "e.g. Skunkworks",
+    "ja": "例: Skunkworks"
+  },
+  {
+    "keyPath": "sidebar.projects.foldersLabel",
+    "en": "Folders",
+    "ja": "フォルダ"
+  },
+  {
+    "keyPath": "sidebar.projects.ideaLabel",
+    "en": "Idea",
+    "ja": "アイデア"
+  },
+  {
+    "keyPath": "sidebar.projects.ideaGenerate",
+    "en": "Generate idea",
+    "ja": "アイデアを生成"
+  },
+  {
+    "keyPath": "sidebar.projects.ideaGenerating",
+    "en": "Generating…",
+    "ja": "生成中…"
+  },
+  {
+    "keyPath": "sidebar.projects.ideaShuffle",
+    "en": "Shuffle templates",
+    "ja": "テンプレートをシャッフル"
+  },
+  {
+    "keyPath": "sidebar.projects.reveal",
+    "en": "Reveal in folder",
+    "ja": "フォルダで表示"
+  },
+  {
+    "keyPath": "sidebar.projects.deleteConfirm",
+    "en": "This removes the saved project from Hermes. Files, git repos, and worktrees stay untouched."
+  },
+  {
+    "keyPath": "sidebar.projects.newWorktreeDesc",
+    "en": "Name the branch for this worktree.",
+    "ja": "このワークツリーのブランチ名を入力してください。"
+  },
+  {
+    "keyPath": "sidebar.projects.branchPlaceholder",
+    "en": "e.g. my-feature",
+    "ja": "例: my-feature"
+  },
+  {
+    "keyPath": "sidebar.projects.convertBranch",
+    "en": "Convert a branch…",
+    "ja": "ブランチを変換…"
+  },
+  {
+    "keyPath": "sidebar.projects.convertBranchTitle",
+    "en": "Convert a branch",
+    "ja": "ブランチを変換"
+  },
+  {
+    "keyPath": "sidebar.projects.convertBranchInstead",
+    "en": "Convert an existing branch",
+    "ja": "既存のブランチを変換"
+  },
+  {
+    "keyPath": "sidebar.projects.branchSwitchHome",
+    "en": "switch home",
+    "ja": "ホームを切替"
+  },
+  {
+    "keyPath": "sidebar.projects.branchCreateWorktree",
+    "en": "new worktree",
+    "ja": "新しいワークツリー"
+  },
+  {
+    "keyPath": "sidebar.projects.back",
+    "en": "All projects"
+  },
+  {
+    "keyPath": "sidebar.row.renameDesc",
+    "en": "Give this chat a memorable title. Leave empty to clear.",
+    "ja": "このチャットにわかりやすいタイトルをつけてください。空欄にするとクリアされます。"
+  },
+  {
+    "keyPath": "sidebar.row.untitledPlaceholder",
+    "en": "Untitled session",
+    "ja": "無題のセッション"
+  },
+  {
+    "keyPath": "sidebar.row.ageNow",
+    "en": "now",
+    "ja": "たった今"
+  },
+  {
+    "keyPath": "sidebar.row.ageDay",
+    "en": "d",
+    "ja": "日"
+  },
+  {
+    "keyPath": "sidebar.row.ageHour",
+    "en": "h",
+    "ja": "時間"
+  },
+  {
+    "keyPath": "sidebar.row.ageMin",
+    "en": "m",
+    "ja": "分"
+  },
+  {
+    "keyPath": "composer.placeholderStarting",
+    "en": "Starting Hermes...",
+    "ja": "Hermes を起動中..."
+  },
+  {
+    "keyPath": "composer.placeholderReconnecting",
+    "en": "Reconnecting to Hermes…",
+    "ja": "Hermes に再接続中…"
+  },
+  {
+    "keyPath": "composer.stopListening",
+    "en": "Stop listening and send",
+    "ja": "聴き取りを停止して送信"
+  },
+  {
+    "keyPath": "composer.endShort",
+    "en": "End",
+    "ja": "終了"
+  },
+  {
+    "keyPath": "composer.stopDictation",
+    "en": "Stop dictation",
+    "ja": "口述を停止"
+  },
+  {
+    "keyPath": "composer.transcribingDictation",
+    "en": "Transcribing dictation",
+    "ja": "口述を文字起こし中"
+  },
+  {
+    "keyPath": "composer.stopSpeakingReplies",
+    "en": "Stop reading replies aloud",
+    "ja": "返信の読み上げを停止"
+  },
+  {
+    "keyPath": "composer.lookupLoading",
+    "en": "Looking up…",
+    "ja": "検索中…"
+  },
+  {
+    "keyPath": "composer.lookupNoMatches",
+    "en": "No matches.",
+    "ja": "一致なし。"
+  },
+  {
+    "keyPath": "composer.lookupTry",
+    "en": "Try",
+    "ja": "試す"
+  },
+  {
+    "keyPath": "composer.lookupOr",
+    "en": "or",
+    "ja": "または"
+  },
+  {
+    "keyPath": "composer.commonCommands",
+    "en": "Common commands",
+    "ja": "一般的なコマンド"
+  },
+  {
+    "keyPath": "composer.hotkeys",
+    "en": "Hotkeys",
+    "ja": "ホットキー"
+  },
+  {
+    "keyPath": "composer.helpFooter",
+    "en": "opens the full panel · backspace dismisses",
+    "ja": "フルパネルを開く · Backspace で閉じる"
+  },
+  {
+    "keyPath": "composer.commandDescs./help",
+    "en": "full list of commands + hotkeys",
+    "ja": "コマンドとホットキーの全リスト"
+  },
+  {
+    "keyPath": "composer.commandDescs./clear",
+    "en": "start a new session",
+    "ja": "新しいセッションを開始"
+  },
+  {
+    "keyPath": "composer.commandDescs./resume",
+    "en": "resume a prior session",
+    "ja": "以前のセッションを再開"
+  },
+  {
+    "keyPath": "composer.commandDescs./details",
+    "en": "control transcript detail level",
+    "ja": "トランスクリプトの詳細レベルを制御"
+  },
+  {
+    "keyPath": "composer.commandDescs./copy",
+    "en": "copy selection or last assistant message",
+    "ja": "選択または最後のアシスタントメッセージをコピー"
+  },
+  {
+    "keyPath": "composer.commandDescs./quit",
+    "en": "exit hermes",
+    "ja": "hermes を終了"
+  },
+  {
+    "keyPath": "composer.hotkeyDescs.composer.mention",
+    "en": "reference files, folders, urls, git",
+    "ja": "ファイル、フォルダー、URL、Git を参照"
+  },
+  {
+    "keyPath": "composer.hotkeyDescs.composer.slash",
+    "en": "slash command palette",
+    "ja": "スラッシュコマンドパレット"
+  },
+  {
+    "keyPath": "composer.hotkeyDescs.composer.help",
+    "en": "this quick help (delete to dismiss)",
+    "ja": "クイックヘルプ（削除で閉じる）"
+  },
+  {
+    "keyPath": "composer.hotkeyDescs.composer.sendNewline",
+    "en": "send · Shift+Enter for newline",
+    "ja": "送信 · 改行は Shift+Enter"
+  },
+  {
+    "keyPath": "composer.hotkeyDescs.composer.sendQueued",
+    "en": "send next queued turn",
+    "ja": "次のキュー済みターンを送信"
+  },
+  {
+    "keyPath": "composer.hotkeyDescs.keybinds.openPanel",
+    "en": "all keyboard shortcuts",
+    "ja": "すべてのキーボードショートカット"
+  },
+  {
+    "keyPath": "composer.hotkeyDescs.composer.cancel",
+    "en": "close popover · cancel run",
+    "ja": "ポップオーバーを閉じる · 実行をキャンセル"
+  },
+  {
+    "keyPath": "composer.hotkeyDescs.composer.history",
+    "en": "cycle popover / history",
+    "ja": "ポップオーバー / 履歴を切り替え"
+  },
+  {
+    "keyPath": "composer.attachUrlDesc",
+    "en": "Hermes will fetch the page and include it as context for this turn.",
+    "ja": "Hermes がページを取得し、このターンのコンテキストとして含めます。"
+  },
+  {
+    "keyPath": "composer.urlPlaceholder",
+    "en": "https://example.com/post",
+    "ja": "https://example.com/post"
+  },
+  {
+    "keyPath": "composer.urlHintPre",
+    "en": "Include the full URL, e.g. ",
+    "ja": "完全な URL を入力してください。例: "
+  },
+  {
+    "keyPath": "composer.attachmentOnly",
+    "en": "Attachment-only turn",
+    "ja": "添付のみのターン"
+  },
+  {
+    "keyPath": "composer.editingInComposer",
+    "en": "Editing in composer",
+    "ja": "コンポーザーで編集中"
+  },
+  {
+    "keyPath": "composer.editingQueuedInComposer",
+    "en": "Editing queued turn in composer",
+    "ja": "コンポーザーでキュー済みターンを編集中"
+  },
+  {
+    "keyPath": "composer.queueStuckTitle",
+    "en": "Queued message not sent",
+    "ja": "キュー内のメッセージを送信できません"
+  },
+  {
+    "keyPath": "composer.queueStuckBody",
+    "en": "A queued turn kept failing to send. It is still in the queue — try sending it again."
+  },
+  {
+    "keyPath": "composer.preparingAudio",
+    "en": "Preparing audio",
+    "ja": "音声を準備中"
+  },
+  {
+    "keyPath": "composer.speakingResponse",
+    "en": "Speaking response",
+    "ja": "応答を読み上げ中"
+  },
+  {
+    "keyPath": "composer.readingAloud",
+    "en": "Reading aloud",
+    "ja": "読み上げ中"
+  },
+  {
+    "keyPath": "composer.themeSuggestions",
+    "en": "Desktop theme suggestions",
+    "ja": "デスクトップテーマの候補"
+  },
+  {
+    "keyPath": "composer.noMatchingThemes",
+    "en": "No matching themes.",
+    "ja": "一致するテーマがありません。"
+  },
+  {
+    "keyPath": "composer.themeTryPre",
+    "en": "Try ",
+    "ja": "試してみる: "
+  },
+  {
+    "keyPath": "composer.themeTryPost",
+    "en": ".",
+    "ja": "。"
+  },
+  {
+    "keyPath": "composer.files",
+    "en": "Files…",
+    "ja": "ファイル…"
+  },
+  {
+    "keyPath": "composer.folder",
+    "en": "Folder…",
+    "ja": "フォルダー…"
+  },
+  {
+    "keyPath": "composer.images",
+    "en": "Images…",
+    "ja": "画像…"
+  },
+  {
+    "keyPath": "composer.pasteImage",
+    "en": "Paste image",
+    "ja": "画像を貼り付け"
+  },
+  {
+    "keyPath": "composer.url",
+    "en": "URL…",
+    "ja": "URL…"
+  },
+  {
+    "keyPath": "composer.promptSnippets",
+    "en": "Prompt snippets…",
+    "ja": "プロンプトスニペット…"
+  },
+  {
+    "keyPath": "composer.tipPre",
+    "en": "Tip: type ",
+    "ja": "ヒント: "
+  },
+  {
+    "keyPath": "composer.tipPost",
+    "en": " to reference files inline.",
+    "ja": " と入力してファイルをインラインで参照。"
+  },
+  {
+    "keyPath": "composer.snippetsDesc",
+    "en": "Pick a starter prompt to drop into the composer.",
+    "ja": "スターターのプロンプトをコンポーザーに挿入します。"
+  },
+  {
+    "keyPath": "composer.dropFiles",
+    "en": "Drop files to attach",
+    "ja": "ファイルをドロップして添付"
+  },
+  {
+    "keyPath": "composer.dropSession",
+    "en": "Drop to link this chat",
+    "ja": "ドロップしてこのチャットをリンク"
+  },
+  {
+    "keyPath": "composer.snippets.codeReview.description",
+    "en": "Audit the current change for regressions, dropped edge cases, and missing tests.",
+    "ja": "回帰、エッジケースの欠落、テストの欠如を確認します。"
+  },
+  {
+    "keyPath": "composer.snippets.codeReview.text",
+    "en": "Please review this for bugs, regressions, and missing tests.",
+    "ja": "バグ、回帰、テストの欠如を確認してください。"
+  },
+  {
+    "keyPath": "composer.snippets.implementationPlan.description",
+    "en": "Outline an approach before touching code so the diff stays focused.",
+    "ja": "コードに手をつける前にアプローチを概説して、差分を集中させます。"
+  },
+  {
+    "keyPath": "composer.snippets.implementationPlan.text",
+    "en": "Please make a concise implementation plan before changing code.",
+    "ja": "コードを変更する前に簡潔な実装計画を立ててください。"
+  },
+  {
+    "keyPath": "composer.snippets.explainThis.description",
+    "en": "Walk through how the selected code works and link to the key files.",
+    "ja": "選択したコードがどのように機能するかを説明し、主要なファイルにリンクします。"
+  },
+  {
+    "keyPath": "composer.snippets.explainThis.text",
+    "en": "Please explain how this works and point me to the key files.",
+    "ja": "これがどのように機能するか説明し、主要なファイルを教えてください。"
+  },
+  {
+    "keyPath": "statusStack.coding.stageAll",
+    "en": "Stage all",
+    "ja": "すべてステージ"
+  },
+  {
+    "keyPath": "statusStack.coding.viewAsTree",
+    "en": "View as tree",
+    "ja": "ツリー表示"
+  },
+  {
+    "keyPath": "statusStack.coding.viewAsList",
+    "en": "View as list",
+    "ja": "リスト表示"
+  },
+  {
+    "keyPath": "statusStack.coding.revertAll",
+    "en": "Revert all",
+    "ja": "すべて取り消し"
+  },
+  {
+    "keyPath": "statusStack.coding.revertConfirm",
+    "en": "Discard changes to this file and restore it to the committed state? This cannot be undone.",
+    "ja": "このファイルの変更を破棄してコミット済みの状態に戻しますか？この操作は元に戻せません。"
+  },
+  {
+    "keyPath": "statusStack.coding.revertAllConfirm",
+    "en": "Discard every change and restore files to the committed state? This cannot be undone.",
+    "ja": "すべての変更を破棄してコミット済みの状態に戻しますか？この操作は元に戻せません。"
+  },
+  {
+    "keyPath": "statusStack.coding.commit",
+    "en": "Commit",
+    "ja": "コミット"
+  },
+  {
+    "keyPath": "statusStack.coding.commitPlaceholder",
+    "en": "Message (⌘↵ to commit)",
+    "ja": "メッセージ（⌘↵ でコミット）"
+  },
+  {
+    "keyPath": "statusStack.coding.generateCommitMessage",
+    "en": "Generate commit message",
+    "ja": "コミットメッセージを生成"
+  },
+  {
+    "keyPath": "statusStack.coding.stopGenerating",
+    "en": "Stop generating",
+    "ja": "生成を停止"
+  },
+  {
+    "keyPath": "statusStack.coding.ghMissing",
+    "en": "Install the GitHub CLI (gh) and sign in to open PRs",
+    "ja": "PR を開くには GitHub CLI (gh) をインストールしてサインインしてください"
+  },
+  {
+    "keyPath": "statusStack.coding.agentShip",
+    "en": "Ask Hermes to open PR",
+    "ja": "Hermes にコミットと PR を任せる"
+  },
+  {
+    "keyPath": "statusStack.coding.newBranch",
+    "en": "New branch",
+    "ja": "新しいブランチ"
+  },
+  {
+    "keyPath": "statusStack.coding.worktrees",
+    "en": "Worktrees",
+    "ja": "ワークツリー"
+  },
+  {
+    "keyPath": "updates.stages.rebuild",
+    "en": "Rebuilding the desktop app…",
+    "ja": "デスクトップアプリを再ビルド中…"
+  },
+  {
+    "keyPath": "updates.checking",
+    "en": "Looking for updates…",
+    "ja": "更新を確認中…"
+  },
+  {
+    "keyPath": "updates.checkFailedTitle",
+    "en": "Couldn’t check for updates",
+    "ja": "更新を確認できませんでした"
+  },
+  {
+    "keyPath": "updates.unsupportedMessage",
+    "en": "This version of Hermes can’t update itself from inside the app.",
+    "ja": "このバージョンの Hermes はアプリ内から自分を更新できません。"
+  },
+  {
+    "keyPath": "updates.connectionRetry",
+    "en": "Check your connection and try again.",
+    "ja": "接続を確認してもう一度試してください。"
+  },
+  {
+    "keyPath": "updates.latestBody",
+    "en": "You’re running the latest version.",
+    "ja": "最新バージョンを実行しています。"
+  },
+  {
+    "keyPath": "updates.latestBodyBackend",
+    "en": "The backend is running the latest version.",
+    "ja": "バックエンドは最新バージョンを実行しています。"
+  },
+  {
+    "keyPath": "updates.allSetTitle",
+    "en": "You’re all set",
+    "ja": "準備完了"
+  },
+  {
+    "keyPath": "updates.availableTitle",
+    "en": "New update available",
+    "ja": "新しい更新が利用可能"
+  },
+  {
+    "keyPath": "updates.availableBody",
+    "en": "A new version of Hermes is ready to install.",
+    "ja": "新しいバージョンの Hermes をインストールする準備ができています。"
+  },
+  {
+    "keyPath": "updates.availableTitleBackend",
+    "en": "Backend update available",
+    "ja": "バックエンドの更新があります"
+  },
+  {
+    "keyPath": "updates.availableBodyBackend",
+    "en": "A newer version of the connected Hermes backend is ready to install.",
+    "ja": "接続中の Hermes バックエンドの新しいバージョンをインストールできます。"
+  },
+  {
+    "keyPath": "updates.availableBodyNoChangelog",
+    "en": "A newer version is ready. Release notes aren’t available for this install type."
+  },
+  {
+    "keyPath": "updates.manualBody",
+    "en": "You installed Hermes from the command line, so updates run there too. Paste this into your terminal:"
+  },
+  {
+    "keyPath": "updates.manualPickedUp",
+    "en": "Hermes will pick up the new version next time you launch it.",
+    "ja": "Hermes は次回起動時に新しいバージョンを読み込みます。"
+  },
+  {
+    "keyPath": "updates.applyingClose",
+    "en": "This window will close while the update runs, then Hermes reopens on its own.",
+    "ja": "このウィンドウは更新中に閉じ、その後 Hermes が自動的に再度開きます。"
+  },
+  {
+    "keyPath": "updates.errorBody",
+    "en": "No worries — nothing was lost. You can try again now.",
+    "ja": "ご安心ください。何も失われていません。今すぐ再試行できます。"
+  },
+  {
+    "keyPath": "updates.applyStatus.preparing",
+    "en": "Updating backend…",
+    "ja": "バックエンドを更新しています…"
+  },
+  {
+    "keyPath": "updates.applyStatus.pulling",
+    "en": "Backend updating…",
+    "ja": "バックエンドを更新中…"
+  },
+  {
+    "keyPath": "updates.applyStatus.restarting",
+    "en": "Backend restarting to load the update…",
+    "ja": "バックエンドが更新を読み込むため再起動しています…"
+  },
+  {
+    "keyPath": "updates.applyStatus.noReturn",
+    "en": "Backend didn’t come back online. The update may not have completed — check the backend host."
+  },
+  {
+    "keyPath": "install.oneTimeTitle",
+    "en": "Hermes needs a one-time install",
+    "ja": "Hermes には一度限りのインストールが必要です"
+  },
+  {
+    "keyPath": "install.retryAfterRun",
+    "en": "I’ve run it -- retry",
+    "ja": "実行しました — 再試行"
+  },
+  {
+    "keyPath": "install.fetchingManifest",
+    "en": "Fetching installer manifest...",
+    "ja": "インストーラーマニフェストを取得中..."
+  },
+  {
+    "keyPath": "install.error",
+    "en": "Error",
+    "ja": "エラー"
+  },
+  {
+    "keyPath": "install.cancelling",
+    "en": "Cancelling...",
+    "ja": "キャンセル中..."
+  },
+  {
+    "keyPath": "install.transcriptSaved",
+    "en": "Full transcript saved to",
+    "ja": "フルトランスクリプトを保存しました:"
+  },
+  {
+    "keyPath": "install.copiedOutput",
+    "en": "Copied!",
+    "ja": "コピーしました！"
+  },
+  {
+    "keyPath": "onboarding.preparingInstall",
+    "en": "Hermes is finishing install. This usually takes under a minute on first run.",
+    "ja": "Hermes はインストールを完了中です。初回実行では通常 1 分以内に完了します。"
+  },
+  {
+    "keyPath": "onboarding.starting",
+    "en": "Starting Hermes…",
+    "ja": "Hermes を起動中…"
+  },
+  {
+    "keyPath": "onboarding.lookingUpProviders",
+    "en": "Looking up providers...",
+    "ja": "プロバイダーを検索中..."
+  },
+  {
+    "keyPath": "onboarding.haveApiKey",
+    "en": "I have an API key",
+    "ja": "API キーをお持ちです"
+  },
+  {
+    "keyPath": "onboarding.featuredPitch",
+    "en": "One subscription, 300+ frontier models — the recommended way to run Hermes",
+    "ja": "1 つのサブスクリプションで 300 以上の最先端モデル — Hermes を実行するための推奨方法"
+  },
+  {
+    "keyPath": "onboarding.openRouterPitch",
+    "en": "One key, hundreds of models — a solid default",
+    "ja": "1 つのキーで数百のモデル — 堅実なデフォルト"
+  },
+  {
+    "keyPath": "onboarding.apiKeyOptions.local.short",
+    "en": "self-hosted",
+    "ja": "セルフホスト"
+  },
+  {
+    "keyPath": "onboarding.apiKeyOptions.local.description",
+    "en": "Point Hermes at a local or self-hosted OpenAI-compatible endpoint (vLLM, llama.cpp, Ollama, etc)."
+  },
+  {
+    "keyPath": "onboarding.backToSignIn",
+    "en": "Back to sign in",
+    "ja": "サインインに戻る"
+  },
+  {
+    "keyPath": "onboarding.replaceCurrent",
+    "en": "Replace current value",
+    "ja": "現在の値を置き換え"
+  },
+  {
+    "keyPath": "onboarding.pasteApiKey",
+    "en": "Paste API key",
+    "ja": "API キーを貼り付け"
+  },
+  {
+    "keyPath": "onboarding.localApiKeyPlaceholder",
+    "en": "API key (optional — only if your endpoint requires one)"
+  },
+  {
+    "keyPath": "onboarding.flowSubtitles.pkce",
+    "en": "Opens your browser to sign in, then continues here",
+    "ja": "ブラウザーを開いてサインインし、ここに戻ります"
+  },
+  {
+    "keyPath": "onboarding.flowSubtitles.device_code",
+    "en": "Opens a verification page in your browser — Hermes connects automatically",
+    "ja": "ブラウザーで確認ページを開きます — Hermes が自動接続します"
+  },
+  {
+    "keyPath": "onboarding.flowSubtitles.external",
+    "en": "Sign in once in your terminal, then come back to chat",
+    "ja": "ターミナルで一度サインインして、チャットに戻ります"
+  },
+  {
+    "keyPath": "onboarding.signInFailed",
+    "en": "Sign-in failed. Try again.",
+    "ja": "サインインに失敗しました。再試行してください。"
+  },
+  {
+    "keyPath": "onboarding.pickDifferentProvider",
+    "en": "Pick a different provider",
+    "ja": "別のプロバイダーを選択"
+  },
+  {
+    "keyPath": "onboarding.authorizeThere",
+    "en": "Authorize Hermes there.",
+    "ja": "そこで Hermes を承認してください。"
+  },
+  {
+    "keyPath": "onboarding.pasteAuthCode",
+    "en": "Paste authorization code",
+    "ja": "認証コードを貼り付け"
+  },
+  {
+    "keyPath": "onboarding.reopenAuthPage",
+    "en": "Re-open authorization page",
+    "ja": "認証ページを再度開く"
+  },
+  {
+    "keyPath": "onboarding.reopenSignInPage",
+    "en": "Re-open sign-in page",
+    "ja": "サインインページを再度開く"
+  },
+  {
+    "keyPath": "onboarding.waitingAuthorize",
+    "en": "Waiting for you to authorize...",
+    "ja": "承認を待っています..."
+  },
+  {
+    "keyPath": "onboarding.reopenVerification",
+    "en": "Re-open verification page",
+    "ja": "確認ページを再度開く"
+  },
+  {
+    "keyPath": "onboarding.defaultModel",
+    "en": "Default model",
+    "ja": "デフォルトモデル"
+  },
+  {
+    "keyPath": "onboarding.pro",
+    "en": "Pro",
+    "ja": "Pro"
+  },
+  {
+    "keyPath": "modelPicker.current",
+    "en": "current:",
+    "ja": "現在:"
+  },
+  {
+    "keyPath": "modelPicker.search",
+    "en": "Filter providers and models...",
+    "ja": "プロバイダーとモデルをフィルター..."
+  },
+  {
+    "keyPath": "modelPicker.pro",
+    "en": "Pro",
+    "ja": "Pro"
+  },
+  {
+    "keyPath": "modelPicker.proNeedsSubscription",
+    "en": "Pro models need a paid Nous subscription.",
+    "ja": "Pro モデルには有料の Nous サブスクリプションが必要です。"
+  },
+  {
+    "keyPath": "modelPicker.priceTitle",
+    "en": "Input / Output price per million tokens",
+    "ja": "100 万トークンあたりの入力/出力価格"
+  },
+  {
+    "keyPath": "modelVisibility.addProvider",
+    "en": "Add provider…",
+    "ja": "プロバイダーを追加…"
+  },
+  {
+    "keyPath": "shell.modelMenu.medium",
+    "en": "Med",
+    "ja": "中"
+  },
+  {
+    "keyPath": "shell.modelOptions.noOptions",
+    "en": "No options for this model",
+    "ja": "このモデルにはオプションがありません"
+  },
+  {
+    "keyPath": "shell.modelOptions.ultra",
+    "en": "Ultra",
+    "ja": "ウルトラ"
+  },
+  {
+    "keyPath": "shell.gatewayMenu.gateway",
+    "en": "Gateway",
+    "ja": "ゲートウェイ"
+  },
+  {
+    "keyPath": "shell.gatewayMenu.recentActivity",
+    "en": "Recent activity",
+    "ja": "最近のアクティビティ"
+  },
+  {
+    "keyPath": "shell.gatewayMenu.viewAllLogs",
+    "en": "View all logs →",
+    "ja": "すべてのログを見る →"
+  },
+  {
+    "keyPath": "shell.gatewayMenu.messagingPlatforms",
+    "en": "Messaging platforms",
+    "ja": "メッセージングプラットフォーム"
+  },
+  {
+    "keyPath": "shell.approvalMode.manual",
+    "en": "Manual",
+    "ja": "手動"
+  },
+  {
+    "keyPath": "shell.approvalMode.manualDescription",
+    "en": "Ask before actions that require approval",
+    "ja": "承認が必要な操作の前に確認します"
+  },
+  {
+    "keyPath": "shell.approvalMode.smartDescription",
+    "en": "Automatically assess actions and ask when needed",
+    "ja": "必要な場合にのみ確認します"
+  },
+  {
+    "keyPath": "shell.approvalMode.offDescription",
+    "en": "Run without approval prompts",
+    "ja": "承認プロンプトなしで実行します"
+  },
+  {
+    "keyPath": "shell.statusbar.gateway",
+    "en": "Gateway",
+    "ja": "ゲートウェイ"
+  },
+  {
+    "keyPath": "shell.statusbar.gatewayNeedsSetup",
+    "en": "needs setup",
+    "ja": "設定が必要"
+  },
+  {
+    "keyPath": "shell.statusbar.gatewayRestarting",
+    "en": "restarting…",
+    "ja": "再起動中…"
+  },
+  {
+    "keyPath": "shell.statusbar.gatewayTitle",
+    "en": "Hermes inference gateway status",
+    "ja": "Hermes 推論ゲートウェイのステータス"
+  },
+  {
+    "keyPath": "shell.statusbar.cron",
+    "en": "Cron",
+    "ja": "Cron"
+  },
+  {
+    "keyPath": "shell.statusbar.currentTurnElapsed",
+    "en": "Current turn elapsed",
+    "ja": "現在のターン経過時間"
+  },
+  {
+    "keyPath": "shell.statusbar.contextUsage",
+    "en": "Context usage",
+    "ja": "コンテキスト使用状況"
+  },
+  {
+    "keyPath": "shell.statusbar.contextUsagePanel.categories.conversation",
+    "en": "Conversation",
+    "ja": "会話"
+  },
+  {
+    "keyPath": "shell.statusbar.contextUsagePanel.categories.mcp",
+    "en": "MCP",
+    "ja": "MCP"
+  },
+  {
+    "keyPath": "shell.statusbar.contextUsagePanel.categories.rules",
+    "en": "Rules",
+    "ja": "ルール"
+  },
+  {
+    "keyPath": "shell.statusbar.contextUsagePanel.categories.subagent_definitions",
+    "en": "Subagent definitions",
+    "ja": "サブエージェント定義"
+  },
+  {
+    "keyPath": "shell.statusbar.contextUsagePanel.categories.system_prompt",
+    "en": "System prompt",
+    "ja": "システムプロンプト"
+  },
+  {
+    "keyPath": "shell.statusbar.contextUsagePanel.categories.tool_definitions",
+    "en": "Tool definitions",
+    "ja": "ツール定義"
+  },
+  {
+    "keyPath": "shell.statusbar.contextUsagePanel.title",
+    "en": "Context Usage",
+    "ja": "コンテキスト使用状況"
+  },
+  {
+    "keyPath": "shell.statusbar.runtimeSessionElapsed",
+    "en": "Runtime session elapsed",
+    "ja": "ランタイムセッション経過時間"
+  },
+  {
+    "keyPath": "shell.statusbar.yoloOn",
+    "en": "YOLO on — auto-approving dangerous commands. Click to turn off. Shift+click toggles it globally.",
+    "ja": "YOLO オン — 危険なコマンドを自動承認中。クリックでオフに。Shift+クリックで全体に切り替え。"
+  },
+  {
+    "keyPath": "shell.statusbar.yoloOff",
+    "en": "YOLO off — click to auto-approve dangerous commands. Shift+click toggles it globally.",
+    "ja": "YOLO オフ — クリックで危険なコマンドを自動承認。Shift+クリックで全体に切り替え。"
+  },
+  {
+    "keyPath": "shell.statusbar.modelNone",
+    "en": "none",
+    "ja": "なし"
+  },
+  {
+    "keyPath": "shell.statusbar.noModel",
+    "en": "no model",
+    "ja": "モデルなし"
+  },
+  {
+    "keyPath": "rightSidebar.panelsAria",
+    "en": "Right sidebar panels",
+    "ja": "右サイドバーパネル"
+  },
+  {
+    "keyPath": "rightSidebar.terminal",
+    "en": "Terminal",
+    "ja": "ターミナル"
+  },
+  {
+    "keyPath": "rightSidebar.remotePickerDescription",
+    "en": "Browse folders on the connected backend.",
+    "ja": "接続中のバックエンド上のフォルダーを参照します。"
+  },
+  {
+    "keyPath": "rightSidebar.noProjectOpen",
+    "en": "No project open",
+    "ja": "プロジェクト未選択"
+  },
+  {
+    "keyPath": "rightSidebar.emptyBody",
+    "en": "This folder is empty.",
+    "ja": "このフォルダーは空です。"
+  },
+  {
+    "keyPath": "rightSidebar.treeErrorBody",
+    "en": "The file tree hit an error rendering this folder.",
+    "ja": "ファイルツリーがこのフォルダーのレンダリング中にエラーが発生しました。"
+  },
+  {
+    "keyPath": "preview.opening",
+    "en": "Opening...",
+    "ja": "開いています..."
+  },
+  {
+    "keyPath": "preview.linkHint",
+    "en": "⌘/Ctrl-click for preview pane",
+    "ja": "⌘/Ctrl+クリックでプレビューペイン"
+  },
+  {
+    "keyPath": "preview.sourceLineTitle",
+    "en": "Click to select · shift-click to extend · drag to composer",
+    "ja": "クリックして選択 · Shift クリックで拡張 · コンポーザーにドラッグ"
+  },
+  {
+    "keyPath": "preview.diff",
+    "en": "DIFF",
+    "ja": "差分"
+  },
+  {
+    "keyPath": "preview.binaryTitle",
+    "en": "This looks like a binary file",
+    "ja": "これはバイナリファイルのようです"
+  },
+  {
+    "keyPath": "preview.largeTitle",
+    "en": "This file is large",
+    "ja": "このファイルは大きいです"
+  },
+  {
+    "keyPath": "preview.truncated",
+    "en": "Showing first 512 KB.",
+    "ja": "最初の 512 KB を表示しています。"
+  },
+  {
+    "keyPath": "preview.noInlineTitle",
+    "en": "No inline preview",
+    "ja": "インラインプレビューなし"
+  },
+  {
+    "keyPath": "preview.diskChangedTitle",
+    "en": "File changed on disk",
+    "ja": "ファイルがディスク上で変更されました"
+  },
+  {
+    "keyPath": "preview.console.deselect",
+    "en": "Deselect entry",
+    "ja": "エントリーの選択を解除"
+  },
+  {
+    "keyPath": "preview.console.select",
+    "en": "Select entry",
+    "ja": "エントリーを選択"
+  },
+  {
+    "keyPath": "preview.console.sendEntry",
+    "en": "Send this entry to chat",
+    "ja": "このエントリーをチャットに送信"
+  },
+  {
+    "keyPath": "preview.console.resize",
+    "en": "Resize preview console",
+    "ja": "プレビューコンソールのサイズ変更"
+  },
+  {
+    "keyPath": "preview.console.promptHeader",
+    "en": "Preview console:",
+    "ja": "プレビューコンソール:"
+  },
+  {
+    "keyPath": "preview.console.sentTitle",
+    "en": "Sent to chat",
+    "ja": "チャットに送信しました"
+  },
+  {
+    "keyPath": "preview.web.appFailedToBoot",
+    "en": "Preview app failed to boot",
+    "ja": "プレビューアプリの起動に失敗しました"
+  },
+  {
+    "keyPath": "preview.web.serverNotFound",
+    "en": "Server not found",
+    "ja": "サーバーが見つかりません"
+  },
+  {
+    "keyPath": "preview.web.restarting",
+    "en": "Hermes is restarting...",
+    "ja": "Hermes を再起動中..."
+  },
+  {
+    "keyPath": "preview.web.askRestart",
+    "en": "Ask Hermes to restart the server",
+    "ja": "Hermes にサーバーの再起動を依頼"
+  },
+  {
+    "keyPath": "preview.web.restartingTitle",
+    "en": "Restarting preview server",
+    "ja": "プレビューサーバーを再起動中"
+  },
+  {
+    "keyPath": "preview.web.restartingMessage",
+    "en": "Hermes is working in the background. Watch the preview console for progress.",
+    "ja": "Hermes はバックグラウンドで作業中です。進捗はプレビューコンソールで確認してください。"
+  },
+  {
+    "keyPath": "preview.web.unknownError",
+    "en": "unknown error",
+    "ja": "不明なエラー"
+  },
+  {
+    "keyPath": "preview.web.restartedTitle",
+    "en": "Preview server restarted",
+    "ja": "プレビューサーバーが再起動しました"
+  },
+  {
+    "keyPath": "preview.web.reloadingNow",
+    "en": "Reloading the preview now.",
+    "ja": "プレビューを再読み込み中です。"
+  },
+  {
+    "keyPath": "preview.web.restartFailedMessage",
+    "en": "Hermes could not restart the server.",
+    "ja": "Hermes がサーバーを再起動できませんでした。"
+  },
+  {
+    "keyPath": "preview.web.workspaceReloading",
+    "en": "Workspace changed, reloading preview",
+    "ja": "ワークスペースが変更され、プレビューを再読み込み中"
+  },
+  {
+    "keyPath": "preview.web.unreachableDescription",
+    "en": "The preview page could not be reached.",
+    "ja": "プレビューページに到達できませんでした。"
+  },
+  {
+    "keyPath": "assistant.thread.loadingResponse",
+    "en": "Hermes is loading a response",
+    "ja": "Hermes が応答を読み込み中"
+  },
+  {
+    "keyPath": "assistant.thread.preparingAudio",
+    "en": "Preparing audio...",
+    "ja": "音声を準備中..."
+  },
+  {
+    "keyPath": "assistant.thread.restorePrevious",
+    "en": "Restore previous checkpoint",
+    "ja": "前のチェックポイントに戻す"
+  },
+  {
+    "keyPath": "assistant.thread.restoreFromHere",
+    "en": "Restore checkpoint — rerun from this prompt",
+    "ja": "チェックポイントを復元 — このプロンプトから再実行"
+  },
+  {
+    "keyPath": "assistant.thread.restoreTitle",
+    "en": "Restore to this checkpoint?",
+    "ja": "このチェックポイントに復元しますか？"
+  },
+  {
+    "keyPath": "assistant.thread.restoreNext",
+    "en": "Restore next checkpoint",
+    "ja": "次のチェックポイントに戻す"
+  },
+  {
+    "keyPath": "assistant.approval.gatewayDisconnected",
+    "en": "Hermes gateway is not connected",
+    "ja": "Hermes ゲートウェイが接続されていません"
+  },
+  {
+    "keyPath": "assistant.approval.moreOptions",
+    "en": "More approval options",
+    "ja": "その他の承認オプション"
+  },
+  {
+    "keyPath": "assistant.approval.allowSession",
+    "en": "Allow this session",
+    "ja": "このセッションで許可"
+  },
+  {
+    "keyPath": "assistant.approval.alwaysAllowMenu",
+    "en": "Always allow…",
+    "ja": "常に許可…"
+  },
+  {
+    "keyPath": "assistant.approval.alwaysTitle",
+    "en": "Always allow this command?",
+    "ja": "このコマンドを常に許可しますか？"
+  },
+  {
+    "keyPath": "assistant.clarify.notReady",
+    "en": "Clarify request is not ready yet",
+    "ja": "明確化リクエストはまだ準備できていません"
+  },
+  {
+    "keyPath": "assistant.clarify.gatewayDisconnected",
+    "en": "Hermes gateway is not connected",
+    "ja": "Hermes ゲートウェイが接続されていません"
+  },
+  {
+    "keyPath": "assistant.clarify.other",
+    "en": "Other (type your answer)",
+    "ja": "その他（回答を入力）"
+  },
+  {
+    "keyPath": "assistant.tool.renderingImage",
+    "en": "Rendering image",
+    "ja": "画像をレンダリング中"
+  },
+  {
+    "keyPath": "assistant.tool.recoveredOne",
+    "en": "Recovered after 1 failed step",
+    "ja": "1 つの失敗したステップの後に回復しました"
+  },
+  {
+    "keyPath": "assistant.tool.statusError",
+    "en": "Error",
+    "ja": "エラー"
+  },
+  {
+    "keyPath": "assistant.tool.actions.read",
+    "en": "Read",
+    "ja": "読み取り完了"
+  },
+  {
+    "keyPath": "assistant.tool.actions.searched",
+    "en": "Searched",
+    "ja": "検索完了"
+  },
+  {
+    "keyPath": "assistant.tool.actions.ran",
+    "en": "Ran",
+    "ja": "実行完了"
+  },
+  {
+    "keyPath": "assistant.tool.actions.ranCode",
+    "en": "Ran code",
+    "ja": "コード実行完了"
+  },
+  {
+    "keyPath": "assistant.tool.prefixes.web",
+    "en": "Web",
+    "ja": "Web"
+  },
+  {
+    "keyPath": "prompts.gatewayDisconnected",
+    "en": "Hermes gateway is not connected",
+    "ja": "Hermes ゲートウェイが接続されていません"
+  },
+  {
+    "keyPath": "prompts.sudoDesc",
+    "en": "Hermes needs your sudo password to run a privileged command. It is sent only to your local agent."
+  },
+  {
+    "keyPath": "prompts.sudoPlaceholder",
+    "en": "sudo password",
+    "ja": "sudo パスワード"
+  },
+  {
+    "keyPath": "prompts.secretDesc",
+    "en": "Hermes needs a credential to continue.",
+    "ja": "Hermes は続行するための認証情報が必要です。"
+  },
+  {
+    "keyPath": "prompts.secretPlaceholder",
+    "en": "secret value",
+    "ja": "シークレット値"
+  },
+  {
+    "keyPath": "desktop.providerCredentialRequired",
+    "en": "Add a provider credential before sending your first message.",
+    "ja": "最初のメッセージを送信する前にプロバイダー認証情報を追加してください。"
+  },
+  {
+    "keyPath": "desktop.emptySlashCommand",
+    "en": "empty slash command",
+    "ja": "空のスラッシュコマンド"
+  },
+  {
+    "keyPath": "desktop.desktopCommands",
+    "en": "Desktop commands",
+    "ja": "デスクトップコマンド"
+  },
+  {
+    "keyPath": "desktop.yoloArmed",
+    "en": "YOLO armed for this chat",
+    "ja": "このチャットでは YOLO が有効になっています"
+  },
+  {
+    "keyPath": "desktop.yoloOff",
+    "en": "YOLO off",
+    "ja": "YOLO オフ"
+  },
+  {
+    "keyPath": "desktop.yoloTitle",
+    "en": "YOLO",
+    "ja": "YOLO"
+  },
+  {
+    "keyPath": "desktop.unknownProfile",
+    "en": "Unknown profile",
+    "ja": "不明なプロファイル"
+  },
+  {
+    "keyPath": "desktop.sttDisabled",
+    "en": "Speech-to-text is disabled in settings.",
+    "ja": "音声認識は設定で無効になっています。"
+  },
+  {
+    "keyPath": "desktop.nothingToBranch",
+    "en": "Nothing to branch",
+    "ja": "ブランチするものがありません"
+  },
+  {
+    "keyPath": "desktop.branchNeedsChat",
+    "en": "Start or resume a chat before branching.",
+    "ja": "ブランチする前にチャットを開始または再開してください。"
+  },
+  {
+    "keyPath": "desktop.sessionBusy",
+    "en": "Session busy",
+    "ja": "セッションが使用中"
+  },
+  {
+    "keyPath": "desktop.branchStopCurrent",
+    "en": "Stop the current turn before branching this chat.",
+    "ja": "このチャットをブランチする前に現在のターンを停止してください。"
+  },
+  {
+    "keyPath": "desktop.branchNoText",
+    "en": "This message has no text to branch from.",
+    "ja": "このメッセージにはブランチするテキストがありません。"
+  },
+  {
+    "keyPath": "desktop.cwdStagedTitle",
+    "en": "Working directory staged",
+    "ja": "作業ディレクトリがステージングされました"
+  },
+  {
+    "keyPath": "desktop.cwdStagedMessage",
+    "en": "Restart the desktop backend to apply cwd changes to this active session."
+  },
+  {
+    "keyPath": "desktop.sessionExported",
+    "en": "Session exported",
+    "ja": "セッションをエクスポートしました"
+  },
+  {
+    "keyPath": "desktop.downloadStarted",
+    "en": "Download started",
+    "ja": "ダウンロードを開始しました"
+  },
+  {
+    "keyPath": "desktop.restartToUseSaveImage",
+    "en": "Restart Hermes Desktop to use Save Image.",
+    "ja": "画像を保存するには Hermes Desktop を再起動してください。"
+  },
+  {
+    "keyPath": "desktop.restartToSaveImages",
+    "en": "Restart Hermes Desktop to save images",
+    "ja": "画像を保存するには Hermes Desktop を再起動してください"
+  },
+  {
+    "keyPath": "desktop.savingImage",
+    "en": "Saving image",
+    "ja": "画像を保存中"
+  },
+  {
+    "keyPath": "desktop.imageAttach",
+    "en": "Image attach",
+    "ja": "画像を添付"
+  },
+  {
+    "keyPath": "desktop.noClipboardImage",
+    "en": "No image found in clipboard",
+    "ja": "クリップボードに画像が見つかりません"
+  },
+  {
+    "keyPath": "desktop.handoff.pickPlatform",
+    "en": "Choose a destination",
+    "ja": "送信先を選択"
+  },
+  {
+    "keyPath": "desktop.handoff.timedOut",
+    "en": "Timed out waiting for the gateway. Is `hermes gateway` running?",
+    "ja": "ゲートウェイの待機がタイムアウトしました。`hermes gateway` は起動していますか？"
+  },
+  {
+    "keyPath": "errors.boundaryTitle",
+    "en": "Something broke in the interface",
+    "ja": "インターフェイスで問題が発生しました"
+  },
+  {
+    "keyPath": "errors.boundaryDesc",
+    "en": "The view hit an unexpected error. Your chats and settings are safe.",
+    "ja": "ビューで予期しないエラーが発生しました。チャットと設定は安全です。"
+  },
+  {
+    "keyPath": "ui.pagination.previousAria",
+    "en": "Go to previous page",
+    "ja": "前のページへ"
+  },
+  {
+    "keyPath": "ui.pagination.nextAria",
+    "en": "Go to next page",
+    "ja": "次のページへ"
+  },
+  {
+    "keyPath": "ui.sidebar.description",
+    "en": "Displays the mobile sidebar.",
+    "ja": "モバイルサイドバーを表示します。"
+  }
+]

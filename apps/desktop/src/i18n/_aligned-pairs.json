@@ -1,0 +1,9097 @@
+[
+  {
+    "key": "apply",
+    "en": "Apply",
+    "zh": "应用"
+  },
+  {
+    "key": "back",
+    "en": "Back",
+    "zh": "返回"
+  },
+  {
+    "key": "save",
+    "en": "Save",
+    "zh": "保存"
+  },
+  {
+    "key": "saving",
+    "en": "Saving…",
+    "zh": "保存中…"
+  },
+  {
+    "key": "cancel",
+    "en": "Cancel",
+    "zh": "取消"
+  },
+  {
+    "key": "change",
+    "en": "Change",
+    "zh": "更改"
+  },
+  {
+    "key": "choose",
+    "en": "Choose",
+    "zh": "选择"
+  },
+  {
+    "key": "clear",
+    "en": "Clear",
+    "zh": "清除"
+  },
+  {
+    "key": "close",
+    "en": "Close",
+    "zh": "关闭"
+  },
+  {
+    "key": "collapse",
+    "en": "Collapse",
+    "zh": "收起"
+  },
+  {
+    "key": "confirm",
+    "en": "Confirm",
+    "zh": "确认"
+  },
+  {
+    "key": "connect",
+    "en": "Connect",
+    "zh": "连接"
+  },
+  {
+    "key": "connecting",
+    "en": "Connecting",
+    "zh": "连接中"
+  },
+  {
+    "key": "continue",
+    "en": "Continue",
+    "zh": "继续"
+  },
+  {
+    "key": "copied",
+    "en": "Copied",
+    "zh": "已复制"
+  },
+  {
+    "key": "copy",
+    "en": "Copy",
+    "zh": "复制"
+  },
+  {
+    "key": "copyFailed",
+    "en": "Copy failed",
+    "zh": "复制失败"
+  },
+  {
+    "key": "delete",
+    "en": "Delete",
+    "zh": "删除"
+  },
+  {
+    "key": "docs",
+    "en": "Docs",
+    "zh": "文档"
+  },
+  {
+    "key": "done",
+    "en": "Done",
+    "zh": "完成"
+  },
+  {
+    "key": "error",
+    "en": "Error",
+    "zh": "错误"
+  },
+  {
+    "key": "expand",
+    "en": "Expand",
+    "zh": "展开"
+  },
+  {
+    "key": "failed",
+    "en": "Failed",
+    "zh": "失败"
+  },
+  {
+    "key": "formatJson",
+    "en": "Format JSON",
+    "zh": "格式化 JSON"
+  },
+  {
+    "key": "free",
+    "en": "Free",
+    "zh": "免费"
+  },
+  {
+    "key": "loading",
+    "en": "Loading…",
+    "zh": "加载中…"
+  },
+  {
+    "key": "notSet",
+    "en": "Not set",
+    "zh": "未设置"
+  },
+  {
+    "key": "refresh",
+    "en": "Refresh",
+    "zh": "刷新"
+  },
+  {
+    "key": "remove",
+    "en": "Remove",
+    "zh": "移除"
+  },
+  {
+    "key": "replace",
+    "en": "Replace",
+    "zh": "替换"
+  },
+  {
+    "key": "retry",
+    "en": "Retry",
+    "zh": "重试"
+  },
+  {
+    "key": "run",
+    "en": "Run",
+    "zh": "运行"
+  },
+  {
+    "key": "send",
+    "en": "Send",
+    "zh": "发送"
+  },
+  {
+    "key": "set",
+    "en": "Set",
+    "zh": "设置"
+  },
+  {
+    "key": "skip",
+    "en": "Skip",
+    "zh": "跳过"
+  },
+  {
+    "key": "update",
+    "en": "Update",
+    "zh": "更新"
+  },
+  {
+    "key": "on",
+    "en": "On",
+    "zh": "开"
+  },
+  {
+    "key": "off",
+    "en": "Off",
+    "zh": "关"
+  },
+  {
+    "key": "revealFinder",
+    "en": "Reveal in Finder",
+    "zh": "在访达中显示"
+  },
+  {
+    "key": "revealExplorer",
+    "en": "Reveal in File Explorer",
+    "zh": "在文件资源管理器中显示"
+  },
+  {
+    "key": "revealFileManager",
+    "en": "Open Containing Folder",
+    "zh": "打开所在文件夹"
+  },
+  {
+    "key": "revealInSidebar",
+    "en": "Reveal in filetree",
+    "zh": "在文件树中显示"
+  },
+  {
+    "key": "copyPath",
+    "en": "Copy Path",
+    "zh": "复制路径"
+  },
+  {
+    "key": "copyRelativePath",
+    "en": "Copy Relative Path",
+    "zh": "复制相对路径"
+  },
+  {
+    "key": "rename",
+    "en": "Rename…",
+    "zh": "重命名…"
+  },
+  {
+    "key": "delete",
+    "en": "Delete",
+    "zh": "删除"
+  },
+  {
+    "key": "renameTitle",
+    "en": "Rename",
+    "zh": "重命名"
+  },
+  {
+    "key": "renameLabel",
+    "en": "New name",
+    "zh": "新名称"
+  },
+  {
+    "key": "deleteBody",
+    "en": "It will be moved to the Trash — you can restore it from there.",
+    "zh": "将移至废纸篓，你可以从那里恢复。"
+  },
+  {
+    "key": "pathCopied",
+    "en": "Path copied",
+    "zh": "已复制路径"
+  },
+  {
+    "key": "ready",
+    "en": "Hermes Desktop is ready",
+    "zh": "Hermes 桌面版已就绪"
+  },
+  {
+    "key": "connectingGateway",
+    "en": "Connecting live desktop gateway",
+    "zh": "正在连接桌面网关"
+  },
+  {
+    "key": "loadingSettings",
+    "en": "Loading Hermes settings",
+    "zh": "正在加载 Hermes 设置"
+  },
+  {
+    "key": "loadingSessions",
+    "en": "Loading recent sessions",
+    "zh": "正在加载最近会话"
+  },
+  {
+    "key": "startingDesktopConnection",
+    "en": "Starting desktop connection",
+    "zh": "正在启动桌面连接"
+  },
+  {
+    "key": "startingHermesDesktop",
+    "en": "Starting Hermes Desktop…",
+    "zh": "正在启动 Hermes 桌面版…"
+  },
+  {
+    "key": "backgroundExited",
+    "en": "Hermes background process exited.",
+    "zh": "Hermes 后台进程已退出。"
+  },
+  {
+    "key": "backgroundExitedDuringStartup",
+    "en": "Hermes background process exited during startup.",
+    "zh": "Hermes 后台进程在启动期间退出。"
+  },
+  {
+    "key": "backendStopped",
+    "en": "Backend stopped",
+    "zh": "后端已停止"
+  },
+  {
+    "key": "desktopBootFailed",
+    "en": "Desktop boot failed",
+    "zh": "桌面启动失败"
+  },
+  {
+    "key": "gatewayConnectionLost",
+    "en": "Lost connection to the gateway",
+    "zh": "与网关的连接已断开"
+  },
+  {
+    "key": "gatewaySignInRequired",
+    "en": "Gateway sign-in required",
+    "zh": "需要登录网关"
+  },
+  {
+    "key": "ipcBridgeUnavailable",
+    "en": "Desktop IPC bridge is unavailable.",
+    "zh": "桌面 IPC 桥不可用。"
+  },
+  {
+    "key": "remoteTitle",
+    "en": "Remote gateway sign-in required",
+    "zh": "Hermes 无法启动"
+  },
+  {
+    "key": "remoteDescription",
+    "en": "Your remote gateway session has expired. Sign in again to reconnect. Nothing here deletes your chats or settings.",
+    "zh": "后台网关没有启动。请尝试下面的恢复步骤；这里不会删除你的对话或设置。"
+  },
+  {
+    "key": "retry",
+    "en": "Retry",
+    "zh": "需要重新登录远程网关"
+  },
+  {
+    "key": "repairInstall",
+    "en": "Repair install",
+    "zh": "你的远程网关会话已过期。请重新登录以恢复连接。这些操作不会删除你的对话或设置。"
+  },
+  {
+    "key": "useLocalGateway",
+    "en": "Use local gateway",
+    "zh": "重试"
+  },
+  {
+    "key": "gatewaySettings",
+    "en": "Gateway settings",
+    "zh": "修复安装"
+  },
+  {
+    "key": "back",
+    "en": "Back",
+    "zh": "使用本地网关"
+  },
+  {
+    "key": "openLogs",
+    "en": "Open logs",
+    "zh": "网关设置"
+  },
+  {
+    "key": "repairHint",
+    "en": "Repair re-runs the installer and can take a few minutes on a fresh machine.",
+    "zh": "返回"
+  },
+  {
+    "key": "signOutAndSignIn",
+    "en": "Sign out & sign in",
+    "zh": "打开日志"
+  },
+  {
+    "key": "remoteFailureHint",
+    "en": "Check the gateway URL and sign-in under Gateway settings, or switch to the local gateway.",
+    "zh": "修复会重新运行安装器，在新机器上可能需要几分钟。"
+  },
+  {
+    "key": "hideRecentLogs",
+    "en": "Hide recent logs",
+    "zh": "退出并重新登录"
+  },
+  {
+    "key": "showRecentLogs",
+    "en": "Show recent logs",
+    "zh": "在“网关设置”中检查网关 URL 和登录，或切换到本地网关。"
+  },
+  {
+    "key": "signedInTitle",
+    "en": "Signed in",
+    "zh": "隐藏最近日志"
+  },
+  {
+    "key": "signedInMessage",
+    "en": "Reconnecting to the remote gateway…",
+    "zh": "显示最近日志"
+  },
+  {
+    "key": "signInIncompleteTitle",
+    "en": "Sign-in incomplete",
+    "zh": "已登录"
+  },
+  {
+    "key": "signInIncompleteMessage",
+    "en": "The login window closed before authentication finished.",
+    "zh": "正在重新连接远程网关…"
+  },
+  {
+    "key": "signInFailed",
+    "en": "Sign-in failed",
+    "zh": "登录未完成"
+  },
+  {
+    "key": "signInToRemoteGateway",
+    "en": "Sign in to remote gateway",
+    "zh": "登录窗口在认证完成前关闭。"
+  },
+  {
+    "key": "identityProvider",
+    "en": "your identity provider",
+    "zh": "登录失败"
+  },
+  {
+    "key": "region",
+    "en": "Notifications",
+    "zh": "登录远程网关"
+  },
+  {
+    "key": "hide",
+    "en": "Hide",
+    "zh": "你的身份提供方"
+  },
+  {
+    "key": "show",
+    "en": "Show",
+    "zh": "通知"
+  },
+  {
+    "key": "clearAll",
+    "en": "Clear all",
+    "zh": "隐藏"
+  },
+  {
+    "key": "dismiss",
+    "en": "Dismiss notification",
+    "zh": "显示"
+  },
+  {
+    "key": "details",
+    "en": "Details",
+    "zh": "全部清除"
+  },
+  {
+    "key": "copyDetail",
+    "en": "Copy detail",
+    "zh": "关闭通知"
+  },
+  {
+    "key": "copyDetailFailed",
+    "en": "Could not copy notification detail",
+    "zh": "详情"
+  },
+  {
+    "key": "backendOutOfDateTitle",
+    "en": "Backend out of date",
+    "zh": "复制详情"
+  },
+  {
+    "key": "backendOutOfDateMessage",
+    "en": "Your Hermes backend is older than this desktop build and may not work correctly. Update to align them.",
+    "zh": "无法复制通知详情"
+  },
+  {
+    "key": "installMethodUnsupportedTitle",
+    "en": "Unsupported install method",
+    "zh": "后端版本过旧"
+  },
+  {
+    "key": "updateHermes",
+    "en": "Update Hermes",
+    "zh": "你的 Hermes 后端早于当前桌面构建，可能无法正常工作。请更新以保持一致。"
+  },
+  {
+    "key": "updateReadyTitle",
+    "en": "Update ready",
+    "zh": "不受支持的安装方式"
+  },
+  {
+    "key": "elevenLabsNeedsKey",
+    "en": "ElevenLabs STT needs ELEVENLABS_API_KEY.",
+    "zh": "更新 Hermes"
+  },
+  {
+    "key": "elevenLabsRejectedKey",
+    "en": "ElevenLabs rejected the API key (401).",
+    "zh": "有可用更新"
+  },
+  {
+    "key": "methodNotAllowed",
+    "en": "The desktop backend rejected that request (405 Method Not Allowed). Try restarting Hermes Desktop.",
+    "zh": "查看更新内容"
+  },
+  {
+    "key": "microphonePermission",
+    "en": "Microphone permission was denied.",
+    "zh": "ElevenLabs STT 需要 ELEVENLABS_API_KEY。"
+  },
+  {
+    "key": "openaiRejectedApiKey",
+    "en": "OpenAI rejected the API key.",
+    "zh": "ElevenLabs 拒绝了该 API key (401)。"
+  },
+  {
+    "key": "openaiTtsNeedsKey",
+    "en": "OpenAI TTS needs VOICE_TOOLS_OPENAI_KEY or OPENAI_API_KEY.",
+    "zh": "桌面后端拒绝了该请求 (405 Method Not Allowed)。请尝试重启 Hermes Desktop。"
+  },
+  {
+    "key": "configureSpeechToText",
+    "en": "Configure speech-to-text to use voice mode.",
+    "zh": "麦克风权限已被拒绝。"
+  },
+  {
+    "key": "couldNotStartSession",
+    "en": "Could not start voice session",
+    "zh": "OpenAI 拒绝了该 API key。"
+  },
+  {
+    "key": "microphoneAccessDenied",
+    "en": "Microphone access denied.",
+    "zh": "OpenAI TTS 需要 VOICE_TOOLS_OPENAI_KEY 或 OPENAI_API_KEY。"
+  },
+  {
+    "key": "microphoneConstraintsUnsupported",
+    "en": "Microphone constraints are not supported by this device.",
+    "zh": "配置语音转文字后即可使用语音模式。"
+  },
+  {
+    "key": "microphoneFailed",
+    "en": "Microphone failed",
+    "zh": "无法启动语音会话"
+  },
+  {
+    "key": "microphoneInUse",
+    "en": "Microphone is already in use by another app.",
+    "zh": "麦克风访问被拒绝。"
+  },
+  {
+    "key": "microphonePermissionDenied",
+    "en": "Microphone permission was denied.",
+    "zh": "此设备不支持当前麦克风约束。"
+  },
+  {
+    "key": "microphoneStartFailed",
+    "en": "Could not start microphone recording.",
+    "zh": "麦克风出错"
+  },
+  {
+    "key": "microphoneUnsupported",
+    "en": "This runtime does not support microphone recording.",
+    "zh": "麦克风正被其他应用占用。"
+  },
+  {
+    "key": "noMicrophone",
+    "en": "No microphone was found.",
+    "zh": "麦克风权限被拒绝。"
+  },
+  {
+    "key": "noSpeechDetected",
+    "en": "No speech detected",
+    "zh": "无法开始麦克风录音。"
+  },
+  {
+    "key": "playbackFailed",
+    "en": "Voice playback failed",
+    "zh": "当前运行环境不支持麦克风录音。"
+  },
+  {
+    "key": "recordingFailed",
+    "en": "Voice recording failed",
+    "zh": "未找到麦克风。"
+  },
+  {
+    "key": "transcriptionFailed",
+    "en": "Voice transcription failed",
+    "zh": "没有检测到语音"
+  },
+  {
+    "key": "transcriptionUnavailable",
+    "en": "Voice transcription is not available yet.",
+    "zh": "语音播放失败"
+  },
+  {
+    "key": "tryRecordingAgain",
+    "en": "Try recording again.",
+    "zh": "语音录制失败"
+  },
+  {
+    "key": "unavailable",
+    "en": "Voice unavailable",
+    "zh": "语音转写失败"
+  },
+  {
+    "key": "approvalTitle",
+    "en": "Approval needed",
+    "zh": "语音转写暂不可用。"
+  },
+  {
+    "key": "approveAction",
+    "en": "Approve",
+    "zh": "请再录一次。"
+  },
+  {
+    "key": "rejectAction",
+    "en": "Reject",
+    "zh": "语音不可用"
+  },
+  {
+    "key": "inputTitle",
+    "en": "Input needed",
+    "zh": "需要批准"
+  },
+  {
+    "key": "inputBody",
+    "en": "Hermes is waiting for your response.",
+    "zh": "批准"
+  },
+  {
+    "key": "turnDoneTitle",
+    "en": "Hermes finished",
+    "zh": "拒绝"
+  },
+  {
+    "key": "turnDoneBody",
+    "en": "The response is ready.",
+    "zh": "需要输入"
+  },
+  {
+    "key": "turnErrorTitle",
+    "en": "Turn failed",
+    "zh": "Hermes 正在等待你的回应。"
+  },
+  {
+    "key": "backgroundDoneTitle",
+    "en": "Background task finished",
+    "zh": "Hermes 已完成"
+  },
+  {
+    "key": "backgroundFailedTitle",
+    "en": "Background task failed",
+    "zh": "回复已就绪。"
+  },
+  {
+    "key": "hideSidebar",
+    "en": "Hide sidebar",
+    "zh": "本轮失败"
+  },
+  {
+    "key": "showSidebar",
+    "en": "Show sidebar",
+    "zh": "后台任务已完成"
+  },
+  {
+    "key": "search",
+    "en": "Search",
+    "zh": "后台任务失败"
+  },
+  {
+    "key": "searchTitle",
+    "en": "Search sessions, views, and actions",
+    "zh": "隐藏侧边栏"
+  },
+  {
+    "key": "swapSidebarSides",
+    "en": "Swap sidebar sides",
+    "zh": "显示侧边栏"
+  },
+  {
+    "key": "swapSidebarSidesTitle",
+    "en": "Swap the sessions and file browser sides",
+    "zh": "搜索"
+  },
+  {
+    "key": "hideRightSidebar",
+    "en": "Hide right sidebar",
+    "zh": "搜索会话、视图与操作"
+  },
+  {
+    "key": "showRightSidebar",
+    "en": "Show right sidebar",
+    "zh": "交换侧边栏位置"
+  },
+  {
+    "key": "muteHaptics",
+    "en": "Mute haptics",
+    "zh": "交换会话栏和文件浏览器的位置"
+  },
+  {
+    "key": "unmuteHaptics",
+    "en": "Unmute haptics",
+    "zh": "隐藏右侧栏"
+  },
+  {
+    "key": "openSettings",
+    "en": "Open settings",
+    "zh": "显示右侧栏"
+  },
+  {
+    "key": "openStarmap",
+    "en": "Open memory graph",
+    "zh": "关闭触感反馈"
+  },
+  {
+    "key": "openKeybinds",
+    "en": "Keyboard shortcuts",
+    "zh": "开启触感反馈"
+  },
+  {
+    "key": "title",
+    "en": "Keyboard shortcuts",
+    "zh": "打开设置"
+  },
+  {
+    "key": "rebind",
+    "en": "Rebind",
+    "zh": "打开记忆图谱"
+  },
+  {
+    "key": "reset",
+    "en": "Reset to default",
+    "zh": "键盘快捷键"
+  },
+  {
+    "key": "resetAll",
+    "en": "Reset all",
+    "zh": "键盘快捷键"
+  },
+  {
+    "key": "pressKey",
+    "en": "Press a key…",
+    "zh": "重新绑定"
+  },
+  {
+    "key": "set",
+    "en": "set",
+    "zh": "恢复默认"
+  },
+  {
+    "key": "composer",
+    "en": "Composer",
+    "zh": "全部重置"
+  },
+  {
+    "key": "profiles",
+    "en": "Profiles",
+    "zh": "请按下按键…"
+  },
+  {
+    "key": "session",
+    "en": "Session",
+    "zh": "设置"
+  },
+  {
+    "key": "navigation",
+    "en": "Navigation",
+    "zh": "输入框"
+  },
+  {
+    "key": "view",
+    "en": "View",
+    "zh": "配置"
+  },
+  {
+    "key": "'keybinds.openPanel'",
+    "en": "Open keyboard shortcuts",
+    "zh": "会话"
+  },
+  {
+    "key": "'nav.commandPalette'",
+    "en": "Open command palette",
+    "zh": "导航"
+  },
+  {
+    "key": "'nav.commandCenter'",
+    "en": "Open command center",
+    "zh": "视图"
+  },
+  {
+    "key": "'nav.settings'",
+    "en": "Open settings",
+    "zh": "打开键盘快捷键"
+  },
+  {
+    "key": "'nav.profiles'",
+    "en": "Open profiles",
+    "zh": "打开命令面板"
+  },
+  {
+    "key": "'nav.skills'",
+    "en": "Open skills",
+    "zh": "打开命令中心"
+  },
+  {
+    "key": "'nav.messaging'",
+    "en": "Open messaging",
+    "zh": "打开设置"
+  },
+  {
+    "key": "'nav.artifacts'",
+    "en": "Open artifacts",
+    "zh": "打开配置"
+  },
+  {
+    "key": "'nav.cron'",
+    "en": "Open scheduled jobs",
+    "zh": "打开技能"
+  },
+  {
+    "key": "'nav.agents'",
+    "en": "Open agents",
+    "zh": "打开消息"
+  },
+  {
+    "key": "'session.new'",
+    "en": "New session",
+    "zh": "打开制品"
+  },
+  {
+    "key": "'session.newWindow'",
+    "en": "New session in window",
+    "zh": "打开定时任务"
+  },
+  {
+    "key": "'session.next'",
+    "en": "Next session",
+    "zh": "打开智能体"
+  },
+  {
+    "key": "'session.prev'",
+    "en": "Previous session",
+    "zh": "新建会话"
+  },
+  {
+    "key": "'session.slot.1'",
+    "en": "Switch to recent session 1",
+    "zh": "在新窗口中新建会话"
+  },
+  {
+    "key": "'session.slot.2'",
+    "en": "Switch to recent session 2",
+    "zh": "下一个会话"
+  },
+  {
+    "key": "'session.slot.3'",
+    "en": "Switch to recent session 3",
+    "zh": "上一个会话"
+  },
+  {
+    "key": "'session.slot.4'",
+    "en": "Switch to recent session 4",
+    "zh": "切换到最近会话 1"
+  },
+  {
+    "key": "'session.slot.5'",
+    "en": "Switch to recent session 5",
+    "zh": "切换到最近会话 2"
+  },
+  {
+    "key": "'session.slot.6'",
+    "en": "Switch to recent session 6",
+    "zh": "切换到最近会话 3"
+  },
+  {
+    "key": "'session.slot.7'",
+    "en": "Switch to recent session 7",
+    "zh": "切换到最近会话 4"
+  },
+  {
+    "key": "'session.slot.8'",
+    "en": "Switch to recent session 8",
+    "zh": "切换到最近会话 5"
+  },
+  {
+    "key": "'session.slot.9'",
+    "en": "Switch to recent session 9",
+    "zh": "切换到最近会话 6"
+  },
+  {
+    "key": "'session.focusSearch'",
+    "en": "Search sessions",
+    "zh": "切换到最近会话 7"
+  },
+  {
+    "key": "'session.togglePin'",
+    "en": "Pin / unpin current session",
+    "zh": "切换到最近会话 8"
+  },
+  {
+    "key": "'workspace.newWorktree'",
+    "en": "New worktree",
+    "zh": "切换到最近会话 9"
+  },
+  {
+    "key": "'composer.focus'",
+    "en": "Focus composer",
+    "zh": "搜索会话"
+  },
+  {
+    "key": "'composer.modelPicker'",
+    "en": "Open model picker",
+    "zh": "固定/取消固定当前会话"
+  },
+  {
+    "key": "'composer.voice'",
+    "en": "Start / stop voice conversation",
+    "zh": "新建工作树"
+  },
+  {
+    "key": "'view.toggleSidebar'",
+    "en": "Toggle sessions sidebar",
+    "zh": "聚焦输入框"
+  },
+  {
+    "key": "'view.toggleRightSidebar'",
+    "en": "Toggle file browser",
+    "zh": "打开模型选择器"
+  },
+  {
+    "key": "'view.toggleReview'",
+    "en": "Toggle review pane",
+    "zh": "开始 / 停止语音对话"
+  },
+  {
+    "key": "'view.showFiles'",
+    "en": "Show file browser",
+    "zh": "切换会话侧边栏"
+  },
+  {
+    "key": "'view.showTerminal'",
+    "en": "Toggle terminal",
+    "zh": "切换文件浏览器"
+  },
+  {
+    "key": "'view.newTerminal'",
+    "en": "New terminal",
+    "zh": "切换审查面板"
+  },
+  {
+    "key": "'view.nextTerminal'",
+    "en": "Next terminal",
+    "zh": "显示文件浏览器"
+  },
+  {
+    "key": "'view.prevTerminal'",
+    "en": "Previous terminal",
+    "zh": "显示终端"
+  },
+  {
+    "key": "'view.closeTerminal'",
+    "en": "Close terminal",
+    "zh": "将终端选区发送到输入框"
+  },
+  {
+    "key": "'view.terminalSelection'",
+    "en": "Send terminal selection to composer",
+    "zh": "关闭预览标签"
+  },
+  {
+    "key": "'view.closePreviewTab'",
+    "en": "Close preview tab",
+    "zh": "交换侧边栏位置"
+  },
+  {
+    "key": "'view.flipPanes'",
+    "en": "Swap sidebar sides",
+    "zh": "切换浅色/深色"
+  },
+  {
+    "key": "'appearance.toggleMode'",
+    "en": "Toggle light / dark",
+    "zh": "切换到默认配置"
+  },
+  {
+    "key": "'profile.default'",
+    "en": "Switch to default profile",
+    "zh": "切换到配置 1"
+  },
+  {
+    "key": "'profile.switch.1'",
+    "en": "Switch to profile 1",
+    "zh": "切换到配置 2"
+  },
+  {
+    "key": "'profile.switch.2'",
+    "en": "Switch to profile 2",
+    "zh": "切换到配置 3"
+  },
+  {
+    "key": "'profile.switch.3'",
+    "en": "Switch to profile 3",
+    "zh": "切换到配置 4"
+  },
+  {
+    "key": "'profile.switch.4'",
+    "en": "Switch to profile 4",
+    "zh": "切换到配置 5"
+  },
+  {
+    "key": "'profile.switch.5'",
+    "en": "Switch to profile 5",
+    "zh": "切换到配置 6"
+  },
+  {
+    "key": "'profile.switch.6'",
+    "en": "Switch to profile 6",
+    "zh": "切换到配置 7"
+  },
+  {
+    "key": "'profile.switch.7'",
+    "en": "Switch to profile 7",
+    "zh": "切换到配置 8"
+  },
+  {
+    "key": "'profile.switch.8'",
+    "en": "Switch to profile 8",
+    "zh": "切换到配置 9"
+  },
+  {
+    "key": "'profile.switch.9'",
+    "en": "Switch to profile 9",
+    "zh": "切换到配置 10"
+  },
+  {
+    "key": "'profile.switch.10'",
+    "en": "Switch to profile 10",
+    "zh": "切换到配置 11"
+  },
+  {
+    "key": "'profile.switch.11'",
+    "en": "Switch to profile 11",
+    "zh": "切换到配置 12"
+  },
+  {
+    "key": "'profile.switch.12'",
+    "en": "Switch to profile 12",
+    "zh": "切换到配置 13"
+  },
+  {
+    "key": "'profile.switch.13'",
+    "en": "Switch to profile 13",
+    "zh": "切换到配置 14"
+  },
+  {
+    "key": "'profile.switch.14'",
+    "en": "Switch to profile 14",
+    "zh": "切换到配置 15"
+  },
+  {
+    "key": "'profile.switch.15'",
+    "en": "Switch to profile 15",
+    "zh": "切换到配置 16"
+  },
+  {
+    "key": "'profile.switch.16'",
+    "en": "Switch to profile 16",
+    "zh": "切换到配置 17"
+  },
+  {
+    "key": "'profile.switch.17'",
+    "en": "Switch to profile 17",
+    "zh": "切换到配置 18"
+  },
+  {
+    "key": "'profile.switch.18'",
+    "en": "Switch to profile 18",
+    "zh": "下一个配置"
+  },
+  {
+    "key": "'profile.next'",
+    "en": "Next profile",
+    "zh": "上一个配置"
+  },
+  {
+    "key": "'profile.prev'",
+    "en": "Previous profile",
+    "zh": "切换全部配置视图"
+  },
+  {
+    "key": "'profile.toggleAll'",
+    "en": "Toggle all-profiles view",
+    "zh": "创建配置"
+  },
+  {
+    "key": "'profile.create'",
+    "en": "Create profile",
+    "zh": "发送消息"
+  },
+  {
+    "key": "'composer.send'",
+    "en": "Send message",
+    "zh": "插入换行"
+  },
+  {
+    "key": "'composer.newline'",
+    "en": "Insert newline",
+    "zh": "引导正在运行的回合"
+  },
+  {
+    "key": "'composer.steer'",
+    "en": "Steer the running turn",
+    "zh": "发送下一条排队消息"
+  },
+  {
+    "key": "'composer.sendQueued'",
+    "en": "Send next queued turn",
+    "zh": "引用文件、文件夹、网址"
+  },
+  {
+    "key": "'composer.mention'",
+    "en": "Reference files, folders, URLs",
+    "zh": "斜杠命令面板"
+  },
+  {
+    "key": "'composer.slash'",
+    "en": "Slash command palette",
+    "zh": "快速帮助"
+  },
+  {
+    "key": "'composer.help'",
+    "en": "Quick help",
+    "zh": "切换弹窗/历史"
+  },
+  {
+    "key": "'composer.history'",
+    "en": "Cycle popover / history",
+    "zh": "关闭弹窗·取消运行"
+  },
+  {
+    "key": "'composer.cancel'",
+    "en": "Close popover · cancel run",
+    "zh": "语言"
+  },
+  {
+    "key": "label",
+    "en": "Language",
+    "zh": "选择桌面界面的语言。"
+  },
+  {
+    "key": "description",
+    "en": "Choose the language for the desktop interface.",
+    "zh": "正在保存语言…"
+  },
+  {
+    "key": "saving",
+    "en": "Saving language…",
+    "zh": "语言更新失败"
+  },
+  {
+    "key": "saveError",
+    "en": "Language update failed",
+    "zh": "切换语言"
+  },
+  {
+    "key": "switchTo",
+    "en": "Switch language",
+    "zh": "搜索语言…"
+  },
+  {
+    "key": "searchPlaceholder",
+    "en": "Search languages…",
+    "zh": "未找到语言"
+  },
+  {
+    "key": "noResults",
+    "en": "No languages found",
+    "zh": "关闭设置"
+  },
+  {
+    "key": "closeSettings",
+    "en": "Close settings",
+    "zh": "导出配置"
+  },
+  {
+    "key": "exportConfig",
+    "en": "Export config",
+    "zh": "导入配置"
+  },
+  {
+    "key": "importConfig",
+    "en": "Import config",
+    "zh": "恢复默认"
+  },
+  {
+    "key": "resetToDefaults",
+    "en": "Reset to defaults",
+    "zh": "将所有设置恢复为 Hermes 默认值？"
+  },
+  {
+    "key": "resetConfirm",
+    "en": "Reset all settings to Hermes defaults?",
+    "zh": "导出失败"
+  },
+  {
+    "key": "exportFailed",
+    "en": "Export failed",
+    "zh": "重置失败"
+  },
+  {
+    "key": "resetFailed",
+    "en": "Reset failed",
+    "zh": "提供方"
+  },
+  {
+    "key": "providers",
+    "en": "Providers",
+    "zh": "账号"
+  },
+  {
+    "key": "providerAccounts",
+    "en": "Accounts",
+    "zh": "API 密钥"
+  },
+  {
+    "key": "providerApiKeys",
+    "en": "API keys",
+    "zh": "网关"
+  },
+  {
+    "key": "gateway",
+    "en": "Gateway",
+    "zh": "工具与密钥"
+  },
+  {
+    "key": "apiKeys",
+    "en": "Tools & Keys",
+    "zh": "工具"
+  },
+  {
+    "key": "keysTools",
+    "en": "Tools",
+    "zh": "设置"
+  },
+  {
+    "key": "keysSettings",
+    "en": "Settings",
+    "zh": "MCP"
+  },
+  {
+    "key": "mcp",
+    "en": "MCP",
+    "zh": "已归档对话"
+  },
+  {
+    "key": "archivedChats",
+    "en": "Archived Chats",
+    "zh": "关于"
+  },
+  {
+    "key": "about",
+    "en": "About",
+    "zh": "通知"
+  },
+  {
+    "key": "notifications",
+    "en": "Notifications",
+    "zh": "通知"
+  },
+  {
+    "key": "title",
+    "en": "Notifications",
+    "zh": "原生桌面通知，区别于应用内提示。设置按设备保存，每台电脑各自独立。"
+  },
+  {
+    "key": "intro",
+    "en": "Native desktop notifications, separate from in-app toasts. These are device-local — each computer keeps its own settings.",
+    "zh": "启用通知"
+  },
+  {
+    "key": "enableAll",
+    "en": "Enable notifications",
+    "zh": "总开关。关闭后将静音下方所有通知。"
+  },
+  {
+    "key": "enableAllDesc",
+    "en": "Master switch. Turn this off to silence every notification below.",
+    "zh": "完成提醒仅在 Hermes 处于后台时触发。"
+  },
+  {
+    "key": "focusedHint",
+    "en": "Completion alerts only fire while Hermes is in the background.",
+    "zh": "需要批准"
+  },
+  {
+    "key": "label",
+    "en": "Approval needed",
+    "zh": "有命令正在等待你批准或拒绝。"
+  },
+  {
+    "key": "description",
+    "en": "A command is waiting for you to approve or reject it.",
+    "zh": "需要输入"
+  },
+  {
+    "key": "label",
+    "en": "Input needed",
+    "zh": "Hermes 提出了问题，或需要密码或密钥。"
+  },
+  {
+    "key": "description",
+    "en": "Hermes asked a question or needs a password or secret.",
+    "zh": "回复就绪"
+  },
+  {
+    "key": "label",
+    "en": "Response ready",
+    "zh": "Hermes 在后台时完成了一轮对话。"
+  },
+  {
+    "key": "description",
+    "en": "A turn finished while Hermes was in the background.",
+    "zh": "本轮失败"
+  },
+  {
+    "key": "label",
+    "en": "Turn failed",
+    "zh": "本轮以错误结束。"
+  },
+  {
+    "key": "description",
+    "en": "A turn ended with an error.",
+    "zh": "后台任务完成"
+  },
+  {
+    "key": "label",
+    "en": "Background task finished",
+    "zh": "后台终端命令已完成。"
+  },
+  {
+    "key": "description",
+    "en": "A backgrounded terminal command completed.",
+    "zh": "发送测试通知"
+  },
+  {
+    "key": "test",
+    "en": "Send test notification",
+    "zh": "Hermes"
+  },
+  {
+    "key": "testTitle",
+    "en": "Hermes",
+    "zh": "通知工作正常。"
+  },
+  {
+    "key": "testBody",
+    "en": "Notifications are working.",
+    "zh": "测试已发送。如果没有出现，请检查系统通知权限和专注模式／勿扰模式。"
+  },
+  {
+    "key": "testSent",
+    "en": "Test sent. If nothing appears, check your OS notification permissions and Focus/Do Not Disturb.",
+    "zh": "此系统不支持原生通知。"
+  },
+  {
+    "key": "testUnsupported",
+    "en": "This system does not support native notifications.",
+    "zh": "完成提示音"
+  },
+  {
+    "key": "completionSoundTitle",
+    "en": "Completion Sound",
+    "zh": "智能体回合结束时播放。可在此选择预设并预览。"
+  },
+  {
+    "key": "completionSoundDesc",
+    "en": "Plays when an agent turn finishes. Pick a preset and preview it here.",
+    "zh": "预览"
+  },
+  {
+    "key": "completionSoundPreview",
+    "en": "Preview",
+    "zh": "模型"
+  },
+  {
+    "key": "model",
+    "en": "Model",
+    "zh": "对话"
+  },
+  {
+    "key": "chat",
+    "en": "Chat",
+    "zh": "外观"
+  },
+  {
+    "key": "appearance",
+    "en": "Appearance",
+    "zh": "工作区"
+  },
+  {
+    "key": "workspace",
+    "en": "Workspace",
+    "zh": "安全"
+  },
+  {
+    "key": "safety",
+    "en": "Safety",
+    "zh": "记忆与上下文"
+  },
+  {
+    "key": "memory",
+    "en": "Memory & Context",
+    "zh": "语音"
+  },
+  {
+    "key": "voice",
+    "en": "Voice",
+    "zh": "高级"
+  },
+  {
+    "key": "advanced",
+    "en": "Advanced",
+    "zh": "关于 Hermes Desktop"
+  },
+  {
+    "key": "about",
+    "en": "About Hermes Desktop",
+    "zh": "搜索设置…"
+  },
+  {
+    "key": "config",
+    "en": "Search settings...",
+    "zh": "网关连接…"
+  },
+  {
+    "key": "gateway",
+    "en": "Gateway connection...",
+    "zh": "搜索 API 密钥…"
+  },
+  {
+    "key": "keys",
+    "en": "Search API keys...",
+    "zh": "搜索 MCP 服务器…"
+  },
+  {
+    "key": "mcp",
+    "en": "Search MCP servers...",
+    "zh": "搜索已归档会话…"
+  },
+  {
+    "key": "sessions",
+    "en": "Search archived sessions...",
+    "zh": "外观"
+  },
+  {
+    "key": "title",
+    "en": "Appearance",
+    "zh": "这些是仅桌面端的显示偏好。模式控制明暗；主题控制强调色与对话界面样式。"
+  },
+  {
+    "key": "intro",
+    "en": "These are desktop-only display preferences. Mode controls brightness; theme controls the accent palette and chat surface styling.",
+    "zh": "颜色模式"
+  },
+  {
+    "key": "colorMode",
+    "en": "Color Mode",
+    "zh": "选择固定模式，或让 Hermes 跟随系统设置。"
+  },
+  {
+    "key": "colorModeDesc",
+    "en": "Pick a fixed mode or let Hermes follow your system setting.",
+    "zh": "工具调用显示"
+  },
+  {
+    "key": "toolViewTitle",
+    "en": "Tool Call Display",
+    "zh": "产品模式隐藏原始工具数据；技术模式显示完整输入/输出。"
+  },
+  {
+    "key": "toolViewDesc",
+    "en": "Product hides raw tool payloads; Technical shows full input/output.",
+    "zh": "界面缩放"
+  },
+  {
+    "key": "uiScaleTitle",
+    "en": "UI Scale",
+    "zh": "窗口透明"
+  },
+  {
+    "key": "translucencyTitle",
+    "en": "Window Translucency",
+    "zh": "让整个窗口透出桌面。仅支持 macOS 和 Windows。"
+  },
+  {
+    "key": "translucencyDesc",
+    "en": "See your desktop through the whole window. macOS and Windows only.",
+    "zh": "聊天背景"
+  },
+  {
+    "key": "backdropTitle",
+    "en": "Chat Backdrop",
+    "zh": "对话后方那张淡淡的雕像图片。"
+  },
+  {
+    "key": "backdropDesc",
+    "en": "The faint statue image behind the conversation.",
+    "zh": "内嵌预览"
+  },
+  {
+    "key": "embedsTitle",
+    "en": "Inline Embeds",
+    "zh": "富预览会从第三方网站（YouTube、X 等）加载。询问会在你允许前显示占位符；总是会自动加载；关闭则保留纯链接。"
+  },
+  {
+    "key": "embedsDesc",
+    "en": "Rich previews load from third-party sites (YouTube, X, …). Ask shows a placeholder until you allow each one; Always loads them automatically; Off keeps plain links.",
+    "zh": "询问"
+  },
+  {
+    "key": "embedsAsk",
+    "en": "Ask",
+    "zh": "总是"
+  },
+  {
+    "key": "embedsAlways",
+    "en": "Always",
+    "zh": "关闭"
+  },
+  {
+    "key": "embedsOff",
+    "en": "Off",
+    "zh": "产品"
+  },
+  {
+    "key": "product",
+    "en": "Product",
+    "zh": "易读的工具活动与简洁摘要。"
+  },
+  {
+    "key": "productDesc",
+    "en": "Human-friendly tool activity with concise summaries.",
+    "zh": "技术"
+  },
+  {
+    "key": "technical",
+    "en": "Technical",
+    "zh": "包含原始工具参数/结果及底层细节。"
+  },
+  {
+    "key": "technicalDesc",
+    "en": "Include raw tool args/results and low-level details.",
+    "zh": "主题"
+  },
+  {
+    "key": "themeTitle",
+    "en": "Theme",
+    "zh": "仅桌面端调色板。所选模式叠加其上。"
+  },
+  {
+    "key": "themeDesc",
+    "en": "Desktop palettes only. The selected mode is applied on top.",
+    "zh": "从 VS Code 安装"
+  },
+  {
+    "key": "installTitle",
+    "en": "Install from VS Code",
+    "zh": "粘贴 Marketplace 扩展 ID（例如 dracula-theme.theme-dracula），将其配色主题转换为桌面调色板。"
+  },
+  {
+    "key": "installDesc",
+    "en": "Paste a Marketplace extension id (e.g. dracula-theme.theme-dracula) to convert its color theme into a desktop palette.",
+    "zh": "publisher.extension"
+  },
+  {
+    "key": "installPlaceholder",
+    "en": "publisher.extension",
+    "zh": "安装"
+  },
+  {
+    "key": "installButton",
+    "en": "Install",
+    "zh": "安装中…"
+  },
+  {
+    "key": "installing",
+    "en": "Installing…",
+    "zh": "无法安装该主题。"
+  },
+  {
+    "key": "installError",
+    "en": "Could not install that theme.",
+    "zh": "移除主题"
+  },
+  {
+    "key": "removeTheme",
+    "en": "Remove theme",
+    "zh": "已导入"
+  },
+  {
+    "key": "importedBadge",
+    "en": "Imported",
+    "zh": "宠物"
+  },
+  {
+    "key": "title",
+    "en": "Pet",
+    "zh": "领养一只悬浮在应用上的 petdex 动画宠物，它会根据 Hermes 的状态做出反应——工具执行时奔跑、成功时欢呼、出错时沮丧。"
+  },
+  {
+    "key": "intro",
+    "en": "Adopt an animated petdex mascot that floats over the app and reacts to what Hermes is doing — running while tools execute, celebrating on success, sulking on errors.",
+    "zh": "宠物功能需要重启——当前运行的应用在此功能加入前启动。请退出并重新打开 Hermes，然后回到此处。"
+  },
+  {
+    "key": "restartHint",
+    "en": "Pets need a quick restart — the running app started before this feature was added. Quit and reopen Hermes, then come back here.",
+    "zh": "大小"
+  },
+  {
+    "key": "on",
+    "en": "On",
+    "zh": "调整悬浮宠物的大小，所有界面即时生效。"
+  },
+  {
+    "key": "off",
+    "en": "Off",
+    "zh": "漫游"
+  },
+  {
+    "key": "scaleTitle",
+    "en": "Size",
+    "zh": "空闲时让宠物自己在窗口内四处走动。"
+  },
+  {
+    "key": "scaleDesc",
+    "en": "Resize the floating mascot. Applies everywhere instantly.",
+    "zh": "开启"
+  },
+  {
+    "key": "roamTitle",
+    "en": "Roam",
+    "zh": "关闭"
+  },
+  {
+    "key": "roamDesc",
+    "en": "Let the pet wander the window on its own while idle.",
+    "zh": "选择宠物"
+  },
+  {
+    "key": "chooseTitle",
+    "en": "Choose a pet",
+    "zh": "选择后会自动安装（如需）并设为当前宠物。"
+  },
+  {
+    "key": "chooseDesc",
+    "en": "Picking one installs it (if needed) and makes it active.",
+    "zh": "搜索宠物…"
+  },
+  {
+    "key": "searchPlaceholder",
+    "en": "Search pets…",
+    "zh": "无法连接到 petdex 画廊。请检查网络连接并重新打开此页面。"
+  },
+  {
+    "key": "installedTag",
+    "en": "installed",
+    "zh": "已安装"
+  },
+  {
+    "key": "generatedTag",
+    "en": "Generated",
+    "zh": "生成"
+  },
+  {
+    "key": "deleteConfirm",
+    "en": "Delete",
+    "zh": "此操作会永久删除宠物，且无法重新安装。"
+  },
+  {
+    "key": "renameTitle",
+    "en": "Rename pet",
+    "zh": "删除"
+  },
+  {
+    "key": "renamePlaceholder",
+    "en": "Name your pet",
+    "zh": "重命名宠物"
+  },
+  {
+    "key": "renameSave",
+    "en": "Save",
+    "zh": "给宠物起个名字"
+  },
+  {
+    "key": "noneAvailable",
+    "en": "No pets available to turn on right now.",
+    "zh": "保存"
+  },
+  {
+    "key": "turnOnFailed",
+    "en": "Could not turn the pet on.",
+    "zh": "当前没有可开启的宠物。"
+  },
+  {
+    "key": "turnOffFailed",
+    "en": "Could not turn the pet off.",
+    "zh": "无法开启宠物。"
+  },
+  {
+    "key": "heading",
+    "en": "Hermes Desktop",
+    "zh": "无法关闭宠物。"
+  },
+  {
+    "key": "versionUnavailable",
+    "en": "Version unavailable",
+    "zh": "默认模型"
+  },
+  {
+    "key": "updates",
+    "en": "Updates",
+    "zh": "上下文窗口"
+  },
+  {
+    "key": "checkNow",
+    "en": "Check now",
+    "zh": "备用模型"
+  },
+  {
+    "key": "checking",
+    "en": "Checking…",
+    "zh": "启用的工具集"
+  },
+  {
+    "key": "updateNow",
+    "en": "Update now",
+    "zh": "时区"
+  },
+  {
+    "key": "releaseNotes",
+    "en": "Release notes",
+    "zh": "人格"
+  },
+  {
+    "key": "installing",
+    "en": "An update is currently installing.",
+    "zh": "推理过程块"
+  },
+  {
+    "key": "tapCheck",
+    "en": "Tap \"Check now\" to look for updates.",
+    "zh": "最大智能体步数"
+  },
+  {
+    "key": "justNowSuffix",
+    "en": " · just now",
+    "zh": "图片附件"
+  },
+  {
+    "key": "automaticUpdates",
+    "en": "Automatic updates",
+    "zh": "API 重试次数"
+  },
+  {
+    "key": "automaticUpdatesDesc",
+    "en": "Hermes checks for updates automatically in the background and lets you know when one is ready.",
+    "zh": "服务等级"
+  },
+  {
+    "key": "never",
+    "en": "never",
+    "zh": "工具调用强制"
+  },
+  {
+    "key": "justNow",
+    "en": "just now",
+    "zh": "工作目录"
+  },
+  {
+    "key": "none",
+    "en": "None",
+    "zh": "执行后端"
+  },
+  {
+    "key": "noneParen",
+    "en": "(none)",
+    "zh": "命令超时"
+  },
+  {
+    "key": "notSet",
+    "en": "Not set",
+    "zh": "持久化 Shell"
+  },
+  {
+    "key": "commaSeparated",
+    "en": "comma-separated values",
+    "zh": "环境变量透传"
+  },
+  {
+    "key": "loading",
+    "en": "Loading Hermes configuration...",
+    "zh": "Docker 镜像"
+  },
+  {
+    "key": "emptyTitle",
+    "en": "Nothing to configure",
+    "zh": "Singularity 镜像"
+  },
+  {
+    "key": "emptyDesc",
+    "en": "This section has no adjustable settings.",
+    "zh": "Modal 镜像"
+  },
+  {
+    "key": "failedLoad",
+    "en": "Settings failed to load",
+    "zh": "Daytona 镜像"
+  },
+  {
+    "key": "autosaveFailed",
+    "en": "Autosave failed",
+    "zh": "文件读取上限"
+  },
+  {
+    "key": "imported",
+    "en": "Config imported",
+    "zh": "终端输出上限"
+  },
+  {
+    "key": "invalidJson",
+    "en": "Invalid config JSON",
+    "zh": "文件分页上限"
+  },
+  {
+    "key": "pasteKey",
+    "en": "Paste key",
+    "zh": "行长度上限"
+  },
+  {
+    "key": "optional",
+    "en": "Optional",
+    "zh": "代码执行模式"
+  },
+  {
+    "key": "enterValueFirst",
+    "en": "Enter a value first.",
+    "zh": "审批模式"
+  },
+  {
+    "key": "couldNotSave",
+    "en": "Could not save credential.",
+    "zh": "审批超时"
+  },
+  {
+    "key": "remove",
+    "en": "Remove",
+    "zh": "确认 MCP 重载"
+  },
+  {
+    "key": "getKey",
+    "en": "Get a key",
+    "zh": "命令白名单"
+  },
+  {
+    "key": "saving",
+    "en": "Saving",
+    "zh": "隐去密钥"
+  },
+  {
+    "key": "credentialActions",
+    "en": "Credential actions",
+    "zh": "允许私有 URL"
+  },
+  {
+    "key": "docs",
+    "en": "Docs",
+    "zh": "浏览器私有 URL"
+  },
+  {
+    "key": "hideValue",
+    "en": "Hide value",
+    "zh": "私有 URL 使用本地浏览器"
+  },
+  {
+    "key": "revealValue",
+    "en": "Reveal value",
+    "zh": "文件检查点"
+  },
+  {
+    "key": "replace",
+    "en": "Replace",
+    "zh": "检查点上限"
+  },
+  {
+    "key": "set",
+    "en": "Set",
+    "zh": "语音快捷键"
+  },
+  {
+    "key": "clear",
+    "en": "Clear",
+    "zh": "最长录音时长"
+  },
+  {
+    "key": "loading",
+    "en": "Loading gateway settings...",
+    "zh": "朗读回复"
+  },
+  {
+    "key": "unavailableTitle",
+    "en": "Gateway settings unavailable",
+    "zh": "语音转文字"
+  },
+  {
+    "key": "unavailableDesc",
+    "en": "The desktop IPC bridge does not expose gateway settings.",
+    "zh": "语音转文字提供方"
+  },
+  {
+    "key": "title",
+    "en": "Gateway Connection",
+    "zh": "本地转写模型"
+  },
+  {
+    "key": "envOverride",
+    "en": "env override",
+    "zh": "转写语言"
+  },
+  {
+    "key": "intro",
+    "en": "Hermes Desktop starts its own local gateway by default. Use a remote gateway when you want this app to control an already-running Hermes backend on another machine or behind a trusted proxy. Pick a profile below to give it its own remote host.",
+    "zh": "OpenAI STT 模型"
+  },
+  {
+    "key": "appliesTo",
+    "en": "Applies to",
+    "zh": "Groq STT 模型"
+  },
+  {
+    "key": "allProfiles",
+    "en": "All profiles",
+    "zh": "Mistral STT 模型"
+  },
+  {
+    "key": "defaultConnection",
+    "en": "Default connection for every profile that has no override of its own.",
+    "zh": "ElevenLabs STT 模型"
+  },
+  {
+    "key": "envOverrideTitle",
+    "en": "Environment variables are controlling this desktop session.",
+    "zh": "ElevenLabs 语言"
+  },
+  {
+    "key": "envOverrideDesc",
+    "en": "Unset HERMES_DESKTOP_REMOTE_URL and HERMES_DESKTOP_REMOTE_TOKEN to use the saved setting below.",
+    "zh": "标记音频事件"
+  },
+  {
+    "key": "modeTitle",
+    "en": "Connection mode",
+    "zh": "说话人区分"
+  },
+  {
+    "key": "localTitle",
+    "en": "Local gateway",
+    "zh": "文字转语音提供方"
+  },
+  {
+    "key": "localDesc",
+    "en": "Start a private Hermes backend on localhost. This is the default and works offline.",
+    "zh": "Edge 语音"
+  },
+  {
+    "key": "remoteTitle",
+    "en": "Remote gateway",
+    "zh": "OpenAI TTS 模型"
+  },
+  {
+    "key": "remoteDesc",
+    "en": "Connect this desktop shell to a remote Hermes backend.",
+    "zh": "OpenAI 语音"
+  },
+  {
+    "key": "remoteAuthHint",
+    "en": "Hosted gateways use OAuth or a username and password; self-hosted ones may use a session token.",
+    "zh": "ElevenLabs 语音"
+  },
+  {
+    "key": "cloudTitle",
+    "en": "Hermes Cloud",
+    "zh": "ElevenLabs 模型"
+  },
+  {
+    "key": "cloudDesc",
+    "en": "Sign in once to Hermes Cloud and pick from the agents on your account — no URL to paste.",
+    "zh": "xAI (Grok) 语音"
+  },
+  {
+    "key": "cloudSignInTitle",
+    "en": "Hermes Cloud",
+    "zh": "xAI 语言"
+  },
+  {
+    "key": "cloudSignIn",
+    "en": "Sign in to Hermes Cloud",
+    "zh": "MiniMax TTS 模型"
+  },
+  {
+    "key": "cloudSignedIn",
+    "en": "Signed in to Hermes Cloud",
+    "zh": "MiniMax 语音"
+  },
+  {
+    "key": "cloudNeedsSignIn",
+    "en": "Sign in to Hermes Cloud to discover the agents on your account.",
+    "zh": "Mistral TTS 模型"
+  },
+  {
+    "key": "cloudSignedInDesc",
+    "en": "You are signed in. Pick an agent below; the session refreshes automatically.",
+    "zh": "Mistral 语音"
+  },
+  {
+    "key": "cloudAgentsTitle",
+    "en": "Your agents",
+    "zh": "Gemini TTS 模型"
+  },
+  {
+    "key": "cloudOrgPickerTitle",
+    "en": "Choose an organization",
+    "zh": "Gemini 语音"
+  },
+  {
+    "key": "cloudOrgSelect",
+    "en": "Select",
+    "zh": "NeuTTS 模型"
+  },
+  {
+    "key": "cloudOrgChange",
+    "en": "Change org",
+    "zh": "NeuTTS 设备"
+  },
+  {
+    "key": "cloudLoadingAgents",
+    "en": "Loading your agents…",
+    "zh": "KittenTTS 模型"
+  },
+  {
+    "key": "before",
+    "en": "No agents found on this account. Create one in the ",
+    "zh": "KittenTTS 语音"
+  },
+  {
+    "key": "linkText",
+    "en": "Nous portal",
+    "zh": "Piper 语音"
+  },
+  {
+    "key": "after",
+    "en": ", then refresh.",
+    "zh": "持久记忆"
+  },
+  {
+    "key": "cloudRefresh",
+    "en": "Refresh",
+    "zh": "用户画像"
+  },
+  {
+    "key": "cloudConnect",
+    "en": "Connect",
+    "zh": "记忆预算"
+  },
+  {
+    "key": "cloudConnecting",
+    "en": "Connecting…",
+    "zh": "画像预算"
+  },
+  {
+    "key": "cloudDiscoverFailed",
+    "en": "Could not load your Hermes Cloud agents",
+    "zh": "记忆提供方"
+  },
+  {
+    "key": "cloudConnectFailed",
+    "en": "Could not connect to that agent",
+    "zh": "上下文引擎"
+  },
+  {
+    "key": "cloudSignInFailed",
+    "en": "Hermes Cloud sign-in failed",
+    "zh": "自动压缩"
+  },
+  {
+    "key": "cloudSignedOutTitle",
+    "en": "Signed out of Hermes Cloud",
+    "zh": "压缩阈值"
+  },
+  {
+    "key": "cloudSignedOutMessage",
+    "en": "Cleared the Hermes Cloud session.",
+    "zh": "压缩目标"
+  },
+  {
+    "key": "cloudConnectedTitle",
+    "en": "Connected",
+    "zh": "保护最近消息"
+  },
+  {
+    "key": "cloudConnectedPill",
+    "en": "Connected",
+    "zh": "子智能体模型"
+  },
+  {
+    "key": "cloudAgentProvisioning",
+    "en": "Provisioning…",
+    "zh": "子智能体提供方"
+  },
+  {
+    "key": "remoteUrlTitle",
+    "en": "Remote URL",
+    "zh": "子智能体轮次上限"
+  },
+  {
+    "key": "remoteUrlDesc",
+    "en": "Base URL for the remote dashboard backend. Path prefixes are supported, for example /hermes.",
+    "zh": "并行子智能体"
+  },
+  {
+    "key": "probing",
+    "en": "Checking how this gateway authenticates…",
+    "zh": "子智能体超时"
+  },
+  {
+    "key": "probeError",
+    "en": "Could not reach this gateway yet. Check the URL — the auth method will appear once it responds.",
+    "zh": "子智能体推理强度"
+  },
+  {
+    "key": "signedIn",
+    "en": "Signed in",
+    "zh": "应用内更新本地更改"
+  },
+  {
+    "key": "signIn",
+    "en": "Sign in",
+    "zh": "用于新对话，除非你在输入框中选择其他模型。"
+  },
+  {
+    "key": "signOut",
+    "en": "Sign out",
+    "zh": "保持为 0 则使用所选模型检测到的上下文窗口。"
+  },
+  {
+    "key": "authTitle",
+    "en": "Authentication",
+    "zh": "默认模型失败时尝试的备用 provider:model 条目。"
+  },
+  {
+    "key": "authSignedInPassword",
+    "en": "This gateway uses a username and password. You are signed in; the session refreshes automatically.",
+    "zh": "新会话的默认助手风格。"
+  },
+  {
+    "key": "authSignedInOauth",
+    "en": "This gateway uses OAuth. You are signed in; the session refreshes automatically.",
+    "zh": "当后端提供推理内容时予以显示。"
+  },
+  {
+    "key": "authNeedsPassword",
+    "en": "This gateway uses a username and password. Sign in to authorize this desktop app.",
+    "zh": "当 Hermes 需要本地时间上下文时使用。留空则使用系统时区。"
+  },
+  {
+    "key": "tokenTitle",
+    "en": "Session token",
+    "zh": "控制图片附件如何发送给模型。"
+  },
+  {
+    "key": "tokenDesc",
+    "en": "The dashboard session token used for REST and WebSocket access. Leave blank to keep the saved token.",
+    "zh": "Hermes 停止一次运行前工具调用轮次的上限。"
+  },
+  {
+    "key": "savedToken",
+    "en": "saved",
+    "zh": "工具与终端操作的默认项目目录。"
+  },
+  {
+    "key": "pasteSessionToken",
+    "en": "Paste session token",
+    "zh": "当后端支持时，在命令之间保留 Shell 状态。"
+  },
+  {
+    "key": "testRemote",
+    "en": "Test remote",
+    "zh": "传入工具执行的环境变量。"
+  },
+  {
+    "key": "saveForRestart",
+    "en": "Save for next restart",
+    "zh": "代码执行被限定到当前项目的严格程度。"
+  },
+  {
+    "key": "saveAndReconnect",
+    "en": "Save and reconnect",
+    "zh": "Hermes 单次文件读取可读取的最大字符数。"
+  },
+  {
+    "key": "diagnostics",
+    "en": "Diagnostics",
+    "zh": "Hermes 如何处理需要显式审批的命令。"
+  },
+  {
+    "key": "diagnosticsDesc",
+    "en": "Reveal desktop.log in your file manager — useful when the gateway fails to start.",
+    "zh": "审批提示在超时前等待的时长。"
+  },
+  {
+    "key": "openLogs",
+    "en": "Open logs",
+    "zh": "尽可能从模型可见内容中隐藏检测到的密钥。"
+  },
+  {
+    "key": "incompleteTitle",
+    "en": "Remote gateway incomplete",
+    "zh": "在文件编辑前创建可回滚的快照。"
+  },
+  {
+    "key": "incompleteSignIn",
+    "en": "Enter a remote URL and sign in before switching to remote.",
+    "zh": "保存有助于未来会话的持久记忆。"
+  },
+  {
+    "key": "incompleteToken",
+    "en": "Enter a remote URL and session token before switching to remote.",
+    "zh": "维护一份精简的用户偏好画像。"
+  },
+  {
+    "key": "incompleteSignInTest",
+    "en": "Enter a remote URL and sign in before testing.",
+    "zh": "在接近上下文上限时管理长对话的策略。"
+  },
+  {
+    "key": "incompleteTokenTest",
+    "en": "Enter a remote URL and session token before testing.",
+    "zh": "当对话变大时对较早的上下文进行摘要。"
+  },
+  {
+    "key": "enterUrlFirst",
+    "en": "Enter a remote URL first.",
+    "zh": "自动朗读助手回复。"
+  },
+  {
+    "key": "restartingTitle",
+    "en": "Gateway connection restarting",
+    "zh": "启用本地或提供方支持的语音转写。"
+  },
+  {
+    "key": "savedTitle",
+    "en": "Gateway settings saved",
+    "zh": "可选的 ISO-639-3 语言代码。留空让 ElevenLabs 自动检测。"
+  },
+  {
+    "key": "restartingMessage",
+    "en": "Hermes Desktop will reconnect using the saved settings — the shell stays open.",
+    "zh": "Hermes 从应用内更新时（无终端提示），保留本地源码修改（暂存）或丢弃（放弃）。通过终端更新时始终会询问。"
+  },
+  {
+    "key": "savedMessage",
+    "en": "Saved for the next restart.",
+    "zh": "Hermes Desktop"
+  },
+  {
+    "key": "reachableTitle",
+    "en": "Remote gateway reachable",
+    "zh": "版本不可用"
+  },
+  {
+    "key": "signedOutTitle",
+    "en": "Signed out",
+    "zh": "更新"
+  },
+  {
+    "key": "signedOutMessage",
+    "en": "Cleared the remote gateway session.",
+    "zh": "立即检查"
+  },
+  {
+    "key": "failedLoad",
+    "en": "Gateway settings failed to load",
+    "zh": "检查中…"
+  },
+  {
+    "key": "signInFailed",
+    "en": "Sign-in failed",
+    "zh": "查看新增内容"
+  },
+  {
+    "key": "signOutFailed",
+    "en": "Sign-out failed",
+    "zh": "立即更新"
+  },
+  {
+    "key": "testFailed",
+    "en": "Remote gateway test failed",
+    "zh": "发行说明"
+  },
+  {
+    "key": "applyFailed",
+    "en": "Could not apply gateway settings",
+    "zh": "你已是最新版本。"
+  },
+  {
+    "key": "saveFailed",
+    "en": "Could not save gateway settings",
+    "zh": "正在安装更新。"
+  },
+  {
+    "key": "loading",
+    "en": "Loading API keys and credentials...",
+    "zh": "此版本无法在应用内自我更新。"
+  },
+  {
+    "key": "failedLoad",
+    "en": "API keys failed to load",
+    "zh": "无法连接更新服务器。"
+  },
+  {
+    "key": "empty",
+    "en": "Nothing configured in this category yet.",
+    "zh": "点击\"立即检查\"以查找更新。"
+  },
+  {
+    "key": "loading",
+    "en": "Loading MCP servers...",
+    "zh": " · 刚刚"
+  },
+  {
+    "key": "failedLoad",
+    "en": "MCP config failed to load",
+    "zh": "自动更新"
+  },
+  {
+    "key": "nameRequiredTitle",
+    "en": "Name required",
+    "zh": "Hermes 会在后台自动检查更新，并在有可用更新时通知你。"
+  },
+  {
+    "key": "nameRequiredMessage",
+    "en": "Give this MCP server a config key.",
+    "zh": "从未"
+  },
+  {
+    "key": "objectRequired",
+    "en": "Server config must be a JSON object",
+    "zh": "刚刚"
+  },
+  {
+    "key": "invalidJson",
+    "en": "Invalid MCP JSON",
+    "zh": "无"
+  },
+  {
+    "key": "saveFailed",
+    "en": "Save failed",
+    "zh": "(无)"
+  },
+  {
+    "key": "removeFailed",
+    "en": "Remove failed",
+    "zh": "未设置"
+  },
+  {
+    "key": "gatewayUnavailableTitle",
+    "en": "Gateway unavailable",
+    "zh": "逗号分隔的值"
+  },
+  {
+    "key": "gatewayUnavailableMessage",
+    "en": "Reconnect the gateway before reloading MCP.",
+    "zh": "正在加载 Hermes 配置..."
+  },
+  {
+    "key": "reloadedTitle",
+    "en": "MCP tools reloaded",
+    "zh": "无可配置项"
+  },
+  {
+    "key": "reloadedMessage",
+    "en": "New tool schemas apply to fresh turns.",
+    "zh": "此分区没有可调整的设置。"
+  },
+  {
+    "key": "reloadFailed",
+    "en": "MCP reload failed",
+    "zh": "设置加载失败"
+  },
+  {
+    "key": "savedTitle",
+    "en": "MCP server saved",
+    "zh": "自动保存失败"
+  },
+  {
+    "key": "newServer",
+    "en": "New server",
+    "zh": "配置已导入"
+  },
+  {
+    "key": "reload",
+    "en": "Reload MCP",
+    "zh": "配置 JSON 无效"
+  },
+  {
+    "key": "reloading",
+    "en": "Reloading...",
+    "zh": "粘贴密钥"
+  },
+  {
+    "key": "emptyTitle",
+    "en": "No MCP servers",
+    "zh": "可选"
+  },
+  {
+    "key": "emptyDesc",
+    "en": "Add a stdio or HTTP server to expose MCP tools.",
+    "zh": "请先输入一个值。"
+  },
+  {
+    "key": "disabled",
+    "en": "disabled",
+    "zh": "无法保存凭据。"
+  },
+  {
+    "key": "editServer",
+    "en": "Edit server",
+    "zh": "移除"
+  },
+  {
+    "key": "name",
+    "en": "Name",
+    "zh": "获取密钥"
+  },
+  {
+    "key": "serverJson",
+    "en": "Server JSON",
+    "zh": "保存中"
+  },
+  {
+    "key": "remove",
+    "en": "Remove",
+    "zh": "凭据操作"
+  },
+  {
+    "key": "saveServer",
+    "en": "Save server",
+    "zh": "文档"
+  },
+  {
+    "key": "test",
+    "en": "Test connection",
+    "zh": "隐藏值"
+  },
+  {
+    "key": "testing",
+    "en": "Testing...",
+    "zh": "显示值"
+  },
+  {
+    "key": "testFailed",
+    "en": "Connection failed",
+    "zh": "替换"
+  },
+  {
+    "key": "tabServers",
+    "en": "Servers",
+    "zh": "设置"
+  },
+  {
+    "key": "tabCatalog",
+    "en": "Catalog",
+    "zh": "清除"
+  },
+  {
+    "key": "catalogLoading",
+    "en": "Loading MCP catalog...",
+    "zh": "正在加载网关设置..."
+  },
+  {
+    "key": "catalogLoadFailed",
+    "en": "MCP catalog failed to load",
+    "zh": "网关设置不可用"
+  },
+  {
+    "key": "catalogEmpty",
+    "en": "No catalog entries available.",
+    "zh": "桌面 IPC 桥未暴露网关设置。"
+  },
+  {
+    "key": "catalogInstalled",
+    "en": "Installed",
+    "zh": "网关连接"
+  },
+  {
+    "key": "catalogEnabled",
+    "en": "Enabled",
+    "zh": "环境变量覆盖"
+  },
+  {
+    "key": "catalogNeedsInstall",
+    "en": "Needs build",
+    "zh": "Hermes Desktop 默认会启动自己的本地网关。当你希望此应用控制另一台机器上或可信代理后的现有 Hermes 后端时，可以使用远程网关。下面可按 profile 指定各自的远程主机。"
+  },
+  {
+    "key": "catalogInstall",
+    "en": "Install",
+    "zh": "应用于"
+  },
+  {
+    "key": "catalogInstalling",
+    "en": "Installing...",
+    "zh": "所有 profile"
+  },
+  {
+    "key": "catalogEnvRequired",
+    "en": "Fill in the required values before installing.",
+    "zh": "默认连接会用于所有没有自定义覆盖的 profile。"
+  },
+  {
+    "key": "statusConnecting",
+    "en": "Connecting…",
+    "zh": "环境变量正在控制此桌面会话。"
+  },
+  {
+    "key": "statusNeedsAuth",
+    "en": "Needs authentication",
+    "zh": "取消设置 HERMES_DESKTOP_REMOTE_URL 和 HERMES_DESKTOP_REMOTE_TOKEN 后才会使用下面保存的设置。"
+  },
+  {
+    "key": "statusError",
+    "en": "Error",
+    "zh": "连接模式"
+  },
+  {
+    "key": "statusOff",
+    "en": "Off",
+    "zh": "本地网关"
+  },
+  {
+    "key": "allServers",
+    "en": "All servers",
+    "zh": "在 localhost 启动私有 Hermes 后端。这是默认方式，并且可离线工作。"
+  },
+  {
+    "key": "authenticatedTitle",
+    "en": "Authenticated",
+    "zh": "远程网关"
+  },
+  {
+    "key": "waitingForBrowser",
+    "en": "Waiting for browser…",
+    "zh": "将此桌面外壳连接到远程 Hermes 后端。"
+  },
+  {
+    "key": "authenticate",
+    "en": "Authenticate",
+    "zh": "托管网关使用 OAuth 或用户名密码；自托管网关也可能使用会话 token。"
+  },
+  {
+    "key": "unsavedConnect",
+    "en": "Unsaved — save mcp.json to connect.",
+    "zh": "Hermes Cloud"
+  },
+  {
+    "key": "noOutput",
+    "en": "No output yet.",
+    "zh": "只需登录 Hermes Cloud 一次，即可从你账户下的智能体中选择——无需粘贴 URL。"
+  },
+  {
+    "key": "loading",
+    "en": "Loading model configuration...",
+    "zh": "Hermes Cloud"
+  },
+  {
+    "key": "appliesDesc",
+    "en": "Applies to new sessions. Use the model picker in the composer to hot-swap the active chat.",
+    "zh": "登录 Hermes Cloud"
+  },
+  {
+    "key": "provider",
+    "en": "Provider",
+    "zh": "已登录 Hermes Cloud"
+  },
+  {
+    "key": "model",
+    "en": "Model",
+    "zh": "登录 Hermes Cloud 以发现你账户下的智能体。"
+  },
+  {
+    "key": "applying",
+    "en": "Applying...",
+    "zh": "你已登录。在下方选择一个智能体；会话会自动刷新。"
+  },
+  {
+    "key": "defaultsLabel",
+    "en": "Defaults",
+    "zh": "你的智能体"
+  },
+  {
+    "key": "reasoning",
+    "en": "Reasoning",
+    "zh": "选择一个组织"
+  },
+  {
+    "key": "reasoningOff",
+    "en": "Off",
+    "zh": "选择"
+  },
+  {
+    "key": "defaultsFailed",
+    "en": "Failed to save model defaults",
+    "zh": "切换组织"
+  },
+  {
+    "key": "auxiliaryTitle",
+    "en": "Auxiliary models",
+    "zh": "正在加载你的智能体…"
+  },
+  {
+    "key": "resetAllToMain",
+    "en": "Reset all to main",
+    "zh": "此账户下未找到智能体。请在"
+  },
+  {
+    "key": "auxiliaryDesc",
+    "en": "Helper tasks run on the main model by default. Assign a dedicated model to any task to override.",
+    "zh": "Nous 门户"
+  },
+  {
+    "key": "setToMain",
+    "en": "Set to main",
+    "zh": "中创建一个，然后刷新。"
+  },
+  {
+    "key": "change",
+    "en": "Change",
+    "zh": "刷新"
+  },
+  {
+    "key": "autoUseMain",
+    "en": "auto · use main model",
+    "zh": "连接"
+  },
+  {
+    "key": "providerDefault",
+    "en": "(provider default)",
+    "zh": "正在连接…"
+  },
+  {
+    "key": "fallbackAdd",
+    "en": "Add fallback",
+    "zh": "无法加载你的 Hermes Cloud 智能体"
+  },
+  {
+    "key": "fallbackEmpty",
+    "en": "No fallback models — the default model is used unless it fails.",
+    "zh": "无法连接到该智能体"
+  },
+  {
+    "key": "connectAccount",
+    "en": "Connect an account",
+    "zh": "Hermes Cloud 登录失败"
+  },
+  {
+    "key": "haveApiKey",
+    "en": "Have an API key instead?",
+    "zh": "已退出 Hermes Cloud"
+  },
+  {
+    "key": "intro",
+    "en": "Sign in with a subscription — no API key to copy. Hermes runs the browser sign-in for you, right here in the app.",
+    "zh": "已清除 Hermes Cloud 会话。"
+  },
+  {
+    "key": "connected",
+    "en": "Connected",
+    "zh": "已连接"
+  },
+  {
+    "key": "collapse",
+    "en": "Collapse",
+    "zh": "已连接"
+  },
+  {
+    "key": "connectAnother",
+    "en": "Connect another provider",
+    "zh": "正在配置…"
+  },
+  {
+    "key": "otherProviders",
+    "en": "Other providers",
+    "zh": "远程 URL"
+  },
+  {
+    "key": "disconnect",
+    "en": "Disconnect",
+    "zh": "远程 dashboard 后端的基础 URL。支持路径前缀，例如 /hermes。"
+  },
+  {
+    "key": "disconnectInTerminal",
+    "en": "Disconnect (runs the removal command in the terminal)",
+    "zh": "正在检查此网关的认证方式…"
+  },
+  {
+    "key": "removedTitle",
+    "en": "Account removed",
+    "zh": "暂时无法访问此网关。请检查 URL；网关响应后会显示认证方式。"
+  },
+  {
+    "key": "noProviderKeys",
+    "en": "No provider API keys available.",
+    "zh": "已登录"
+  },
+  {
+    "key": "searchKeys",
+    "en": "Search providers…",
+    "zh": "登录"
+  },
+  {
+    "key": "noKeysMatch",
+    "en": "No providers match your search.",
+    "zh": "退出登录"
+  },
+  {
+    "key": "loading",
+    "en": "Loading providers...",
+    "zh": "认证"
+  },
+  {
+    "key": "loading",
+    "en": "Loading archived sessions…",
+    "zh": "此网关使用用户名和密码。你已登录，会话会自动刷新。"
+  },
+  {
+    "key": "archivedTitle",
+    "en": "Archived sessions",
+    "zh": "此网关使用 OAuth。你已登录，会话会自动刷新。"
+  },
+  {
+    "key": "archivedIntro",
+    "en": "Archived chats are hidden from the sidebar but keep all their messages. Ctrl/⌘-click a chat in the sidebar to archive it.",
+    "zh": "此网关使用用户名和密码。请登录以授权此桌面应用。"
+  },
+  {
+    "key": "emptyArchivedTitle",
+    "en": "Nothing archived",
+    "zh": "会话 token"
+  },
+  {
+    "key": "emptyArchivedDesc",
+    "en": "Archive a chat to hide it here.",
+    "zh": "用于 REST 和 WebSocket 访问的 dashboard 会话 token。留空则保留已保存的 token。"
+  },
+  {
+    "key": "unarchive",
+    "en": "Unarchive",
+    "zh": "已保存"
+  },
+  {
+    "key": "deletePermanently",
+    "en": "Delete permanently",
+    "zh": "粘贴会话 token"
+  },
+  {
+    "key": "restored",
+    "en": "Restored",
+    "zh": "测试远程"
+  },
+  {
+    "key": "defaultDirTitle",
+    "en": "Default project directory",
+    "zh": "保存到下次重启"
+  },
+  {
+    "key": "defaultDirDesc",
+    "en": "New sessions start in this folder unless you pick another. Leave it unset to use your home directory.",
+    "zh": "保存并重连"
+  },
+  {
+    "key": "defaultDirUpdated",
+    "en": "Default project directory updated — start a new chat (Ctrl/⌘+N) for it to take effect",
+    "zh": "诊断"
+  },
+  {
+    "key": "change",
+    "en": "Change",
+    "zh": "在文件管理器中显示 desktop.log，网关启动失败时很有用。"
+  },
+  {
+    "key": "choose",
+    "en": "Choose",
+    "zh": "打开日志"
+  },
+  {
+    "key": "clear",
+    "en": "Clear",
+    "zh": "远程网关配置不完整"
+  },
+  {
+    "key": "notSet",
+    "en": "Not set",
+    "zh": "切换到远程前，请输入远程 URL 并完成登录。"
+  },
+  {
+    "key": "failedLoad",
+    "en": "Could not load archived sessions",
+    "zh": "切换到远程前，请输入远程 URL 和会话 token。"
+  },
+  {
+    "key": "unarchiveFailed",
+    "en": "Unarchive failed",
+    "zh": "测试前，请输入远程 URL 并完成登录。"
+  },
+  {
+    "key": "deleteFailed",
+    "en": "Delete failed",
+    "zh": "测试前，请输入远程 URL 和会话 token。"
+  },
+  {
+    "key": "updateDirFailed",
+    "en": "Could not update default directory",
+    "zh": "请先输入远程 URL。"
+  },
+  {
+    "key": "clearDirFailed",
+    "en": "Could not clear default directory",
+    "zh": "网关连接正在重启"
+  },
+  {
+    "key": "loadingConfig",
+    "en": "Loading configuration",
+    "zh": "网关设置已保存"
+  },
+  {
+    "key": "savedTitle",
+    "en": "Credential saved",
+    "zh": "Hermes Desktop 将使用已保存设置重新连接（界面保持打开）。"
+  },
+  {
+    "key": "removedTitle",
+    "en": "Credential removed",
+    "zh": "已保存，下一次重启生效。"
+  },
+  {
+    "key": "set",
+    "en": "Set",
+    "zh": "远程网关可访问"
+  },
+  {
+    "key": "notSet",
+    "en": "Not set",
+    "zh": "已退出登录"
+  },
+  {
+    "key": "selectedTitle",
+    "en": "Provider selected",
+    "zh": "已清除远程网关会话。"
+  },
+  {
+    "key": "failedLoad",
+    "en": "Tool configuration failed to load",
+    "zh": "网关设置加载失败"
+  },
+  {
+    "key": "noProviderOptions",
+    "en": "This toolset has no provider options — enable it and it works with your current setup.",
+    "zh": "登录失败"
+  },
+  {
+    "key": "noProviders",
+    "en": "No providers are available for this toolset right now.",
+    "zh": "退出登录失败"
+  },
+  {
+    "key": "ready",
+    "en": "Ready",
+    "zh": "远程网关测试失败"
+  },
+  {
+    "key": "nousIncluded",
+    "en": "Included with a Nous subscription — sign in to Nous Portal to activate.",
+    "zh": "无法应用网关设置"
+  },
+  {
+    "key": "noApiKeyRequired",
+    "en": "No API key required.",
+    "zh": "无法保存网关设置"
+  },
+  {
+    "key": "postSetupRun",
+    "en": "Run setup",
+    "zh": "正在加载 API 密钥和凭据..."
+  },
+  {
+    "key": "postSetupRunning",
+    "en": "Installing…",
+    "zh": "API 密钥加载失败"
+  },
+  {
+    "key": "postSetupStarting",
+    "en": "Starting…",
+    "zh": "此类别暂时没有配置项。"
+  },
+  {
+    "key": "postSetupCompleteTitle",
+    "en": "Setup complete",
+    "zh": "正在加载 MCP 服务器..."
+  },
+  {
+    "key": "postSetupErrorTitle",
+    "en": "Setup finished with errors",
+    "zh": "MCP 配置加载失败"
+  },
+  {
+    "key": "loadingModels",
+    "en": "Loading model catalog...",
+    "zh": "需要名称"
+  },
+  {
+    "key": "modelSectionTitle",
+    "en": "Model",
+    "zh": "请为此 MCP 服务器提供配置键。"
+  },
+  {
+    "key": "modelInUse",
+    "en": "In use",
+    "zh": "服务器配置必须是 JSON 对象"
+  },
+  {
+    "key": "modelDefault",
+    "en": "default",
+    "zh": "MCP JSON 无效"
+  },
+  {
+    "key": "modelInactiveHint",
+    "en": "Select this backend first to change its model.",
+    "zh": "保存失败"
+  },
+  {
+    "key": "modelSelectedTitle",
+    "en": "Model selected",
+    "zh": "移除失败"
+  },
+  {
+    "key": "tabSkills",
+    "en": "Skills",
+    "zh": "网关不可用"
+  },
+  {
+    "key": "tabToolsets",
+    "en": "Tools",
+    "zh": "重新加载 MCP 前请先重连网关。"
+  },
+  {
+    "key": "tabMcp",
+    "en": "MCP",
+    "zh": "MCP 工具已重新加载"
+  },
+  {
+    "key": "tabHub",
+    "en": "Browse Hub",
+    "zh": "新的工具 schema 将应用到后续回合。"
+  },
+  {
+    "key": "all",
+    "en": "All",
+    "zh": "MCP 重新加载失败"
+  },
+  {
+    "key": "searchSkills",
+    "en": "Search skills...",
+    "zh": "MCP 服务器已保存"
+  },
+  {
+    "key": "searchToolsets",
+    "en": "Search tools...",
+    "zh": "新服务器"
+  },
+  {
+    "key": "refresh",
+    "en": "Refresh skills",
+    "zh": "重新加载 MCP"
+  },
+  {
+    "key": "refreshing",
+    "en": "Refreshing skills",
+    "zh": "重新加载中..."
+  },
+  {
+    "key": "loading",
+    "en": "Loading capabilities...",
+    "zh": "没有 MCP 服务器"
+  },
+  {
+    "key": "noSkillsTitle",
+    "en": "No skills found",
+    "zh": "添加 stdio 或 HTTP 服务器以暴露 MCP 工具。"
+  },
+  {
+    "key": "noSkillsDesc",
+    "en": "Try a broader search or different category.",
+    "zh": "已禁用"
+  },
+  {
+    "key": "noToolsetsTitle",
+    "en": "No toolsets found",
+    "zh": "编辑服务器"
+  },
+  {
+    "key": "noToolsetsDesc",
+    "en": "Try a broader search query.",
+    "zh": "名称"
+  },
+  {
+    "key": "noDescription",
+    "en": "No description.",
+    "zh": "服务器 JSON"
+  },
+  {
+    "key": "configured",
+    "en": "Configured",
+    "zh": "移除"
+  },
+  {
+    "key": "needsKeys",
+    "en": "Needs keys",
+    "zh": "保存服务器"
+  },
+  {
+    "key": "skillsLoadFailed",
+    "en": "Skills failed to load",
+    "zh": "测试连接"
+  },
+  {
+    "key": "toolsetsRefreshFailed",
+    "en": "Toolsets failed to refresh",
+    "zh": "测试中…"
+  },
+  {
+    "key": "skillEnabled",
+    "en": "Skill enabled",
+    "zh": "连接失败"
+  },
+  {
+    "key": "skillDisabled",
+    "en": "Skill disabled",
+    "zh": "服务器"
+  },
+  {
+    "key": "toolsetEnabled",
+    "en": "Toolset enabled",
+    "zh": "目录"
+  },
+  {
+    "key": "toolsetDisabled",
+    "en": "Toolset disabled",
+    "zh": "正在加载 MCP 目录…"
+  },
+  {
+    "key": "sortMostUsed",
+    "en": "Most used",
+    "zh": "MCP 目录加载失败"
+  },
+  {
+    "key": "sortAlpha",
+    "en": "A–Z",
+    "zh": "没有可用的目录条目。"
+  },
+  {
+    "key": "sortMostUsedDesc",
+    "en": "↓ Most used",
+    "zh": "已安装"
+  },
+  {
+    "key": "sortLeastUsedAsc",
+    "en": "↑ Least used",
+    "zh": "已启用"
+  },
+  {
+    "key": "enableAll",
+    "en": "Enable all",
+    "zh": "需要构建"
+  },
+  {
+    "key": "disableAll",
+    "en": "Disable all",
+    "zh": "安装"
+  },
+  {
+    "key": "disableUnused",
+    "en": "Disable unused",
+    "zh": "安装中…"
+  },
+  {
+    "key": "bulkNoChange",
+    "en": "Nothing to change.",
+    "zh": "安装前请填写必需的值。"
+  },
+  {
+    "key": "agent",
+    "en": "Learned",
+    "zh": "连接中…"
+  },
+  {
+    "key": "bundled",
+    "en": "Built-in",
+    "zh": "需要认证"
+  },
+  {
+    "key": "hub",
+    "en": "Hub",
+    "zh": "错误"
+  },
+  {
+    "key": "changesApplyNewSessions",
+    "en": "Changes apply to new sessions.",
+    "zh": "关闭"
+  },
+  {
+    "key": "skillUpdated",
+    "en": "Skill updated",
+    "zh": "所有服务器"
+  },
+  {
+    "key": "edit",
+    "en": "Edit",
+    "zh": "已认证"
+  },
+  {
+    "key": "archive",
+    "en": "Archive",
+    "zh": "等待浏览器…"
+  },
+  {
+    "key": "skillArchivedTitle",
+    "en": "Skill archived",
+    "zh": "认证"
+  },
+  {
+    "key": "skillArchivedMessage",
+    "en": "Restorable via hermes curator restore.",
+    "zh": "未保存 — 保存 mcp.json 以连接。"
+  },
+  {
+    "key": "searchPlaceholder",
+    "en": "Search the skill hub",
+    "zh": "暂无输出。"
+  },
+  {
+    "key": "search",
+    "en": "Search",
+    "zh": "正在加载模型配置..."
+  },
+  {
+    "key": "searching",
+    "en": "Searching...",
+    "zh": "应用于新会话。可在输入框的模型选择器中临时切换当前对话。"
+  },
+  {
+    "key": "connectingHubs",
+    "en": "Connecting to skill hubs...",
+    "zh": "提供方"
+  },
+  {
+    "key": "connectedHubs",
+    "en": "Connected hubs:",
+    "zh": "模型"
+  },
+  {
+    "key": "featured",
+    "en": "Featured skills",
+    "zh": "应用中..."
+  },
+  {
+    "key": "landingHint",
+    "en": "Search the hub to browse installable skills from the official index, GitHub, and community sources.",
+    "zh": "默认值"
+  },
+  {
+    "key": "noResults",
+    "en": "No matching skills found in the hub.",
+    "zh": "推理"
+  },
+  {
+    "key": "installed",
+    "en": "Installed",
+    "zh": "关闭"
+  },
+  {
+    "key": "install",
+    "en": "Install",
+    "zh": "保存模型默认值失败"
+  },
+  {
+    "key": "installing",
+    "en": "Installing...",
+    "zh": "辅助模型"
+  },
+  {
+    "key": "uninstall",
+    "en": "Uninstall",
+    "zh": "全部重置为主模型"
+  },
+  {
+    "key": "uninstalling",
+    "en": "Uninstalling...",
+    "zh": "辅助任务默认使用主模型。你可以为任意任务指定专用模型。"
+  },
+  {
+    "key": "updateAll",
+    "en": "Update installed",
+    "zh": "设为主模型"
+  },
+  {
+    "key": "updating",
+    "en": "Updating...",
+    "zh": "更改"
+  },
+  {
+    "key": "preview",
+    "en": "Preview",
+    "zh": "自动 · 使用主模型"
+  },
+  {
+    "key": "scan",
+    "en": "Scan",
+    "zh": "(提供方默认)"
+  },
+  {
+    "key": "scanning",
+    "en": "Scanning...",
+    "zh": "添加备用模型"
+  },
+  {
+    "key": "close",
+    "en": "Close",
+    "zh": "未配置备用模型 — 默认模型失败时才会使用备用模型。"
+  },
+  {
+    "key": "files",
+    "en": "Files",
+    "zh": "不在该提供方的模型列表中 — 调用可能回退到备用模型。"
+  },
+  {
+    "key": "noReadme",
+    "en": "This skill has no SKILL.md preview.",
+    "zh": "连接账号"
+  },
+  {
+    "key": "builtin",
+    "en": "builtin",
+    "zh": "改用 API 密钥？"
+  },
+  {
+    "key": "trusted",
+    "en": "trusted",
+    "zh": "使用订阅登录，无需复制 API 密钥。Hermes 会在应用中为你完成浏览器登录。"
+  },
+  {
+    "key": "community",
+    "en": "community",
+    "zh": "已连接"
+  },
+  {
+    "key": "verdictSafe",
+    "en": "Safe",
+    "zh": "收起"
+  },
+  {
+    "key": "verdictCaution",
+    "en": "Caution",
+    "zh": "连接其他提供方"
+  },
+  {
+    "key": "verdictDangerous",
+    "en": "Dangerous",
+    "zh": "其他提供方"
+  },
+  {
+    "key": "policyAllow",
+    "en": "Install allowed",
+    "zh": "断开连接"
+  },
+  {
+    "key": "policyAsk",
+    "en": "Review before installing",
+    "zh": "断开连接（在终端中运行移除命令）"
+  },
+  {
+    "key": "policyBlock",
+    "en": "Install blocked by policy",
+    "zh": "账号已移除"
+  },
+  {
+    "key": "noFindings",
+    "en": "No security findings.",
+    "zh": "没有可用的提供方 API 密钥。"
+  },
+  {
+    "key": "updateStarted",
+    "en": "Updating installed skills...",
+    "zh": "搜索提供方…"
+  },
+  {
+    "key": "actionFailed",
+    "en": "Skill action failed",
+    "zh": "没有匹配的提供方。"
+  },
+  {
+    "key": "actionLog",
+    "en": "Action log",
+    "zh": "正在加载提供方..."
+  },
+  {
+    "key": "loadFailed",
+    "en": "Skill hub failed to load",
+    "zh": "正在加载已归档会话…"
+  },
+  {
+    "key": "previewFailed",
+    "en": "Skill preview failed",
+    "zh": "已归档会话"
+  },
+  {
+    "key": "scanFailed",
+    "en": "Security scan failed",
+    "zh": "已归档对话会从侧边栏隐藏，但会保留全部消息。在侧边栏 Ctrl/⌘ 点击对话即可归档。"
+  },
+  {
+    "key": "searchFailed",
+    "en": "Hub search failed",
+    "zh": "暂无归档"
+  },
+  {
+    "key": "title",
+    "en": "Memory Graph",
+    "zh": "归档一个对话后会显示在这里。"
+  },
+  {
+    "key": "close",
+    "en": "Close memory graph",
+    "zh": "取消归档"
+  },
+  {
+    "key": "refresh",
+    "en": "Refresh",
+    "zh": "永久删除"
+  },
+  {
+    "key": "memory",
+    "en": "Memory",
+    "zh": "已恢复"
+  },
+  {
+    "key": "filterAll",
+    "en": "All",
+    "zh": "默认项目目录"
+  },
+  {
+    "key": "filterUsed",
+    "en": "Used",
+    "zh": "新会话默认从此文件夹开始，除非你选择其他目录。留空则使用你的 home 目录。"
+  },
+  {
+    "key": "filterLearned",
+    "en": "Learned",
+    "zh": "默认项目目录已更新"
+  },
+  {
+    "key": "viewGraph",
+    "en": "Graph",
+    "zh": "更改"
+  },
+  {
+    "key": "loadFailed",
+    "en": "Could not load memory graph",
+    "zh": "选择"
+  },
+  {
+    "key": "loading",
+    "en": "Loading…",
+    "zh": "清除"
+  },
+  {
+    "key": "emptyTitle",
+    "en": "Nothing learned yet",
+    "zh": "未设置"
+  },
+  {
+    "key": "emptyDesc",
+    "en": "As Hermes builds skills and memories for your work, they appear here.",
+    "zh": "无法加载已归档会话"
+  },
+  {
+    "key": "share",
+    "en": "Share map",
+    "zh": "取消归档失败"
+  },
+  {
+    "key": "shareHint",
+    "en": "Copy the code to share this map, or paste one to load. It only includes the layout, not your memory or skill text.",
+    "zh": "删除失败"
+  },
+  {
+    "key": "shareTitle",
+    "en": "Import / export map",
+    "zh": "无法更新默认目录"
+  },
+  {
+    "key": "sharePlaceholder",
+    "en": "Paste a map code…",
+    "zh": "无法清除默认目录"
+  },
+  {
+    "key": "copy",
+    "en": "Copy map code",
+    "zh": "正在加载配置"
+  },
+  {
+    "key": "copied",
+    "en": "Copied!",
+    "zh": "凭据已保存"
+  },
+  {
+    "key": "importMap",
+    "en": "Import a map",
+    "zh": "凭据已移除"
+  },
+  {
+    "key": "importBtn",
+    "en": "Load",
+    "zh": "已设置"
+  },
+  {
+    "key": "importEmpty",
+    "en": "Paste a map code to load it.",
+    "zh": "未设置"
+  },
+  {
+    "key": "importedBadge",
+    "en": "imported map",
+    "zh": "已选择提供方"
+  },
+  {
+    "key": "resetToMine",
+    "en": "Back to my map",
+    "zh": "工具配置加载失败"
+  },
+  {
+    "key": "close",
+    "en": "Close agents",
+    "zh": "此工具集没有提供方选项；启用后即可使用当前配置。"
+  },
+  {
+    "key": "title",
+    "en": "Spawn tree",
+    "zh": "此工具集当前没有可用提供方。"
+  },
+  {
+    "key": "subtitle",
+    "en": "Live subagent activity for the current turn.",
+    "zh": "就绪"
+  },
+  {
+    "key": "emptyTitle",
+    "en": "No live subagents",
+    "zh": "包含在 Nous 订阅中；登录 Nous Portal 即可激活。"
+  },
+  {
+    "key": "emptyDesc",
+    "en": "When a turn delegates work, child agents stream their progress here.",
+    "zh": "不需要 API 密钥。"
+  },
+  {
+    "key": "running",
+    "en": "Running",
+    "zh": "运行设置"
+  },
+  {
+    "key": "failed",
+    "en": "Failed",
+    "zh": "安装中…"
+  },
+  {
+    "key": "done",
+    "en": "Done",
+    "zh": "启动中…"
+  },
+  {
+    "key": "streaming",
+    "en": "Streaming",
+    "zh": "设置完成"
+  },
+  {
+    "key": "files",
+    "en": "Files",
+    "zh": "设置完成但有错误"
+  },
+  {
+    "key": "ageNow",
+    "en": "now",
+    "zh": "正在加载模型目录…"
+  },
+  {
+    "key": "close",
+    "en": "Close command center",
+    "zh": "模型"
+  },
+  {
+    "key": "paletteTitle",
+    "en": "Command palette",
+    "zh": "使用中"
+  },
+  {
+    "key": "back",
+    "en": "Back",
+    "zh": "默认"
+  },
+  {
+    "key": "searchPlaceholder",
+    "en": "Search sessions, views, and actions",
+    "zh": "请先选择此后端，然后再更改其模型。"
+  },
+  {
+    "key": "goTo",
+    "en": "Go to",
+    "zh": "模型已选择"
+  },
+  {
+    "key": "goToSession",
+    "en": "Go to session",
+    "zh": "技能"
+  },
+  {
+    "key": "branches",
+    "en": "Branches",
+    "zh": "工具集"
+  },
+  {
+    "key": "commandCenter",
+    "en": "Command Center",
+    "zh": "MCP"
+  },
+  {
+    "key": "appearance",
+    "en": "Appearance",
+    "zh": "浏览技能中心"
+  },
+  {
+    "key": "settings",
+    "en": "Settings",
+    "zh": "全部"
+  },
+  {
+    "key": "changeTheme",
+    "en": "Change theme",
+    "zh": "搜索技能…"
+  },
+  {
+    "key": "changeColorMode",
+    "en": "Change color mode…",
+    "zh": "搜索工具集…"
+  },
+  {
+    "key": "title",
+    "en": "Pets",
+    "zh": "刷新技能"
+  },
+  {
+    "key": "placeholder",
+    "en": "Search pets…",
+    "zh": "正在刷新技能"
+  },
+  {
+    "key": "loading",
+    "en": "Loading petdex gallery…",
+    "zh": "正在加载能力…"
+  },
+  {
+    "key": "error",
+    "en": "Could not reach the petdex gallery.",
+    "zh": "未找到技能"
+  },
+  {
+    "key": "staleBackend",
+    "en": "Restart Hermes to use pets — the backend predates this feature.",
+    "zh": "尝试更宽泛的搜索或其他分类。"
+  },
+  {
+    "key": "empty",
+    "en": "No matching pets.",
+    "zh": "未找到工具集"
+  },
+  {
+    "key": "turnOff",
+    "en": "Turn off",
+    "zh": "尝试更宽泛的搜索词。"
+  },
+  {
+    "key": "turnOn",
+    "en": "Turn on",
+    "zh": "暂无描述。"
+  },
+  {
+    "key": "installed",
+    "en": "Installed",
+    "zh": "已配置"
+  },
+  {
+    "key": "generatedTag",
+    "en": "Generated",
+    "zh": "需要密钥"
+  },
+  {
+    "key": "adoptFailed",
+    "en": "Could not adopt that pet.",
+    "zh": "技能加载失败"
+  },
+  {
+    "key": "toggleFailed",
+    "en": "Could not toggle the pet.",
+    "zh": "工具集刷新失败"
+  },
+  {
+    "key": "noneAvailable",
+    "en": "No pets available — pick one below to install.",
+    "zh": "技能已启用"
+  },
+  {
+    "key": "title",
+    "en": "Generate a pet",
+    "zh": "技能已禁用"
+  },
+  {
+    "key": "placeholder",
+    "en": "Describe a pet to generate…",
+    "zh": "工具集已启用"
+  },
+  {
+    "key": "promptHint",
+    "en": "Type a description, then press Enter to draft four looks.",
+    "zh": "工具集已禁用"
+  },
+  {
+    "key": "readyHint",
+    "en": "Press Enter to draft four looks from your description.",
+    "zh": "最常用"
+  },
+  {
+    "key": "generate",
+    "en": "Generate",
+    "zh": "A–Z"
+  },
+  {
+    "key": "generating",
+    "en": "Generating…",
+    "zh": "↓ 最常用"
+  },
+  {
+    "key": "retry",
+    "en": "Retry",
+    "zh": "↑ 最少用"
+  },
+  {
+    "key": "hatch",
+    "en": "Hatch",
+    "zh": "全部启用"
+  },
+  {
+    "key": "spawning",
+    "en": "Spawning…",
+    "zh": "全部停用"
+  },
+  {
+    "key": "hatching",
+    "en": "Hatching your pet…",
+    "zh": "禁用未使用"
+  },
+  {
+    "key": "hatchingSub",
+    "en": "Bringing it to life…",
+    "zh": "没有需要更改的内容。"
+  },
+  {
+    "key": "hatched",
+    "en": "It hatched!",
+    "zh": "习得"
+  },
+  {
+    "key": "hatchComposing",
+    "en": "Piecing it together…",
+    "zh": "内置"
+  },
+  {
+    "key": "hatchSaving",
+    "en": "Almost there…",
+    "zh": "技能中心"
+  },
+  {
+    "key": "namePlaceholder",
+    "en": "Name your pet",
+    "zh": "更改将应用于新会话。"
+  },
+  {
+    "key": "staleBackend",
+    "en": "Update Hermes to generate pets.",
+    "zh": "技能已更新"
+  },
+  {
+    "key": "backgroundHint",
+    "en": "You can close this — Hermes will notify you when it’s done.",
+    "zh": "编辑"
+  },
+  {
+    "key": "slowProviderHint",
+    "en": "This can take several minutes",
+    "zh": "归档"
+  },
+  {
+    "key": "remix",
+    "en": "Remix",
+    "zh": "技能已归档"
+  },
+  {
+    "key": "remixConfirmTitle",
+    "en": "Remix this look?",
+    "zh": "可通过 hermes curator restore 恢复。"
+  },
+  {
+    "key": "remixConfirmBody",
+    "en": "This generates a fresh set of drafts using this one as the starting point. It can take several minutes.",
+    "zh": "搜索技能中心"
+  },
+  {
+    "key": "genericError",
+    "en": "Generation failed — try again or pick a suggestion.",
+    "zh": "搜索"
+  },
+  {
+    "key": "referenceImageTooLarge",
+    "en": "Reference image is too large. Use one under 16 MB.",
+    "zh": "搜索中…"
+  },
+  {
+    "key": "referenceImageInvalid",
+    "en": "Could not read that reference image. Try a PNG, JPG, WebP, or GIF.",
+    "zh": "正在连接技能中心…"
+  },
+  {
+    "key": "adopt",
+    "en": "Adopt",
+    "zh": "已连接的来源："
+  },
+  {
+    "key": "startOver",
+    "en": "Start over",
+    "zh": "精选技能"
+  },
+  {
+    "key": "title",
+    "en": "Install theme…",
+    "zh": "搜索技能中心，浏览来自官方索引、GitHub 和社区来源的可安装技能。"
+  },
+  {
+    "key": "pageTitle",
+    "en": "Install theme",
+    "zh": "技能中心没有匹配的技能。"
+  },
+  {
+    "key": "placeholder",
+    "en": "Search the VS Code Marketplace...",
+    "zh": "已安装"
+  },
+  {
+    "key": "loading",
+    "en": "Searching the Marketplace...",
+    "zh": "安装"
+  },
+  {
+    "key": "error",
+    "en": "Could not reach the Marketplace.",
+    "zh": "安装中…"
+  },
+  {
+    "key": "empty",
+    "en": "No matching themes.",
+    "zh": "卸载"
+  },
+  {
+    "key": "install",
+    "en": "Install",
+    "zh": "卸载中…"
+  },
+  {
+    "key": "installing",
+    "en": "Installing...",
+    "zh": "更新已安装"
+  },
+  {
+    "key": "installed",
+    "en": "Installed",
+    "zh": "更新中…"
+  },
+  {
+    "key": "settingsFields",
+    "en": "Settings fields",
+    "zh": "预览"
+  },
+  {
+    "key": "mcpServers",
+    "en": "MCP servers",
+    "zh": "扫描"
+  },
+  {
+    "key": "archivedChats",
+    "en": "Archived chats",
+    "zh": "扫描中…"
+  },
+  {
+    "key": "maintenance",
+    "en": "Diagnostics, backups, curator, and memory data",
+    "zh": "关闭"
+  },
+  {
+    "key": "sessions",
+    "en": "Search and manage sessions",
+    "zh": "文件"
+  },
+  {
+    "key": "system",
+    "en": "Status, logs, and system actions",
+    "zh": "该技能没有 SKILL.md 预览。"
+  },
+  {
+    "key": "usage",
+    "en": "Token, cost, and skill activity over time",
+    "zh": "内置"
+  },
+  {
+    "key": "providerNavigate",
+    "en": "Navigate",
+    "zh": "可信"
+  },
+  {
+    "key": "providerSessions",
+    "en": "Sessions",
+    "zh": "社区"
+  },
+  {
+    "key": "refresh",
+    "en": "Refresh",
+    "zh": "安全"
+  },
+  {
+    "key": "refreshing",
+    "en": "Refreshing...",
+    "zh": "注意"
+  },
+  {
+    "key": "noResults",
+    "en": "No matching results found.",
+    "zh": "危险"
+  },
+  {
+    "key": "pinSession",
+    "en": "Pin session",
+    "zh": "允许安装"
+  },
+  {
+    "key": "unpinSession",
+    "en": "Unpin session",
+    "zh": "安装前请复查"
+  },
+  {
+    "key": "exportSession",
+    "en": "Export session",
+    "zh": "安装被策略阻止"
+  },
+  {
+    "key": "deleteSession",
+    "en": "Delete session",
+    "zh": "无安全发现。"
+  },
+  {
+    "key": "noSessions",
+    "en": "No sessions yet.",
+    "zh": "正在更新已安装技能…"
+  },
+  {
+    "key": "gatewayRunning",
+    "en": "Messaging gateway running",
+    "zh": "技能操作失败"
+  },
+  {
+    "key": "gatewayStopped",
+    "en": "Messaging gateway stopped",
+    "zh": "操作日志"
+  },
+  {
+    "key": "restartGateway",
+    "en": "Restart gateway",
+    "zh": "技能中心加载失败"
+  },
+  {
+    "key": "gatewayRestartFailed",
+    "en": "Gateway restart failed.",
+    "zh": "技能预览失败"
+  },
+  {
+    "key": "updateHermes",
+    "en": "Update Hermes",
+    "zh": "安全扫描失败"
+  },
+  {
+    "key": "actionRunning",
+    "en": "running",
+    "zh": "技能中心搜索失败"
+  },
+  {
+    "key": "actionDone",
+    "en": "done",
+    "zh": "记忆图谱"
+  },
+  {
+    "key": "actionFailed",
+    "en": "failed",
+    "zh": "关闭记忆图谱"
+  },
+  {
+    "key": "actionStartedWaiting",
+    "en": "Action started, waiting for status...",
+    "zh": "刷新"
+  },
+  {
+    "key": "loadingStatus",
+    "en": "Loading status...",
+    "zh": "记忆"
+  },
+  {
+    "key": "recentLogs",
+    "en": "Recent logs",
+    "zh": "全部"
+  },
+  {
+    "key": "noLogs",
+    "en": "No logs loaded yet.",
+    "zh": "已使用"
+  },
+  {
+    "key": "statSessions",
+    "en": "Sessions",
+    "zh": "已学习"
+  },
+  {
+    "key": "statApiCalls",
+    "en": "API calls",
+    "zh": "图谱"
+  },
+  {
+    "key": "statTokens",
+    "en": "Tokens in/out",
+    "zh": "无法加载记忆图谱"
+  },
+  {
+    "key": "statCost",
+    "en": "Est. cost",
+    "zh": "加载中…"
+  },
+  {
+    "key": "loadingUsage",
+    "en": "Loading usage...",
+    "zh": "尚无学习内容"
+  },
+  {
+    "key": "retry",
+    "en": "Retry",
+    "zh": "当 Hermes 为你的工作构建技能和记忆时，会显示在这里。"
+  },
+  {
+    "key": "dailyTokens",
+    "en": "Daily tokens",
+    "zh": "分享图谱"
+  },
+  {
+    "key": "input",
+    "en": "input",
+    "zh": "复制代码以分享此图谱，或粘贴代码以载入。仅包含布局，不含你的记忆或技能内容。"
+  },
+  {
+    "key": "output",
+    "en": "output",
+    "zh": "导入 / 导出图谱"
+  },
+  {
+    "key": "noDailyActivity",
+    "en": "No daily activity.",
+    "zh": "粘贴图谱代码…"
+  },
+  {
+    "key": "topModels",
+    "en": "Top models",
+    "zh": "复制图谱代码"
+  },
+  {
+    "key": "noModelUsage",
+    "en": "No model usage yet.",
+    "zh": "已复制！"
+  },
+  {
+    "key": "topSkills",
+    "en": "Top skills",
+    "zh": "导入图谱"
+  },
+  {
+    "key": "noSkillActivity",
+    "en": "No skill activity yet.",
+    "zh": "加载"
+  },
+  {
+    "key": "logFile",
+    "en": "Log file",
+    "zh": "粘贴图谱代码以加载。"
+  },
+  {
+    "key": "logLevel",
+    "en": "Level",
+    "zh": "导入的图谱"
+  },
+  {
+    "key": "logSearchPlaceholder",
+    "en": "Filter log lines...",
+    "zh": "返回我的图谱"
+  },
+  {
+    "key": "runOps",
+    "en": "Diagnostics",
+    "zh": "关闭代理"
+  },
+  {
+    "key": "doctor",
+    "en": "Run doctor",
+    "zh": "派生树"
+  },
+  {
+    "key": "doctorDesc",
+    "en": "Health-check the install, config, and providers",
+    "zh": "当前回合的子代理实时活动。"
+  },
+  {
+    "key": "securityAudit",
+    "en": "Security audit",
+    "zh": "暂无活跃子代理"
+  },
+  {
+    "key": "securityAuditDesc",
+    "en": "Scan config and skills for risky settings",
+    "zh": "当某个回合派发任务时，子代理会在此实时显示进度。"
+  },
+  {
+    "key": "backup",
+    "en": "Create backup",
+    "zh": "运行中"
+  },
+  {
+    "key": "backupDesc",
+    "en": "Zip config, memories, skills, and sessions",
+    "zh": "失败"
+  },
+  {
+    "key": "debugShare",
+    "en": "Debug share",
+    "zh": "完成"
+  },
+  {
+    "key": "debugShareDesc",
+    "en": "Upload a redacted report + logs, get shareable links (auto-deletes in 6h)",
+    "zh": "流式传输"
+  },
+  {
+    "key": "debugShareRunning",
+    "en": "Uploading debug report...",
+    "zh": "文件"
+  },
+  {
+    "key": "debugShareLinks",
+    "en": "Share links",
+    "zh": "刚刚"
+  },
+  {
+    "key": "debugShareFailed",
+    "en": "Debug share failed",
+    "zh": "关闭命令中心"
+  },
+  {
+    "key": "copyLink",
+    "en": "Copy link",
+    "zh": "命令面板"
+  },
+  {
+    "key": "linkCopied",
+    "en": "Link copied",
+    "zh": "返回"
+  },
+  {
+    "key": "curator",
+    "en": "Skill curator",
+    "zh": "搜索会话、视图与操作"
+  },
+  {
+    "key": "curatorDesc",
+    "en": "Background review that archives stale agent-created skills",
+    "zh": "前往"
+  },
+  {
+    "key": "curatorPaused",
+    "en": "Paused",
+    "zh": "前往会话"
+  },
+  {
+    "key": "curatorActive",
+    "en": "Active",
+    "zh": "分支"
+  },
+  {
+    "key": "curatorDisabled",
+    "en": "Disabled",
+    "zh": "命令中心"
+  },
+  {
+    "key": "curatorNeverRan",
+    "en": "Never ran",
+    "zh": "外观"
+  },
+  {
+    "key": "pause",
+    "en": "Pause",
+    "zh": "设置"
+  },
+  {
+    "key": "resume",
+    "en": "Resume",
+    "zh": "更改主题"
+  },
+  {
+    "key": "runNow",
+    "en": "Run now",
+    "zh": "更改颜色模式…"
+  },
+  {
+    "key": "memoryData",
+    "en": "Memory data",
+    "zh": "宠物"
+  },
+  {
+    "key": "memoryDataDesc",
+    "en": "Built-in memory files injected into every session",
+    "zh": "搜索宠物…"
+  },
+  {
+    "key": "builtinMemory",
+    "en": "built-in",
+    "zh": "正在加载 petdex 画廊…"
+  },
+  {
+    "key": "memoryFile",
+    "en": "Agent memory (MEMORY.md)",
+    "zh": "无法连接到 petdex 画廊。"
+  },
+  {
+    "key": "userFile",
+    "en": "User profile (USER.md)",
+    "zh": "请重启 Hermes 以使用宠物功能——当前后端版本过旧。"
+  },
+  {
+    "key": "empty",
+    "en": "empty",
+    "zh": "没有匹配的宠物。"
+  },
+  {
+    "key": "resetMemory",
+    "en": "Reset memory",
+    "zh": "关闭"
+  },
+  {
+    "key": "resetUser",
+    "en": "Reset profile",
+    "zh": "开启"
+  },
+  {
+    "key": "resetAll",
+    "en": "Reset both",
+    "zh": "已安装"
+  },
+  {
+    "key": "resetFailed",
+    "en": "Memory reset failed",
+    "zh": "生成"
+  },
+  {
+    "key": "running",
+    "en": "Running...",
+    "zh": "无法领养该宠物。"
+  },
+  {
+    "key": "viewLog",
+    "en": "Action log",
+    "zh": "无法切换宠物显示。"
+  },
+  {
+    "key": "search",
+    "en": "Search messaging...",
+    "zh": "暂无可用宠物——请在下方选择一个安装。"
+  },
+  {
+    "key": "loading",
+    "en": "Loading messaging platforms...",
+    "zh": "生成宠物"
+  },
+  {
+    "key": "loadFailed",
+    "en": "Messaging platforms failed to load",
+    "zh": "描述要生成的宠物……"
+  },
+  {
+    "key": "connected",
+    "en": "Connected",
+    "zh": "输入描述，然后按 Enter 生成四种造型。"
+  },
+  {
+    "key": "connecting",
+    "en": "Connecting",
+    "zh": "按 Enter 根据描述生成四种造型。"
+  },
+  {
+    "key": "disabled",
+    "en": "Disabled",
+    "zh": "生成"
+  },
+  {
+    "key": "fatal",
+    "en": "Error",
+    "zh": "生成中……"
+  },
+  {
+    "key": "gateway_stopped",
+    "en": "Messaging gateway stopped",
+    "zh": "重试"
+  },
+  {
+    "key": "not_configured",
+    "en": "Needs setup",
+    "zh": "孵化"
+  },
+  {
+    "key": "pending_restart",
+    "en": "Restart needed",
+    "zh": "召唤中……"
+  },
+  {
+    "key": "retrying",
+    "en": "Retrying",
+    "zh": "正在孵化你的宠物……"
+  },
+  {
+    "key": "startup_failed",
+    "en": "Startup failed",
+    "zh": "正在注入生命……"
+  },
+  {
+    "key": "unknown",
+    "en": "Unknown",
+    "zh": "孵化成功！"
+  },
+  {
+    "key": "hintPendingRestart",
+    "en": "Restart the gateway from the status bar to apply this change.",
+    "zh": "正在拼合……"
+  },
+  {
+    "key": "hintGatewayStopped",
+    "en": "Start the gateway from the status bar to connect.",
+    "zh": "马上就好……"
+  },
+  {
+    "key": "credentialsSet",
+    "en": "Credentials set",
+    "zh": "给宠物起个名字"
+  },
+  {
+    "key": "needsSetup",
+    "en": "Needs setup",
+    "zh": "请更新 Hermes 以生成宠物。"
+  },
+  {
+    "key": "gatewayStopped",
+    "en": "Messaging gateway stopped",
+    "zh": "你可以关闭此窗口——完成后 Hermes 会通知你。"
+  },
+  {
+    "key": "getCredentials",
+    "en": "Get your credentials",
+    "zh": "这可能需要几分钟"
+  },
+  {
+    "key": "openSetupGuide",
+    "en": "Open setup guide",
+    "zh": "混合生成"
+  },
+  {
+    "key": "required",
+    "en": "Required",
+    "zh": "以此造型混合生成？"
+  },
+  {
+    "key": "recommended",
+    "en": "Recommended",
+    "zh": "将以此造型为起点生成一组新草图，可能需要几分钟。"
+  },
+  {
+    "key": "noTokenNeeded",
+    "en": "This platform does not need a token here. Use the setup guide above, then enable it below.",
+    "zh": "生成失败——请重试或选择一个建议。"
+  },
+  {
+    "key": "enabled",
+    "en": "Enabled",
+    "zh": "参考图过大。请使用小于 16 MB 的图片。"
+  },
+  {
+    "key": "disabled",
+    "en": "Disabled",
+    "zh": "无法读取该参考图。请尝试 PNG、JPG、WebP 或 GIF。"
+  },
+  {
+    "key": "unsavedChanges",
+    "en": "Unsaved changes",
+    "zh": "领养"
+  },
+  {
+    "key": "saving",
+    "en": "Saving...",
+    "zh": "重新开始"
+  },
+  {
+    "key": "saveChanges",
+    "en": "Save changes",
+    "zh": "安装主题…"
+  },
+  {
+    "key": "saved",
+    "en": "Saved",
+    "zh": "安装主题"
+  },
+  {
+    "key": "replaceValue",
+    "en": "Replace current value",
+    "zh": "搜索 VS Code Marketplace..."
+  },
+  {
+    "key": "openDocs",
+    "en": "Open docs",
+    "zh": "正在搜索 Marketplace..."
+  },
+  {
+    "key": "restartToApply",
+    "en": "This change takes effect after a gateway restart.",
+    "zh": "无法连接到 Marketplace。"
+  },
+  {
+    "key": "restartToReconnect",
+    "en": "New credentials take effect after a gateway restart.",
+    "zh": "没有匹配的主题。"
+  },
+  {
+    "key": "label",
+    "en": "Bot token",
+    "zh": "安装"
+  },
+  {
+    "key": "help",
+    "en": "Create a bot with @BotFather, then paste the token it gives you.",
+    "zh": "安装中..."
+  },
+  {
+    "key": "placeholder",
+    "en": "Paste Telegram bot token",
+    "zh": "已安装"
+  },
+  {
+    "key": "label",
+    "en": "Allowed Telegram user IDs",
+    "zh": "设置字段"
+  },
+  {
+    "key": "help",
+    "en": "Recommended. Comma-separated numeric IDs from @userinfobot. Without this, anyone can DM your bot.",
+    "zh": "MCP 服务器"
+  },
+  {
+    "key": "label",
+    "en": "Bot token",
+    "zh": "已归档对话"
+  },
+  {
+    "key": "help",
+    "en": "Create an application in the Discord Developer Portal, add a bot, then paste its token.",
+    "zh": "诊断、备份、维护器与记忆数据"
+  },
+  {
+    "key": "label",
+    "en": "Allowed Discord user IDs",
+    "zh": "搜索与管理会话"
+  },
+  {
+    "key": "help",
+    "en": "Recommended. Comma-separated Discord user IDs.",
+    "zh": "状态、日志与系统操作"
+  },
+  {
+    "key": "label",
+    "en": "Allow all Discord users",
+    "zh": "一段时间内的词元、成本与技能活动"
+  },
+  {
+    "key": "help",
+    "en": "Development only. When true, anyone can DM the bot without an allowlist.",
+    "zh": "导航"
+  },
+  {
+    "key": "label",
+    "en": "Home channel ID",
+    "zh": "会话"
+  },
+  {
+    "key": "help",
+    "en": "Channel where the bot sends proactive messages (cron output, reminders).",
+    "zh": "刷新"
+  },
+  {
+    "key": "label",
+    "en": "Home channel name",
+    "zh": "刷新中…"
+  },
+  {
+    "key": "help",
+    "en": "Display name for the home channel in logs and status output.",
+    "zh": "未找到匹配结果。"
+  },
+  {
+    "key": "label",
+    "en": "Allow all iMessage users",
+    "zh": "置顶会话"
+  },
+  {
+    "key": "help",
+    "en": "When true, skip the BlueBubbles allowlist.",
+    "zh": "取消置顶"
+  },
+  {
+    "key": "label",
+    "en": "Slack bot token",
+    "zh": "导出会话"
+  },
+  {
+    "key": "help",
+    "en": "Use the bot token from OAuth & Permissions after installing your Slack app.",
+    "zh": "删除会话"
+  },
+  {
+    "key": "placeholder",
+    "en": "Paste Slack bot token",
+    "zh": "暂无会话。"
+  },
+  {
+    "key": "label",
+    "en": "Slack app token",
+    "zh": "消息网关运行中"
+  },
+  {
+    "key": "help",
+    "en": "Use the app-level token required for Socket Mode.",
+    "zh": "消息网关已停止"
+  },
+  {
+    "key": "placeholder",
+    "en": "Paste Slack app token",
+    "zh": "重启网关"
+  },
+  {
+    "key": "label",
+    "en": "Allowed user IDs",
+    "zh": "网关重启失败。"
+  },
+  {
+    "key": "help",
+    "en": "Recommended. Comma-separated Mattermost user IDs.",
+    "zh": "更新 Hermes"
+  },
+  {
+    "key": "label",
+    "en": "Allowed Matrix user IDs",
+    "zh": "运行中"
+  },
+  {
+    "key": "help",
+    "en": "Recommended. Comma-separated user IDs in @user:server format.",
+    "zh": "完成"
+  },
+  {
+    "key": "label",
+    "en": "Signal bridge URL",
+    "zh": "失败"
+  },
+  {
+    "key": "placeholder",
+    "en": "http://127.0.0.1:8080",
+    "zh": "操作已启动，等待状态…"
+  },
+  {
+    "key": "help",
+    "en": "URL of a running signal-cli REST bridge.",
+    "zh": "正在加载状态…"
+  },
+  {
+    "key": "label",
+    "en": "Enable WhatsApp bridge",
+    "zh": "最近日志"
+  },
+  {
+    "key": "help",
+    "en": "Set automatically by the toggle below. Leave alone unless you know you need it.",
+    "zh": "尚未加载日志。"
+  },
+  {
+    "key": "label",
+    "en": "Allowed WhatsApp users",
+    "zh": "会话"
+  },
+  {
+    "key": "help",
+    "en": "Recommended. Comma-separated phone numbers or WhatsApp IDs.",
+    "zh": "API 调用"
+  },
+  {
+    "key": "close",
+    "en": "Close profiles",
+    "zh": "输入/输出词元"
+  },
+  {
+    "key": "nameHint",
+    "en": "Lowercase letters, digits, hyphens, and underscores. Must start with a letter or digit.",
+    "zh": "预估成本"
+  },
+  {
+    "key": "title",
+    "en": "Profiles",
+    "zh": "正在加载用量…"
+  },
+  {
+    "key": "search",
+    "en": "Search profiles...",
+    "zh": "重试"
+  },
+  {
+    "key": "loading",
+    "en": "Loading profiles...",
+    "zh": "每日词元"
+  },
+  {
+    "key": "newProfile",
+    "en": "New profile",
+    "zh": "输入"
+  },
+  {
+    "key": "allProfiles",
+    "en": "All profiles",
+    "zh": "输出"
+  },
+  {
+    "key": "showAllProfiles",
+    "en": "Show all profiles",
+    "zh": "暂无每日活动。"
+  },
+  {
+    "key": "manageProfiles",
+    "en": "Manage profiles…",
+    "zh": "常用模型"
+  },
+  {
+    "key": "color",
+    "en": "Color…",
+    "zh": "暂无模型用量。"
+  },
+  {
+    "key": "autoColor",
+    "en": "Auto",
+    "zh": "常用技能"
+  },
+  {
+    "key": "noProfiles",
+    "en": "No profiles yet.",
+    "zh": "暂无技能活动。"
+  },
+  {
+    "key": "selectPrompt",
+    "en": "Select a profile to view its details.",
+    "zh": "日志文件"
+  },
+  {
+    "key": "refresh",
+    "en": "Refresh profiles",
+    "zh": "级别"
+  },
+  {
+    "key": "refreshing",
+    "en": "Refreshing profiles",
+    "zh": "筛选日志行…"
+  },
+  {
+    "key": "default",
+    "en": "default",
+    "zh": "诊断"
+  },
+  {
+    "key": "env",
+    "en": "env",
+    "zh": "运行体检"
+  },
+  {
+    "key": "defaultBadge",
+    "en": "Default",
+    "zh": "检查安装、配置与提供方的健康状态"
+  },
+  {
+    "key": "rename",
+    "en": "Rename",
+    "zh": "安全审计"
+  },
+  {
+    "key": "renameMenu",
+    "en": "Rename…",
+    "zh": "扫描配置与技能中的风险设置"
+  },
+  {
+    "key": "editSoul",
+    "en": "Edit SOUL.md…",
+    "zh": "创建备份"
+  },
+  {
+    "key": "copySetup",
+    "en": "Copy setup",
+    "zh": "打包配置、记忆、技能与会话"
+  },
+  {
+    "key": "copying",
+    "en": "Copying...",
+    "zh": "调试分享"
+  },
+  {
+    "key": "modelLabel",
+    "en": "Model",
+    "zh": "上传脱敏报告与日志，获取可分享链接（6 小时后自动删除）"
+  },
+  {
+    "key": "skillsLabel",
+    "en": "Skills",
+    "zh": "正在上传调试报告…"
+  },
+  {
+    "key": "notSet",
+    "en": "Not set",
+    "zh": "分享链接"
+  },
+  {
+    "key": "soulDesc",
+    "en": "The system prompt and persona instructions baked into this profile.",
+    "zh": "调试分享失败"
+  },
+  {
+    "key": "soulOptional",
+    "en": "optional",
+    "zh": "复制链接"
+  },
+  {
+    "key": "soulPlaceholderCloned",
+    "en": "cloned",
+    "zh": "链接已复制"
+  },
+  {
+    "key": "soulPlaceholderEmpty",
+    "en": "empty",
+    "zh": "技能维护器"
+  },
+  {
+    "key": "unsavedChanges",
+    "en": "Unsaved changes",
+    "zh": "后台审查并归档过期的智能体自建技能"
+  },
+  {
+    "key": "loadingSoul",
+    "en": "Loading SOUL.md...",
+    "zh": "已暂停"
+  },
+  {
+    "key": "emptySoul",
+    "en": "Empty SOUL.md — start writing the persona...",
+    "zh": "运行中"
+  },
+  {
+    "key": "saving",
+    "en": "Saving...",
+    "zh": "已禁用"
+  },
+  {
+    "key": "saveSoul",
+    "en": "Save SOUL.md",
+    "zh": "从未运行"
+  },
+  {
+    "key": "deleteTitle",
+    "en": "Delete profile?",
+    "zh": "暂停"
+  },
+  {
+    "key": "deleteDescPrefix",
+    "en": "This will delete ",
+    "zh": "恢复"
+  },
+  {
+    "key": "deleteDescMid",
+    "en": " and remove its ",
+    "zh": "立即运行"
+  },
+  {
+    "key": "deleteDescSuffix",
+    "en": " directory. This cannot be undone.",
+    "zh": "记忆数据"
+  },
+  {
+    "key": "deleting",
+    "en": "Deleting...",
+    "zh": "注入每个会话的内置记忆文件"
+  },
+  {
+    "key": "createDesc",
+    "en": "Profiles are independent Hermes environments: separate config, skills, and SOUL.md.",
+    "zh": "内置"
+  },
+  {
+    "key": "nameLabel",
+    "en": "Name",
+    "zh": "智能体记忆（MEMORY.md）"
+  },
+  {
+    "key": "cloneFrom",
+    "en": "Clone from",
+    "zh": "用户画像（USER.md）"
+  },
+  {
+    "key": "cloneFromNone",
+    "en": "None (blank)",
+    "zh": "空"
+  },
+  {
+    "key": "cloneFromDesc",
+    "en": "Copies config, skills, and SOUL.md from the selected source profile.",
+    "zh": "重置记忆"
+  },
+  {
+    "key": "cloneFromDefault",
+    "en": "Clone from default",
+    "zh": "重置画像"
+  },
+  {
+    "key": "cloneFromDefaultDesc",
+    "en": "Copy config, skills, and SOUL.md from your default profile.",
+    "zh": "全部重置"
+  },
+  {
+    "key": "nameRequired",
+    "en": "Name is required.",
+    "zh": "记忆重置失败"
+  },
+  {
+    "key": "creating",
+    "en": "Creating...",
+    "zh": "运行中…"
+  },
+  {
+    "key": "createAction",
+    "en": "Create profile",
+    "zh": "操作日志"
+  },
+  {
+    "key": "renameTitle",
+    "en": "Rename profile",
+    "zh": "搜索消息平台…"
+  },
+  {
+    "key": "renameDescPrefix",
+    "en": "Renaming updates the profile directory and any wrapper scripts in ",
+    "zh": "正在加载消息平台…"
+  },
+  {
+    "key": "renameDescSuffix",
+    "en": ".",
+    "zh": "消息平台加载失败"
+  },
+  {
+    "key": "newNameLabel",
+    "en": "New name",
+    "zh": "已连接"
+  },
+  {
+    "key": "renaming",
+    "en": "Renaming...",
+    "zh": "连接中"
+  },
+  {
+    "key": "created",
+    "en": "Profile created",
+    "zh": "已禁用"
+  },
+  {
+    "key": "renamed",
+    "en": "Profile renamed",
+    "zh": "错误"
+  },
+  {
+    "key": "deleted",
+    "en": "Profile deleted",
+    "zh": "消息网关已停止"
+  },
+  {
+    "key": "setupCopied",
+    "en": "Setup command copied",
+    "zh": "需要设置"
+  },
+  {
+    "key": "soulSaved",
+    "en": "SOUL.md saved",
+    "zh": "需要重启"
+  },
+  {
+    "key": "failedLoad",
+    "en": "Failed to load profiles",
+    "zh": "重试中"
+  },
+  {
+    "key": "failedDelete",
+    "en": "Failed to delete profile",
+    "zh": "启动失败"
+  },
+  {
+    "key": "failedCopy",
+    "en": "Failed to copy setup command",
+    "zh": "未知"
+  },
+  {
+    "key": "failedLoadSoul",
+    "en": "Failed to load SOUL.md",
+    "zh": "在状态栏重启网关以应用此更改。"
+  },
+  {
+    "key": "failedSaveSoul",
+    "en": "Failed to save SOUL.md",
+    "zh": "在状态栏启动网关以建立连接。"
+  },
+  {
+    "key": "failedCreate",
+    "en": "Failed to create profile",
+    "zh": "凭据已设置"
+  },
+  {
+    "key": "failedRename",
+    "en": "Failed to rename profile",
+    "zh": "需要设置"
+  },
+  {
+    "key": "close",
+    "en": "Close cron",
+    "zh": "消息网关已停止"
+  },
+  {
+    "key": "title",
+    "en": "Scheduled jobs",
+    "zh": "获取你的凭据"
+  },
+  {
+    "key": "search",
+    "en": "Search cron jobs...",
+    "zh": "打开设置指南"
+  },
+  {
+    "key": "loading",
+    "en": "Loading cron jobs...",
+    "zh": "必填"
+  },
+  {
+    "key": "enabled",
+    "en": "enabled",
+    "zh": "推荐"
+  },
+  {
+    "key": "scheduled",
+    "en": "scheduled",
+    "zh": "此平台无需在此填写令牌。请按上方设置指南操作，然后在下方启用。"
+  },
+  {
+    "key": "running",
+    "en": "running",
+    "zh": "已启用"
+  },
+  {
+    "key": "paused",
+    "en": "paused",
+    "zh": "已禁用"
+  },
+  {
+    "key": "disabled",
+    "en": "disabled",
+    "zh": "有未保存的更改"
+  },
+  {
+    "key": "error",
+    "en": "error",
+    "zh": "保存中…"
+  },
+  {
+    "key": "completed",
+    "en": "completed",
+    "zh": "保存更改"
+  },
+  {
+    "key": "local",
+    "en": "This desktop",
+    "zh": "已保存"
+  },
+  {
+    "key": "telegram",
+    "en": "Telegram",
+    "zh": "替换当前值"
+  },
+  {
+    "key": "discord",
+    "en": "Discord",
+    "zh": "打开文档"
+  },
+  {
+    "key": "slack",
+    "en": "Slack",
+    "zh": "此更改将在网关重启后生效。"
+  },
+  {
+    "key": "email",
+    "en": "Email",
+    "zh": "新凭据将在网关重启后生效。"
+  },
+  {
+    "key": "daily",
+    "en": "Daily",
+    "zh": "Bot 令牌"
+  },
+  {
+    "key": "weekdays",
+    "en": "Weekdays",
+    "zh": "用 @BotFather 创建一个机器人，然后粘贴它给你的令牌。"
+  },
+  {
+    "key": "weekly",
+    "en": "Weekly",
+    "zh": "粘贴 Telegram bot 令牌"
+  },
+  {
+    "key": "monthly",
+    "en": "Monthly",
+    "zh": "允许的 Telegram 用户 ID"
+  },
+  {
+    "key": "hourly",
+    "en": "Hourly",
+    "zh": "推荐。来自 @userinfobot 的逗号分隔数字 ID。不设置则任何人都能私信你的机器人。"
+  },
+  {
+    "key": "'every-15-minutes'",
+    "en": "Every 15 minutes",
+    "zh": "允许所有 Discord 用户"
+  },
+  {
+    "key": "custom",
+    "en": "Custom",
+    "zh": "仅用于开发。为 true 时，任何人都可以私信 bot，不需要允许列表。"
+  },
+  {
+    "key": "daily",
+    "en": "Every day at 9:00 AM",
+    "zh": "Slack bot 令牌"
+  },
+  {
+    "key": "weekdays",
+    "en": "Monday through Friday at 9:00 AM",
+    "zh": "安装 Slack 应用后，在 OAuth & Permissions 中找到 bot 令牌。"
+  },
+  {
+    "key": "weekly",
+    "en": "Every Monday at 9:00 AM",
+    "zh": "粘贴 Slack bot 令牌"
+  },
+  {
+    "key": "monthly",
+    "en": "The first day of each month at 9:00 AM",
+    "zh": "Slack app 令牌"
+  },
+  {
+    "key": "hourly",
+    "en": "At the top of every hour",
+    "zh": "Socket Mode 需要 app 级令牌。"
+  },
+  {
+    "key": "'every-15-minutes'",
+    "en": "Every 15 minutes",
+    "zh": "粘贴 Slack app 令牌"
+  },
+  {
+    "key": "custom",
+    "en": "Cron syntax or natural language",
+    "zh": "Signal 桥接 URL"
+  },
+  {
+    "key": "'0'",
+    "en": "Sunday",
+    "zh": "http://127.0.0.1:8080"
+  },
+  {
+    "key": "'1'",
+    "en": "Monday",
+    "zh": "运行中的 signal-cli REST 桥接的 URL。"
+  },
+  {
+    "key": "'2'",
+    "en": "Tuesday",
+    "zh": "在 Telegram 中，与 @BotFather 对话，运行 /newbot，复制它给你的令牌。然后从 @userinfobot 获取你的数字用户 ID。"
+  },
+  {
+    "key": "'3'",
+    "en": "Wednesday",
+    "zh": "打开 Discord 开发者门户，创建应用，添加 Bot，然后复制其令牌。用正确的权限范围把机器人邀请到你的服务器。"
+  },
+  {
+    "key": "'4'",
+    "en": "Thursday",
+    "zh": "创建 Slack 应用，启用 Socket Mode，安装到你的工作区，然后复制 bot 令牌和 app 级令牌。"
+  },
+  {
+    "key": "'5'",
+    "en": "Friday",
+    "zh": "在你的 Mattermost 服务器上，创建机器人账户或个人访问令牌，然后在此粘贴服务器 URL 和令牌。"
+  },
+  {
+    "key": "'6'",
+    "en": "Saturday",
+    "zh": "用机器人账户登录你的 homeserver，然后复制访问令牌、用户 ID 和 homeserver URL。"
+  },
+  {
+    "key": "'7'",
+    "en": "Sunday",
+    "zh": "在可访问的位置运行 signal-cli REST 桥接，然后把 Hermes 指向该 URL 和已注册的电话号码。"
+  },
+  {
+    "key": "topOfHour",
+    "en": "At the top of every hour",
+    "zh": "启动 Hermes 自带的 WhatsApp 桥接，首次运行时扫描二维码，然后启用该平台。"
+  },
+  {
+    "key": "newCron",
+    "en": "New cron",
+    "zh": "在装有 iMessage 的 Mac 上运行 BlueBubbles Server，暴露其 API，然后用服务器密码把 Hermes 指向该 URL。"
+  },
+  {
+    "key": "emptyDescNew",
+    "en": "Schedule a prompt to run on a cron expression. Hermes will run it and deliver results to the destination you pick.",
+    "zh": "在 Home Assistant 中打开你的个人资料并创建长期访问令牌。把它连同你的 HA URL 一起粘贴到这里。"
+  },
+  {
+    "key": "emptyDescSearch",
+    "en": "Try a broader search query.",
+    "zh": "使用专用邮箱。对于 Gmail/Workspace,创建应用专用密码并使用 imap.gmail.com / smtp.gmail.com。"
+  },
+  {
+    "key": "emptyTitleNew",
+    "en": "No scheduled jobs yet",
+    "zh": "从 Twilio 控制台获取你的 Account SID 和 Auth Token，以及一个可发送短信的电话号码。"
+  },
+  {
+    "key": "emptyTitleSearch",
+    "en": "No matches",
+    "zh": "在开发者控制台创建钉钉应用，然后在此复制 Client ID(App key) 和 Client Secret。"
+  },
+  {
+    "key": "last",
+    "en": "Last:",
+    "zh": "创建飞书 / Lark 应用，配置机器人能力，复制 App ID、App secret 和事件加密密钥。"
+  },
+  {
+    "key": "next",
+    "en": "Next:",
+    "zh": "在企业微信中添加群机器人，复制其 webhook key 作为 WECOM_BOT_ID。仅可发送——双向请用企业微信 (应用) 选项。"
+  },
+  {
+    "key": "noRuns",
+    "en": "No runs yet",
+    "zh": "设置一个企业微信自建应用，暴露其回调 URL，并提供 corp ID、secret、agent ID 和 AES key。"
+  },
+  {
+    "key": "manage",
+    "en": "Manage",
+    "zh": "运行 `hermes gateway setup`，选择 Weixin，然后使用个人微信账号扫描并确认二维码。Hermes 会通过腾讯 iLink Bot API 连接并保存凭据。"
+  },
+  {
+    "key": "showRuns",
+    "en": "Show runs",
+    "zh": "在 QQ 开放平台 (q.qq.com) 注册一个应用，复制 App ID 和 Client Secret。"
+  },
+  {
+    "key": "hideRuns",
+    "en": "Hide runs",
+    "zh": "把 Hermes 暴露为兼容 OpenAI 的 API。设置一个鉴权密钥，然后把 Open WebUI / LobeChat 等指向 host:port。"
+  },
+  {
+    "key": "runHistory",
+    "en": "Run history",
+    "zh": "运行一个 HTTP 服务器，供其他工具 (GitHub、GitLab、自定义应用)POST。用 secret 验证签名。"
+  },
+  {
+    "key": "actionsTitle",
+    "en": "Cron job actions",
+    "zh": "关闭配置档案"
+  },
+  {
+    "key": "resume",
+    "en": "Resume cron",
+    "zh": "小写字母、数字、连字符和下划线。必须以字母或数字开头。"
+  },
+  {
+    "key": "pause",
+    "en": "Pause cron",
+    "zh": "配置档案"
+  },
+  {
+    "key": "resumeTitle",
+    "en": "Resume",
+    "zh": "搜索配置档案…"
+  },
+  {
+    "key": "pauseTitle",
+    "en": "Pause",
+    "zh": "正在加载配置档案…"
+  },
+  {
+    "key": "triggerNow",
+    "en": "Trigger now",
+    "zh": "新建配置档案"
+  },
+  {
+    "key": "edit",
+    "en": "Edit cron",
+    "zh": "全部配置档案"
+  },
+  {
+    "key": "deleteTitle",
+    "en": "Delete cron job?",
+    "zh": "显示全部配置档案"
+  },
+  {
+    "key": "deleteDescPrefix",
+    "en": "This will remove ",
+    "zh": "管理配置档案…"
+  },
+  {
+    "key": "deleteDescSuffix",
+    "en": " permanently. It will stop firing immediately.",
+    "zh": "颜色…"
+  },
+  {
+    "key": "deleting",
+    "en": "Deleting...",
+    "zh": "自动"
+  },
+  {
+    "key": "resumed",
+    "en": "Cron resumed",
+    "zh": "暂无配置档案。"
+  },
+  {
+    "key": "paused",
+    "en": "Cron paused",
+    "zh": "选择一个配置档案以查看其详情。"
+  },
+  {
+    "key": "triggered",
+    "en": "Cron triggered",
+    "zh": "刷新配置档案"
+  },
+  {
+    "key": "deleted",
+    "en": "Cron deleted",
+    "zh": "正在刷新配置档案"
+  },
+  {
+    "key": "created",
+    "en": "Cron created",
+    "zh": "默认"
+  },
+  {
+    "key": "updated",
+    "en": "Cron updated",
+    "zh": "env"
+  },
+  {
+    "key": "failedLoad",
+    "en": "Failed to load cron jobs",
+    "zh": "默认"
+  },
+  {
+    "key": "failedUpdate",
+    "en": "Failed to update cron job",
+    "zh": "重命名"
+  },
+  {
+    "key": "failedTrigger",
+    "en": "Failed to trigger cron job",
+    "zh": "重命名…"
+  },
+  {
+    "key": "failedDelete",
+    "en": "Failed to delete cron job",
+    "zh": "编辑 SOUL.md…"
+  },
+  {
+    "key": "failedSave",
+    "en": "Failed to save cron job",
+    "zh": "复制安装命令"
+  },
+  {
+    "key": "editTitle",
+    "en": "Edit cron job",
+    "zh": "复制中…"
+  },
+  {
+    "key": "createTitle",
+    "en": "New cron job",
+    "zh": "模型"
+  },
+  {
+    "key": "editDesc",
+    "en": "Update the schedule, prompt, or delivery target. Changes apply on next run.",
+    "zh": "技能"
+  },
+  {
+    "key": "createDesc",
+    "en": "Schedule a prompt to run automatically. Use cron syntax or a natural phrase like \"every 15 minutes\".",
+    "zh": "未设置"
+  },
+  {
+    "key": "nameLabel",
+    "en": "Name",
+    "zh": "内置于此配置档案的系统提示词与人格指令。"
+  },
+  {
+    "key": "namePlaceholder",
+    "en": "Morning briefing",
+    "zh": "可选"
+  },
+  {
+    "key": "promptLabel",
+    "en": "Prompt",
+    "zh": "克隆的"
+  },
+  {
+    "key": "promptPlaceholder",
+    "en": "Summarize my unread Slack threads and email me the top 5...",
+    "zh": "空的"
+  },
+  {
+    "key": "frequencyLabel",
+    "en": "Frequency",
+    "zh": "有未保存的更改"
+  },
+  {
+    "key": "deliverLabel",
+    "en": "Deliver to",
+    "zh": "正在加载 SOUL.md…"
+  },
+  {
+    "key": "customScheduleLabel",
+    "en": "Custom schedule",
+    "zh": "空的 SOUL.md —— 开始撰写人格设定…"
+  },
+  {
+    "key": "customPlaceholder",
+    "en": "0 9 * * * or weekdays at 9am",
+    "zh": "保存中…"
+  },
+  {
+    "key": "customHint",
+    "en": "Cron expression, or phrases like \"every hour\" or \"weekdays at 9am\".",
+    "zh": "保存 SOUL.md"
+  },
+  {
+    "key": "optional",
+    "en": "Optional",
+    "zh": "删除配置档案？"
+  },
+  {
+    "key": "promptRequired",
+    "en": "Prompt is required.",
+    "zh": "这将删除 "
+  },
+  {
+    "key": "promptScheduleRequired",
+    "en": "Prompt and schedule are required.",
+    "zh": " 并移除其 "
+  },
+  {
+    "key": "scheduleRequired",
+    "en": "Schedule is required.",
+    "zh": " 目录。此操作无法撤销。"
+  },
+  {
+    "key": "scriptOnlyEditHint",
+    "en": "Script-only job (no AI prompt). Job id:",
+    "zh": "删除中…"
+  },
+  {
+    "key": "saveChanges",
+    "en": "Save changes",
+    "zh": "配置档案是相互独立的 Hermes 环境：各自拥有独立的配置、技能和 SOUL.md。"
+  },
+  {
+    "key": "createAction",
+    "en": "Create cron",
+    "zh": "名称"
+  },
+  {
+    "key": "search",
+    "en": "Search artifacts...",
+    "zh": "克隆来源"
+  },
+  {
+    "key": "refresh",
+    "en": "Refresh artifacts",
+    "zh": "无（空白）"
+  },
+  {
+    "key": "refreshing",
+    "en": "Refreshing artifacts",
+    "zh": "从选中的来源配置档案复制配置、技能和 SOUL.md。"
+  },
+  {
+    "key": "indexing",
+    "en": "Indexing recent session artifacts",
+    "zh": "从默认档案克隆"
+  },
+  {
+    "key": "tabAll",
+    "en": "All",
+    "zh": "从你的默认配置档案复制配置、技能和 SOUL.md。"
+  },
+  {
+    "key": "tabImages",
+    "en": "Images",
+    "zh": "名称为必填项。"
+  },
+  {
+    "key": "tabFiles",
+    "en": "Files",
+    "zh": "创建中…"
+  },
+  {
+    "key": "tabLinks",
+    "en": "Links",
+    "zh": "创建配置档案"
+  },
+  {
+    "key": "noArtifactsTitle",
+    "en": "No artifacts found",
+    "zh": "重命名配置档案"
+  },
+  {
+    "key": "noArtifactsDesc",
+    "en": "Generated images and file outputs will appear here as sessions produce them.",
+    "zh": "重命名会更新配置档案目录以及 "
+  },
+  {
+    "key": "failedLoad",
+    "en": "Artifacts failed to load",
+    "zh": " 中的所有包装脚本。"
+  },
+  {
+    "key": "openFailed",
+    "en": "Open failed",
+    "zh": "新名称"
+  },
+  {
+    "key": "itemsImage",
+    "en": "images",
+    "zh": "重命名中…"
+  },
+  {
+    "key": "itemsLink",
+    "en": "links",
+    "zh": "配置档案已创建"
+  },
+  {
+    "key": "itemsFile",
+    "en": "files",
+    "zh": "配置档案已重命名"
+  },
+  {
+    "key": "itemsGeneric",
+    "en": "items",
+    "zh": "配置档案已删除"
+  },
+  {
+    "key": "zero",
+    "en": "0",
+    "zh": "安装命令已复制"
+  },
+  {
+    "key": "colTitleLink",
+    "en": "Link title",
+    "zh": "SOUL.md 已保存"
+  },
+  {
+    "key": "colTitleFile",
+    "en": "Name",
+    "zh": "加载配置档案失败"
+  },
+  {
+    "key": "colTitleDefault",
+    "en": "Title / name",
+    "zh": "删除配置档案失败"
+  },
+  {
+    "key": "colLocationLink",
+    "en": "URL",
+    "zh": "复制安装命令失败"
+  },
+  {
+    "key": "colLocationFile",
+    "en": "Path",
+    "zh": "加载 SOUL.md 失败"
+  },
+  {
+    "key": "colLocationDefault",
+    "en": "Location",
+    "zh": "保存 SOUL.md 失败"
+  },
+  {
+    "key": "colSession",
+    "en": "Session",
+    "zh": "创建配置档案失败"
+  },
+  {
+    "key": "kindImage",
+    "en": "image",
+    "zh": "重命名配置档案失败"
+  },
+  {
+    "key": "kindFile",
+    "en": "file",
+    "zh": "关闭定时任务"
+  },
+  {
+    "key": "kindLink",
+    "en": "link",
+    "zh": "定时任务"
+  },
+  {
+    "key": "chat",
+    "en": "Chat",
+    "zh": "搜索定时任务…"
+  },
+  {
+    "key": "copyUrl",
+    "en": "Copy URL",
+    "zh": "正在加载定时任务…"
+  },
+  {
+    "key": "copyPath",
+    "en": "Copy path",
+    "zh": "已启用"
+  },
+  {
+    "key": "'new-session'",
+    "en": "New session",
+    "zh": "已排程"
+  },
+  {
+    "key": "skills",
+    "en": "Capabilities",
+    "zh": "运行中"
+  },
+  {
+    "key": "messaging",
+    "en": "Messaging",
+    "zh": "已暂停"
+  },
+  {
+    "key": "artifacts",
+    "en": "Artifacts",
+    "zh": "已禁用"
+  },
+  {
+    "key": "searchAria",
+    "en": "Search sessions",
+    "zh": "错误"
+  },
+  {
+    "key": "searchPlaceholder",
+    "en": "Search sessions…",
+    "zh": "已完成"
+  },
+  {
+    "key": "clearSearch",
+    "en": "Clear search",
+    "zh": "此桌面"
+  },
+  {
+    "key": "results",
+    "en": "Results",
+    "zh": "Telegram"
+  },
+  {
+    "key": "pinned",
+    "en": "Pinned",
+    "zh": "Discord"
+  },
+  {
+    "key": "sessions",
+    "en": "Sessions",
+    "zh": "Slack"
+  },
+  {
+    "key": "cronJobs",
+    "en": "Cron jobs",
+    "zh": "电子邮件"
+  },
+  {
+    "key": "groupAriaGrouped",
+    "en": "Show sessions as a single list",
+    "zh": "每天"
+  },
+  {
+    "key": "groupAriaUngrouped",
+    "en": "Group sessions by workspace",
+    "zh": "工作日"
+  },
+  {
+    "key": "showProjects",
+    "en": "Show projects",
+    "zh": "每周"
+  },
+  {
+    "key": "showSessions",
+    "en": "Show sessions",
+    "zh": "每月"
+  },
+  {
+    "key": "groupTitleGrouped",
+    "en": "Ungroup sessions",
+    "zh": "每小时"
+  },
+  {
+    "key": "groupTitleUngrouped",
+    "en": "Group by workspace",
+    "zh": "每 15 分钟"
+  },
+  {
+    "key": "allPinned",
+    "en": "Everything here is pinned. Unpin a chat to show it in recents.",
+    "zh": "自定义"
+  },
+  {
+    "key": "shiftClickHint",
+    "en": "Shift-click a chat to pin",
+    "zh": "每天上午 9:00"
+  },
+  {
+    "key": "noWorkspace",
+    "en": "No workspace",
+    "zh": "周一至周五上午 9:00"
+  },
+  {
+    "key": "noProject",
+    "en": "No project",
+    "zh": "每周一上午 9:00"
+  },
+  {
+    "key": "projectEmpty",
+    "en": "No sessions yet",
+    "zh": "每月第一天上午 9:00"
+  },
+  {
+    "key": "noSessions",
+    "en": "No sessions yet",
+    "zh": "每个整点"
+  },
+  {
+    "key": "sectionLabel",
+    "en": "Projects",
+    "zh": "每 15 分钟"
+  },
+  {
+    "key": "newButton",
+    "en": "New project",
+    "zh": "Cron 语法或自然语言"
+  },
+  {
+    "key": "createTitle",
+    "en": "New project",
+    "zh": "周日"
+  },
+  {
+    "key": "createDesc",
+    "en": "Name a workspace and add one or more folders.",
+    "zh": "周一"
+  },
+  {
+    "key": "renameTitle",
+    "en": "Rename project",
+    "zh": "周二"
+  },
+  {
+    "key": "addFolderTitle",
+    "en": "Add folder",
+    "zh": "周三"
+  },
+  {
+    "key": "namePlaceholder",
+    "en": "e.g. Skunkworks",
+    "zh": "周四"
+  },
+  {
+    "key": "foldersLabel",
+    "en": "Folders",
+    "zh": "周五"
+  },
+  {
+    "key": "ideaLabel",
+    "en": "Idea",
+    "zh": "周六"
+  },
+  {
+    "key": "ideaGenerate",
+    "en": "Generate idea",
+    "zh": "周日"
+  },
+  {
+    "key": "ideaGenerating",
+    "en": "Generating…",
+    "zh": "每个整点"
+  },
+  {
+    "key": "ideaShuffle",
+    "en": "Shuffle templates",
+    "zh": "新建定时任务"
+  },
+  {
+    "key": "noFolders",
+    "en": "No folders added yet.",
+    "zh": "按 cron 表达式排程一个提示词。Hermes 会运行它，并把结果发送到你选择的目的地。"
+  },
+  {
+    "key": "addFolder",
+    "en": "Add folder",
+    "zh": "尝试更宽泛的搜索词。"
+  },
+  {
+    "key": "primaryBadge",
+    "en": "primary",
+    "zh": "暂无排程任务"
+  },
+  {
+    "key": "removeFolder",
+    "en": "Remove",
+    "zh": "无匹配项"
+  },
+  {
+    "key": "create",
+    "en": "Create",
+    "zh": "上次："
+  },
+  {
+    "key": "menu",
+    "en": "Project actions",
+    "zh": "下次："
+  },
+  {
+    "key": "menuRename",
+    "en": "Rename",
+    "zh": "尚无运行"
+  },
+  {
+    "key": "menuAppearance",
+    "en": "Appearance",
+    "zh": "管理"
+  },
+  {
+    "key": "noColor",
+    "en": "No color",
+    "zh": "显示运行记录"
+  },
+  {
+    "key": "menuAddFolder",
+    "en": "Add folder",
+    "zh": "隐藏运行记录"
+  },
+  {
+    "key": "menuSetActive",
+    "en": "Set active",
+    "zh": "运行记录"
+  },
+  {
+    "key": "menuDelete",
+    "en": "Delete",
+    "zh": "定时任务操作"
+  },
+  {
+    "key": "reveal",
+    "en": "Reveal in folder",
+    "zh": "恢复定时任务"
+  },
+  {
+    "key": "copyPath",
+    "en": "Copy path",
+    "zh": "暂停定时任务"
+  },
+  {
+    "key": "removeFromSidebar",
+    "en": "Hide from sidebar",
+    "zh": "恢复"
+  },
+  {
+    "key": "createFailed",
+    "en": "Could not create project",
+    "zh": "暂停"
+  },
+  {
+    "key": "staleBackend",
+    "en": "Update the Hermes backend to create projects — your backend is older than this desktop app (Settings → Updates → Backend).",
+    "zh": "立即触发"
+  },
+  {
+    "key": "deleteConfirm",
+    "en": "This removes the saved project from Hermes. Files, git repos, and worktrees stay untouched.",
+    "zh": "编辑定时任务"
+  },
+  {
+    "key": "startWork",
+    "en": "New worktree",
+    "zh": "删除定时任务？"
+  },
+  {
+    "key": "newWorktreeTitle",
+    "en": "New worktree",
+    "zh": "这将永久移除 "
+  },
+  {
+    "key": "newWorktreeDesc",
+    "en": "Name the branch for this worktree.",
+    "zh": "。它会立即停止触发。"
+  },
+  {
+    "key": "branchPlaceholder",
+    "en": "e.g. my-feature",
+    "zh": "删除中…"
+  },
+  {
+    "key": "baseBranchPlaceholder",
+    "en": "Search branches…",
+    "zh": "定时任务已恢复"
+  },
+  {
+    "key": "baseBranchNone",
+    "en": "No branches found",
+    "zh": "定时任务已暂停"
+  },
+  {
+    "key": "startWorkFailed",
+    "en": "Could not create worktree",
+    "zh": "定时任务已触发"
+  },
+  {
+    "key": "convertBranch",
+    "en": "Convert a branch…",
+    "zh": "定时任务已删除"
+  },
+  {
+    "key": "convertBranchTitle",
+    "en": "Convert a branch",
+    "zh": "定时任务已创建"
+  },
+  {
+    "key": "convertBranchDesc",
+    "en": "Open checked-out branches, or create a worktree for a free branch.",
+    "zh": "定时任务已更新"
+  },
+  {
+    "key": "convertBranchPlaceholder",
+    "en": "Search branches…",
+    "zh": "加载定时任务失败"
+  },
+  {
+    "key": "convertBranchInstead",
+    "en": "Convert an existing branch",
+    "zh": "更新定时任务失败"
+  },
+  {
+    "key": "branchOpenExisting",
+    "en": "open",
+    "zh": "触发定时任务失败"
+  },
+  {
+    "key": "branchSwitchHome",
+    "en": "switch home",
+    "zh": "删除定时任务失败"
+  },
+  {
+    "key": "branchCreateWorktree",
+    "en": "new worktree",
+    "zh": "保存定时任务失败"
+  },
+  {
+    "key": "branchesLoading",
+    "en": "Loading branches…",
+    "zh": "编辑定时任务"
+  },
+  {
+    "key": "noBranches",
+    "en": "No branches found",
+    "zh": "新建定时任务"
+  },
+  {
+    "key": "removeWorktree",
+    "en": "Remove worktree",
+    "zh": "更新排程、提示词或投递目标。更改将在下次运行时生效。"
+  },
+  {
+    "key": "removeWorktreeFailed",
+    "en": "Could not remove worktree (uncommitted changes?)",
+    "zh": "排程一个提示词以自动运行。使用 cron 语法或类似\"每 15 分钟\"的自然语言。"
+  },
+  {
+    "key": "removeWorktreeConfirm",
+    "en": "Remove it from git (deletes the worktree directory; the branch stays), or just hide the lane from the sidebar and leave the worktree on disk.",
+    "zh": "名称"
+  },
+  {
+    "key": "removeWorktreeDirty",
+    "en": "This worktree has uncommitted changes. Force-remove it (discards those changes), or just hide the lane and keep it on disk.",
+    "zh": "晨间简报"
+  },
+  {
+    "key": "forceRemove",
+    "en": "Force remove",
+    "zh": "提示词"
+  },
+  {
+    "key": "back",
+    "en": "All projects",
+    "zh": "总结我未读的 Slack 话题，并把前 5 条邮件发给我…"
+  },
+  {
+    "key": "loading",
+    "en": "Loading…",
+    "zh": "频率"
+  },
+  {
+    "key": "loadMore",
+    "en": "Load more",
+    "zh": "投递至"
+  },
+  {
+    "key": "pin",
+    "en": "Pin",
+    "zh": "自定义排程"
+  },
+  {
+    "key": "unpin",
+    "en": "Unpin",
+    "zh": "0 9 * * * 或 weekdays at 9am"
+  },
+  {
+    "key": "copyId",
+    "en": "Copy ID",
+    "zh": "Cron 表达式，或类似\"每小时\"\"工作日上午 9 点\"的短语。"
+  },
+  {
+    "key": "export",
+    "en": "Export",
+    "zh": "可选"
+  },
+  {
+    "key": "branchFrom",
+    "en": "Branch",
+    "zh": "提示词为必填项。"
+  },
+  {
+    "key": "rename",
+    "en": "Rename",
+    "zh": "提示词和排程为必填项。"
+  },
+  {
+    "key": "archive",
+    "en": "Archive",
+    "zh": "排程为必填项。"
+  },
+  {
+    "key": "newWindow",
+    "en": "New window",
+    "zh": "仅脚本任务（无 AI 提示词）。任务 ID："
+  },
+  {
+    "key": "copyIdFailed",
+    "en": "Could not copy session ID",
+    "zh": "保存更改"
+  },
+  {
+    "key": "sessionActions",
+    "en": "Session actions",
+    "zh": "创建定时任务"
+  },
+  {
+    "key": "sessionRunning",
+    "en": "Session running",
+    "zh": "搜索产物…"
+  },
+  {
+    "key": "needsInput",
+    "en": "Needs your input",
+    "zh": "刷新产物"
+  },
+  {
+    "key": "waitingForAnswer",
+    "en": "Waiting for your answer",
+    "zh": "正在刷新产物"
+  },
+  {
+    "key": "renamed",
+    "en": "Renamed",
+    "zh": "正在索引最近会话的产物"
+  },
+  {
+    "key": "renameFailed",
+    "en": "Rename failed",
+    "zh": "全部"
+  },
+  {
+    "key": "renameTitle",
+    "en": "Rename session",
+    "zh": "图片"
+  },
+  {
+    "key": "renameDesc",
+    "en": "Give this chat a memorable title. Leave empty to clear.",
+    "zh": "文件"
+  },
+  {
+    "key": "untitledPlaceholder",
+    "en": "Untitled session",
+    "zh": "链接"
+  },
+  {
+    "key": "ageNow",
+    "en": "now",
+    "zh": "未找到产物"
+  },
+  {
+    "key": "ageDay",
+    "en": "d",
+    "zh": "当会话生成图片和文件输出时，它们会显示在这里。"
+  },
+  {
+    "key": "ageHour",
+    "en": "h",
+    "zh": "产物加载失败"
+  },
+  {
+    "key": "ageMin",
+    "en": "m",
+    "zh": "打开失败"
+  },
+  {
+    "key": "message",
+    "en": "Message",
+    "zh": "张图片"
+  },
+  {
+    "key": "placeholderStarting",
+    "en": "Starting Hermes...",
+    "zh": "个链接"
+  },
+  {
+    "key": "placeholderReconnecting",
+    "en": "Reconnecting to Hermes…",
+    "zh": "个文件"
+  },
+  {
+    "key": "placeholderFollowUp",
+    "en": "Send follow-up",
+    "zh": "项"
+  },
+  {
+    "key": "startVoice",
+    "en": "Start voice conversation",
+    "zh": "0"
+  },
+  {
+    "key": "queueMessage",
+    "en": "Queue message",
+    "zh": "链接标题"
+  },
+  {
+    "key": "steer",
+    "en": "Steer the current run",
+    "zh": "名称"
+  },
+  {
+    "key": "stop",
+    "en": "Stop",
+    "zh": "标题 / 名称"
+  },
+  {
+    "key": "send",
+    "en": "Send",
+    "zh": "URL"
+  },
+  {
+    "key": "speaking",
+    "en": "Speaking",
+    "zh": "路径"
+  },
+  {
+    "key": "transcribing",
+    "en": "Transcribing",
+    "zh": "位置"
+  },
+  {
+    "key": "thinking",
+    "en": "Thinking",
+    "zh": "会话"
+  },
+  {
+    "key": "muted",
+    "en": "Muted",
+    "zh": "图片"
+  },
+  {
+    "key": "listening",
+    "en": "Listening",
+    "zh": "文件"
+  },
+  {
+    "key": "muteMic",
+    "en": "Mute microphone",
+    "zh": "链接"
+  },
+  {
+    "key": "unmuteMic",
+    "en": "Unmute microphone",
+    "zh": "对话"
+  },
+  {
+    "key": "stopListening",
+    "en": "Stop listening and send",
+    "zh": "复制 URL"
+  },
+  {
+    "key": "stopShort",
+    "en": "Stop",
+    "zh": "复制路径"
+  },
+  {
+    "key": "endConversation",
+    "en": "End voice conversation",
+    "zh": "新建会话"
+  },
+  {
+    "key": "endShort",
+    "en": "End",
+    "zh": "技能与工具"
+  },
+  {
+    "key": "stopDictation",
+    "en": "Stop dictation",
+    "zh": "消息平台"
+  },
+  {
+    "key": "transcribingDictation",
+    "en": "Transcribing dictation",
+    "zh": "产物"
+  },
+  {
+    "key": "voiceDictation",
+    "en": "Voice dictation",
+    "zh": "搜索会话"
+  },
+  {
+    "key": "speakReplies",
+    "en": "Read replies aloud",
+    "zh": "搜索会话…"
+  },
+  {
+    "key": "stopSpeakingReplies",
+    "en": "Stop reading replies aloud",
+    "zh": "清除搜索"
+  },
+  {
+    "key": "lookupLoading",
+    "en": "Looking up…",
+    "zh": "结果"
+  },
+  {
+    "key": "lookupNoMatches",
+    "en": "No matches.",
+    "zh": "已置顶"
+  },
+  {
+    "key": "lookupTry",
+    "en": "Try",
+    "zh": "会话"
+  },
+  {
+    "key": "lookupOr",
+    "en": "or",
+    "zh": "定时任务"
+  },
+  {
+    "key": "commonCommands",
+    "en": "Common commands",
+    "zh": "以单一列表显示会话"
+  },
+  {
+    "key": "hotkeys",
+    "en": "Hotkeys",
+    "zh": "按工作区分组会话"
+  },
+  {
+    "key": "helpFooter",
+    "en": "opens the full panel · backspace dismisses",
+    "zh": "显示项目"
+  },
+  {
+    "key": "'/help'",
+    "en": "full list of commands + hotkeys",
+    "zh": "显示会话"
+  },
+  {
+    "key": "'/clear'",
+    "en": "start a new session",
+    "zh": "取消分组"
+  },
+  {
+    "key": "'/resume'",
+    "en": "resume a prior session",
+    "zh": "按工作区分组"
+  },
+  {
+    "key": "'/details'",
+    "en": "control transcript detail level",
+    "zh": "这里的全部已置顶。取消置顶某个对话即可在最近中显示。"
+  },
+  {
+    "key": "'/copy'",
+    "en": "copy selection or last assistant message",
+    "zh": "Shift+ 单击对话以置顶 · 拖动以重新排序"
+  },
+  {
+    "key": "'/quit'",
+    "en": "exit hermes",
+    "zh": "无工作区"
+  },
+  {
+    "key": "'composer.mention'",
+    "en": "reference files, folders, urls, git",
+    "zh": "无项目"
+  },
+  {
+    "key": "'composer.slash'",
+    "en": "slash command palette",
+    "zh": "暂无会话"
+  },
+  {
+    "key": "'composer.help'",
+    "en": "this quick help (delete to dismiss)",
+    "zh": "暂无会话"
+  },
+  {
+    "key": "'composer.sendNewline'",
+    "en": "send · Shift+Enter for newline",
+    "zh": "项目"
+  },
+  {
+    "key": "'composer.sendQueued'",
+    "en": "send next queued turn",
+    "zh": "新建项目"
+  },
+  {
+    "key": "'keybinds.openPanel'",
+    "en": "all keyboard shortcuts",
+    "zh": "新建项目"
+  },
+  {
+    "key": "'composer.cancel'",
+    "en": "close popover · cancel run",
+    "zh": "为工作区命名并添加一个或多个文件夹。"
+  },
+  {
+    "key": "'composer.history'",
+    "en": "cycle popover / history",
+    "zh": "重命名项目"
+  },
+  {
+    "key": "attachUrlTitle",
+    "en": "Attach a URL",
+    "zh": "添加文件夹"
+  },
+  {
+    "key": "attachUrlDesc",
+    "en": "Hermes will fetch the page and include it as context for this turn.",
+    "zh": "例如 Skunkworks"
+  },
+  {
+    "key": "urlPlaceholder",
+    "en": "https://example.com/post",
+    "zh": "文件夹"
+  },
+  {
+    "key": "urlHintPre",
+    "en": "Include the full URL, e.g. ",
+    "zh": "想法"
+  },
+  {
+    "key": "attach",
+    "en": "Attach",
+    "zh": "这个项目是关于什么的？（保存到 IDEA.md）"
+  },
+  {
+    "key": "attachmentOnly",
+    "en": "Attachment-only turn",
+    "zh": "生成想法"
+  },
+  {
+    "key": "emptyTurn",
+    "en": "Empty turn",
+    "zh": "生成中…"
+  },
+  {
+    "key": "editingInComposer",
+    "en": "Editing in composer",
+    "zh": "随机模板"
+  },
+  {
+    "key": "editingQueuedInComposer",
+    "en": "Editing queued turn in composer",
+    "zh": "尚未添加文件夹。"
+  },
+  {
+    "key": "queueEdit",
+    "en": "Edit",
+    "zh": "添加文件夹"
+  },
+  {
+    "key": "queueSendNext",
+    "en": "Next",
+    "zh": "主"
+  },
+  {
+    "key": "queueSend",
+    "en": "Send",
+    "zh": "移除"
+  },
+  {
+    "key": "queueDelete",
+    "en": "Delete",
+    "zh": "创建"
+  },
+  {
+    "key": "queueStuckTitle",
+    "en": "Queued message not sent",
+    "zh": "项目操作"
+  },
+  {
+    "key": "queueStuckBody",
+    "en": "A queued turn kept failing to send. It is still in the queue — try sending it again.",
+    "zh": "重命名"
+  },
+  {
+    "key": "previewUnavailable",
+    "en": "Preview unavailable",
+    "zh": "外观"
+  },
+  {
+    "key": "dictating",
+    "en": "Dictating",
+    "zh": "无颜色"
+  },
+  {
+    "key": "preparingAudio",
+    "en": "Preparing audio",
+    "zh": "添加文件夹"
+  },
+  {
+    "key": "speakingResponse",
+    "en": "Speaking response",
+    "zh": "设为活动"
+  },
+  {
+    "key": "readingAloud",
+    "en": "Reading aloud",
+    "zh": "删除"
+  },
+  {
+    "key": "themeSuggestions",
+    "en": "Desktop theme suggestions",
+    "zh": "在文件夹中显示"
+  },
+  {
+    "key": "noMatchingThemes",
+    "en": "No matching themes.",
+    "zh": "复制路径"
+  },
+  {
+    "key": "themeTryPre",
+    "en": "Try ",
+    "zh": "从侧边栏移除"
+  },
+  {
+    "key": "themeTryPost",
+    "en": ".",
+    "zh": "无法创建项目"
+  },
+  {
+    "key": "attachLabel",
+    "en": "Attach",
+    "zh": "请更新 Hermes 后端以创建项目——当前后端比桌面应用旧（设置 → 更新 → 后端）。"
+  },
+  {
+    "key": "files",
+    "en": "Files…",
+    "zh": "这会从 Hermes 中移除已保存的项目。文件、git 仓库和工作树保持不变。"
+  },
+  {
+    "key": "folder",
+    "en": "Folder…",
+    "zh": "新建工作树"
+  },
+  {
+    "key": "images",
+    "en": "Images…",
+    "zh": "新建工作树"
+  },
+  {
+    "key": "pasteImage",
+    "en": "Paste image",
+    "zh": "为这个工作树命名分支。"
+  },
+  {
+    "key": "url",
+    "en": "URL…",
+    "zh": "例如 my-feature"
+  },
+  {
+    "key": "promptSnippets",
+    "en": "Prompt snippets…",
+    "zh": "搜索分支…"
+  },
+  {
+    "key": "tipPre",
+    "en": "Tip: type ",
+    "zh": "未找到分支"
+  },
+  {
+    "key": "tipPost",
+    "en": " to reference files inline.",
+    "zh": "无法创建工作树"
+  },
+  {
+    "key": "snippetsTitle",
+    "en": "Prompt snippets",
+    "zh": "转换分支…"
+  },
+  {
+    "key": "snippetsDesc",
+    "en": "Pick a starter prompt to drop into the composer.",
+    "zh": "转换分支"
+  },
+  {
+    "key": "dropFiles",
+    "en": "Drop files to attach",
+    "zh": "打开已检出的分支，或为可用分支创建工作树。"
+  },
+  {
+    "key": "dropSession",
+    "en": "Drop to link this chat",
+    "zh": "搜索分支…"
+  },
+  {
+    "key": "label",
+    "en": "Code review",
+    "zh": "转换现有分支"
+  },
+  {
+    "key": "description",
+    "en": "Audit the current change for regressions, dropped edge cases, and missing tests.",
+    "zh": "打开"
+  },
+  {
+    "key": "text",
+    "en": "Please review this for bugs, regressions, and missing tests.",
+    "zh": "切回主检出"
+  },
+  {
+    "key": "label",
+    "en": "Implementation plan",
+    "zh": "新工作树"
+  },
+  {
+    "key": "description",
+    "en": "Outline an approach before touching code so the diff stays focused.",
+    "zh": "正在加载分支…"
+  },
+  {
+    "key": "text",
+    "en": "Please make a concise implementation plan before changing code.",
+    "zh": "未找到分支"
+  },
+  {
+    "key": "label",
+    "en": "Explain this",
+    "zh": "移除工作树"
+  },
+  {
+    "key": "description",
+    "en": "Walk through how the selected code works and link to the key files.",
+    "zh": "无法移除工作树（存在未提交更改？）"
+  },
+  {
+    "key": "text",
+    "en": "Please explain how this works and point me to the key files.",
+    "zh": "从 git 中移除（删除工作树目录，但保留分支），或仅从侧边栏隐藏该泳道并将工作树保留在磁盘上。"
+  },
+  {
+    "key": "agents",
+    "en": "Agents",
+    "zh": "此工作树有未提交的更改。强制移除（丢弃这些更改），或仅隐藏泳道并保留在磁盘上。"
+  },
+  {
+    "key": "running",
+    "en": "Running",
+    "zh": "强制移除"
+  },
+  {
+    "key": "stop",
+    "en": "Stop",
+    "zh": "全部项目"
+  },
+  {
+    "key": "dismiss",
+    "en": "Dismiss",
+    "zh": "加载中…"
+  },
+  {
+    "key": "title",
+    "en": "Working tree",
+    "zh": "加载更多"
+  },
+  {
+    "key": "noBranch",
+    "en": "No branch",
+    "zh": "置顶"
+  },
+  {
+    "key": "detached",
+    "en": "detached",
+    "zh": "取消置顶"
+  },
+  {
+    "key": "clean",
+    "en": "Clean",
+    "zh": "复制 ID"
+  },
+  {
+    "key": "review",
+    "en": "Review",
+    "zh": "导出"
+  },
+  {
+    "key": "close",
+    "en": "Close",
+    "zh": "分支"
+  },
+  {
+    "key": "openChanges",
+    "en": "Open Changes",
+    "zh": "重命名"
+  },
+  {
+    "key": "openFile",
+    "en": "Open File",
+    "zh": "归档"
+  },
+  {
+    "key": "stage",
+    "en": "Stage",
+    "zh": "新窗口"
+  },
+  {
+    "key": "unstage",
+    "en": "Unstage",
+    "zh": "无法复制会话 ID"
+  },
+  {
+    "key": "stageAll",
+    "en": "Stage all",
+    "zh": "会话操作"
+  },
+  {
+    "key": "viewAsTree",
+    "en": "View as tree",
+    "zh": "会话运行中"
+  },
+  {
+    "key": "viewAsList",
+    "en": "View as list",
+    "zh": "需要你输入"
+  },
+  {
+    "key": "revert",
+    "en": "Revert",
+    "zh": "正在等待你的回答"
+  },
+  {
+    "key": "revertAll",
+    "en": "Revert all",
+    "zh": "已重命名"
+  },
+  {
+    "key": "revertConfirm",
+    "en": "Discard changes to this file and restore it to the committed state? This cannot be undone.",
+    "zh": "重命名失败"
+  },
+  {
+    "key": "revertAllConfirm",
+    "en": "Discard every change and restore files to the committed state? This cannot be undone.",
+    "zh": "重命名会话"
+  },
+  {
+    "key": "staged",
+    "en": "Staged",
+    "zh": "给这个对话起一个好记的标题。留空则清除。"
+  },
+  {
+    "key": "noChanges",
+    "en": "No changes",
+    "zh": "无标题会话"
+  },
+  {
+    "key": "notRepo",
+    "en": "Not a git repository",
+    "zh": "刚刚"
+  },
+  {
+    "key": "noDiff",
+    "en": "No diff to show",
+    "zh": "天"
+  },
+  {
+    "key": "scopeUncommitted",
+    "en": "Uncommitted",
+    "zh": "时"
+  },
+  {
+    "key": "scopeBranch",
+    "en": "Branch",
+    "zh": "分"
+  },
+  {
+    "key": "scopeLastTurn",
+    "en": "Last turn",
+    "zh": "消息"
+  },
+  {
+    "key": "commit",
+    "en": "Commit",
+    "zh": "正在启动 Hermes…"
+  },
+  {
+    "key": "commitAndPush",
+    "en": "Commit & Push",
+    "zh": "正在重新连接 Hermes…"
+  },
+  {
+    "key": "commitPlaceholder",
+    "en": "Message (⌘↵ to commit)",
+    "zh": "发送后续消息"
+  },
+  {
+    "key": "generateCommitMessage",
+    "en": "Generate commit message",
+    "zh": "开始语音对话"
+  },
+  {
+    "key": "stopGenerating",
+    "en": "Stop generating",
+    "zh": "排队消息"
+  },
+  {
+    "key": "createPr",
+    "en": "Create PR",
+    "zh": "引导当前运行"
+  },
+  {
+    "key": "openPr",
+    "en": "Open PR",
+    "zh": "停止"
+  },
+  {
+    "key": "ghMissing",
+    "en": "Install the GitHub CLI (gh) and sign in to open PRs",
+    "zh": "发送"
+  },
+  {
+    "key": "agentShip",
+    "en": "Ask Hermes to open PR",
+    "zh": "讲话中"
+  },
+  {
+    "key": "agentShipPrompt",
+    "en": "Review the current changes, commit them with a clear conventional-commit message, push the branch, and open a pull request.",
+    "zh": "转写中"
+  },
+  {
+    "key": "newBranch",
+    "en": "New branch",
+    "zh": "思考中"
+  },
+  {
+    "key": "worktrees",
+    "en": "Worktrees",
+    "zh": "已静音"
+  },
+  {
+    "key": "idle",
+    "en": "Getting ready…",
+    "zh": "聆听中"
+  },
+  {
+    "key": "prepare",
+    "en": "Getting ready…",
+    "zh": "麦克风静音"
+  },
+  {
+    "key": "fetch",
+    "en": "Downloading…",
+    "zh": "取消麦克风静音"
+  },
+  {
+    "key": "pull",
+    "en": "Almost there…",
+    "zh": "停止聆听并发送"
+  },
+  {
+    "key": "pydeps",
+    "en": "Finishing up…",
+    "zh": "停止"
+  },
+  {
+    "key": "update",
+    "en": "Updating Hermes…",
+    "zh": "结束语音对话"
+  },
+  {
+    "key": "rebuild",
+    "en": "Rebuilding the desktop app…",
+    "zh": "结束"
+  },
+  {
+    "key": "restart",
+    "en": "Restarting Hermes…",
+    "zh": "停止听写"
+  },
+  {
+    "key": "done",
+    "en": "Update complete",
+    "zh": "正在转写听写"
+  },
+  {
+    "key": "manual",
+    "en": "Update from your terminal",
+    "zh": "语音听写"
+  },
+  {
+    "key": "guiSkew",
+    "en": "Update the desktop app",
+    "zh": "朗读回复"
+  },
+  {
+    "key": "error",
+    "en": "Update paused",
+    "zh": "停止朗读回复"
+  },
+  {
+    "key": "checking",
+    "en": "Looking for updates…",
+    "zh": "查找中…"
+  },
+  {
+    "key": "checkFailedTitle",
+    "en": "Couldn’t check for updates",
+    "zh": "没有匹配项。"
+  },
+  {
+    "key": "tryAgain",
+    "en": "Try again",
+    "zh": "试试"
+  },
+  {
+    "key": "notAvailableTitle",
+    "en": "Update not available",
+    "zh": "或"
+  },
+  {
+    "key": "unsupportedMessage",
+    "en": "This version of Hermes can’t update itself from inside the app.",
+    "zh": "常用命令"
+  },
+  {
+    "key": "connectionRetry",
+    "en": "Check your connection and try again.",
+    "zh": "快捷键"
+  },
+  {
+    "key": "latestBody",
+    "en": "You’re running the latest version.",
+    "zh": "打开完整面板 · 退格键关闭"
+  },
+  {
+    "key": "latestBodyBackend",
+    "en": "The backend is running the latest version.",
+    "zh": "命令与快捷键的完整列表"
+  },
+  {
+    "key": "allSetTitle",
+    "en": "You’re all set",
+    "zh": "开始新会话"
+  },
+  {
+    "key": "availableTitle",
+    "en": "New update available",
+    "zh": "恢复之前的会话"
+  },
+  {
+    "key": "availableBody",
+    "en": "A new version of Hermes is ready to install.",
+    "zh": "控制对话记录的详细程度"
+  },
+  {
+    "key": "availableTitleBackend",
+    "en": "Backend update available",
+    "zh": "复制所选内容或最后一条助手消息"
+  },
+  {
+    "key": "availableBodyBackend",
+    "en": "A newer version of the connected Hermes backend is ready to install.",
+    "zh": "退出 hermes"
+  },
+  {
+    "key": "availableBodyNoChangelog",
+    "en": "A newer version is ready. Release notes aren’t available for this install type.",
+    "zh": "引用文件、文件夹、URL、git"
+  },
+  {
+    "key": "updateNow",
+    "en": "Update now",
+    "zh": "斜杠命令面板"
+  },
+  {
+    "key": "maybeLater",
+    "en": "Maybe later",
+    "zh": "此快速帮助 (删除以关闭)"
+  },
+  {
+    "key": "manualTitle",
+    "en": "Update from your terminal",
+    "zh": "发送 · Shift+Enter 换行"
+  },
+  {
+    "key": "manualBody",
+    "en": "You installed Hermes from the command line, so updates run there too. Paste this into your terminal:",
+    "zh": "发送下一条排队的回合"
+  },
+  {
+    "key": "manualPickedUp",
+    "en": "Hermes will pick up the new version next time you launch it.",
+    "zh": "所有键盘快捷键"
+  },
+  {
+    "key": "guiSkewTitle",
+    "en": "Update the desktop app",
+    "zh": "关闭弹窗 · 取消运行"
+  },
+  {
+    "key": "guiSkewBody",
+    "en": "The backend was updated, but this desktop app package wasn’t changed. Update or reinstall the Hermes desktop app (your AppImage / .deb / .rpm) to match.",
+    "zh": "循环弹窗 / 历史"
+  },
+  {
+    "key": "copy",
+    "en": "Copy",
+    "zh": "附加 URL"
+  },
+  {
+    "key": "copied",
+    "en": "Copied",
+    "zh": "Hermes 将抓取该页面并作为本回合的上下文。"
+  },
+  {
+    "key": "done",
+    "en": "Done",
+    "zh": "https://example.com/post"
+  },
+  {
+    "key": "applyingBody",
+    "en": "The Hermes updater takes over in its own window and reopens Hermes automatically when it’s done. Please don’t reopen Hermes yourself while it’s updating.",
+    "zh": "请包含完整 URL，例如 "
+  },
+  {
+    "key": "applyingBodyBackend",
+    "en": "The remote backend is applying the update and will restart. Hermes reconnects automatically when it’s back.",
+    "zh": "附加"
+  },
+  {
+    "key": "applyingClose",
+    "en": "This window will close while the update runs, then Hermes reopens on its own.",
+    "zh": "仅附件回合"
+  },
+  {
+    "key": "errorTitle",
+    "en": "Update didn’t finish",
+    "zh": "空回合"
+  },
+  {
+    "key": "errorBody",
+    "en": "No worries — nothing was lost. You can try again now.",
+    "zh": "正在输入框中编辑"
+  },
+  {
+    "key": "notNow",
+    "en": "Not now",
+    "zh": "正在输入框中编辑排队回合"
+  },
+  {
+    "key": "preparing",
+    "en": "Updating backend…",
+    "zh": "编辑"
+  },
+  {
+    "key": "pulling",
+    "en": "Backend updating…",
+    "zh": "下一个"
+  },
+  {
+    "key": "restarting",
+    "en": "Backend restarting to load the update…",
+    "zh": "发送"
+  },
+  {
+    "key": "notAvailable",
+    "en": "Update not available for this backend.",
+    "zh": "删除"
+  },
+  {
+    "key": "failed",
+    "en": "Backend update failed.",
+    "zh": "排队消息未发送"
+  },
+  {
+    "key": "noReturn",
+    "en": "Backend didn’t come back online. The update may not have completed — check the backend host.",
+    "zh": "排队的对话多次发送失败。它仍在队列中，请重试发送。"
+  },
+  {
+    "key": "pending",
+    "en": "Pending",
+    "zh": "预览不可用"
+  },
+  {
+    "key": "running",
+    "en": "Installing",
+    "zh": "听写中"
+  },
+  {
+    "key": "succeeded",
+    "en": "Done",
+    "zh": "正在准备音频"
+  },
+  {
+    "key": "skipped",
+    "en": "Skipped",
+    "zh": "正在朗读回复"
+  },
+  {
+    "key": "failed",
+    "en": "Failed",
+    "zh": "朗读中"
+  },
+  {
+    "key": "oneTimeTitle",
+    "en": "Hermes needs a one-time install",
+    "zh": "桌面主题建议"
+  },
+  {
+    "key": "installCommand",
+    "en": "Install command",
+    "zh": "没有匹配的主题。"
+  },
+  {
+    "key": "copyCommand",
+    "en": "Copy command",
+    "zh": "试试 "
+  },
+  {
+    "key": "viewDocs",
+    "en": "View install docs",
+    "zh": "。"
+  },
+  {
+    "key": "installTo",
+    "en": "Will install to",
+    "zh": "附加"
+  },
+  {
+    "key": "retryAfterRun",
+    "en": "I’ve run it -- retry",
+    "zh": "文件…"
+  },
+  {
+    "key": "failedTitle",
+    "en": "Installation failed",
+    "zh": "文件夹…"
+  },
+  {
+    "key": "settingUpTitle",
+    "en": "Setting up Hermes Agent",
+    "zh": "图片…"
+  },
+  {
+    "key": "finishingTitle",
+    "en": "Finishing up",
+    "zh": "粘贴图片"
+  },
+  {
+    "key": "failedDesc",
+    "en": "One of the install steps failed. On Windows, this can happen if another Hermes CLI or desktop instance is running. Stop any running Hermes instances, then retry. Check the details below or the desktop log for the full transcript.",
+    "zh": "URL…"
+  },
+  {
+    "key": "activeDesc",
+    "en": "This is a one-time setup. The Hermes installer is downloading dependencies and configuring your machine. Subsequent launches will skip this step.",
+    "zh": "提示词片段…"
+  },
+  {
+    "key": "fetchingManifest",
+    "en": "Fetching installer manifest...",
+    "zh": "提示：输入 "
+  },
+  {
+    "key": "error",
+    "en": "Error",
+    "zh": " 以内联引用文件。"
+  },
+  {
+    "key": "hideOutput",
+    "en": "Hide installer output",
+    "zh": "提示词片段"
+  },
+  {
+    "key": "showOutput",
+    "en": "Show installer output",
+    "zh": "选择一个起始提示词放入输入框。"
+  },
+  {
+    "key": "noOutput",
+    "en": "No output yet.",
+    "zh": "拖放文件以附加"
+  },
+  {
+    "key": "cancelling",
+    "en": "Cancelling...",
+    "zh": "拖放以链接此对话"
+  },
+  {
+    "key": "cancelInstall",
+    "en": "Cancel install",
+    "zh": "代码审查"
+  },
+  {
+    "key": "transcriptSaved",
+    "en": "Full transcript saved to",
+    "zh": "审查当前更改是否存在回归、遗漏的边界情况和缺失的测试。"
+  },
+  {
+    "key": "copiedOutput",
+    "en": "Copied!",
+    "zh": "请审查这部分是否存在缺陷、回归和缺失的测试。"
+  },
+  {
+    "key": "copyOutput",
+    "en": "Copy output",
+    "zh": "实现计划"
+  },
+  {
+    "key": "reloadRetry",
+    "en": "Reload and retry",
+    "zh": "在动代码之前先勾勒方案，让 diff 保持聚焦。"
+  },
+  {
+    "key": "headerDesc",
+    "en": "Connect a model provider to start chatting. Most options take one click.",
+    "zh": "请在修改代码前制定一个简洁的实现计划。"
+  },
+  {
+    "key": "preparingInstall",
+    "en": "Hermes is finishing install. This usually takes under a minute on first run.",
+    "zh": "解释这段"
+  },
+  {
+    "key": "starting",
+    "en": "Starting Hermes…",
+    "zh": "讲解所选代码的工作方式，并链接到关键文件。"
+  },
+  {
+    "key": "lookingUpProviders",
+    "en": "Looking up providers...",
+    "zh": "请解释这是如何工作的，并指给我关键文件。"
+  },
+  {
+    "key": "collapse",
+    "en": "Collapse",
+    "zh": "代理"
+  },
+  {
+    "key": "otherProviders",
+    "en": "Other providers",
+    "zh": "运行中"
+  },
+  {
+    "key": "haveApiKey",
+    "en": "I have an API key",
+    "zh": "停止"
+  },
+  {
+    "key": "recommended",
+    "en": "Recommended",
+    "zh": "关闭"
+  },
+  {
+    "key": "connected",
+    "en": "Connected",
+    "zh": "工作区"
+  },
+  {
+    "key": "featuredPitch",
+    "en": "One subscription, 300+ frontier models — the recommended way to run Hermes",
+    "zh": "无分支"
+  },
+  {
+    "key": "openRouterPitch",
+    "en": "One key, hundreds of models — a solid default",
+    "zh": "分离头指针"
+  },
+  {
+    "key": "short",
+    "en": "direct model API",
+    "zh": "干净"
+  },
+  {
+    "key": "description",
+    "en": "Direct access to models hosted by Fireworks AI.",
+    "zh": "审查"
+  },
+  {
+    "key": "short",
+    "en": "one key, many models",
+    "zh": "关闭"
+  },
+  {
+    "key": "description",
+    "en": "Hosts hundreds of models behind a single key. Good default for new installs.",
+    "zh": "打开更改"
+  },
+  {
+    "key": "short",
+    "en": "self-hosted",
+    "zh": "打开文件"
+  },
+  {
+    "key": "description",
+    "en": "Point Hermes at a local or self-hosted OpenAI-compatible endpoint (vLLM, llama.cpp, Ollama, etc).",
+    "zh": "暂存"
+  },
+  {
+    "key": "backToSignIn",
+    "en": "Back to sign in",
+    "zh": "取消暂存"
+  },
+  {
+    "key": "getKey",
+    "en": "Get a key",
+    "zh": "全部暂存"
+  },
+  {
+    "key": "replaceCurrent",
+    "en": "Replace current value",
+    "zh": "树状视图"
+  },
+  {
+    "key": "pasteApiKey",
+    "en": "Paste API key",
+    "zh": "列表视图"
+  },
+  {
+    "key": "localApiKeyPlaceholder",
+    "en": "API key (optional — only if your endpoint requires one)",
+    "zh": "还原"
+  },
+  {
+    "key": "couldNotSave",
+    "en": "Could not save credential.",
+    "zh": "全部还原"
+  },
+  {
+    "key": "connecting",
+    "en": "Connecting",
+    "zh": "放弃对此文件的更改并将其恢复到已提交状态？此操作无法撤销。"
+  },
+  {
+    "key": "update",
+    "en": "Update",
+    "zh": "放弃所有更改并将文件恢复到已提交状态？此操作无法撤销。"
+  },
+  {
+    "key": "pkce",
+    "en": "Opens your browser to sign in, then continues here",
+    "zh": "已暂存"
+  },
+  {
+    "key": "device_code",
+    "en": "Opens a verification page in your browser — Hermes connects automatically",
+    "zh": "没有更改"
+  },
+  {
+    "key": "external",
+    "en": "Sign in once in your terminal, then come back to chat",
+    "zh": "不是 Git 仓库"
+  },
+  {
+    "key": "signInFailed",
+    "en": "Sign-in failed. Try again.",
+    "zh": "没有可显示的差异"
+  },
+  {
+    "key": "pickDifferentProvider",
+    "en": "Pick a different provider",
+    "zh": "未提交"
+  },
+  {
+    "key": "authorizeThere",
+    "en": "Authorize Hermes there.",
+    "zh": "分支"
+  },
+  {
+    "key": "copyAuthCode",
+    "en": "Copy the authorization code and paste it below.",
+    "zh": "上一轮"
+  },
+  {
+    "key": "pasteAuthCode",
+    "en": "Paste authorization code",
+    "zh": "提交"
+  },
+  {
+    "key": "reopenAuthPage",
+    "en": "Re-open authorization page",
+    "zh": "提交并推送"
+  },
+  {
+    "key": "reopenSignInPage",
+    "en": "Re-open sign-in page",
+    "zh": "信息（⌘↵ 提交）"
+  },
+  {
+    "key": "waitingAuthorize",
+    "en": "Waiting for you to authorize...",
+    "zh": "生成提交信息"
+  },
+  {
+    "key": "reopenVerification",
+    "en": "Re-open verification page",
+    "zh": "停止生成"
+  },
+  {
+    "key": "copy",
+    "en": "Copy",
+    "zh": "创建 PR"
+  },
+  {
+    "key": "defaultModel",
+    "en": "Default model",
+    "zh": "打开 PR"
+  },
+  {
+    "key": "freeTier",
+    "en": "Free tier",
+    "zh": "安装 GitHub CLI (gh) 并登录后可打开 PR"
+  },
+  {
+    "key": "pro",
+    "en": "Pro",
+    "zh": "让 Hermes 提交并开 PR"
+  },
+  {
+    "key": "free",
+    "en": "Free",
+    "zh": "检查当前更改，使用清晰的约定式提交信息提交，推送分支，并开启一个拉取请求。"
+  },
+  {
+    "key": "change",
+    "en": "Change",
+    "zh": "新建分支"
+  },
+  {
+    "key": "startChatting",
+    "en": "Begin",
+    "zh": "工作树"
+  },
+  {
+    "key": "title",
+    "en": "Switch model",
+    "zh": "准备中…"
+  },
+  {
+    "key": "current",
+    "en": "current:",
+    "zh": "准备中…"
+  },
+  {
+    "key": "unknown",
+    "en": "(unknown)",
+    "zh": "下载中…"
+  },
+  {
+    "key": "search",
+    "en": "Filter providers and models...",
+    "zh": "马上完成…"
+  },
+  {
+    "key": "noModels",
+    "en": "No models found.",
+    "zh": "收尾中…"
+  },
+  {
+    "key": "addProvider",
+    "en": "Add provider",
+    "zh": "正在更新 Hermes…"
+  },
+  {
+    "key": "loadFailed",
+    "en": "Could not load models",
+    "zh": "正在重新构建桌面应用…"
+  },
+  {
+    "key": "noAuthenticatedProviders",
+    "en": "No authenticated providers.",
+    "zh": "正在重启 Hermes…"
+  },
+  {
+    "key": "pro",
+    "en": "Pro",
+    "zh": "更新完成"
+  },
+  {
+    "key": "proNeedsSubscription",
+    "en": "Pro models need a paid Nous subscription.",
+    "zh": "从终端更新"
+  },
+  {
+    "key": "free",
+    "en": "Free",
+    "zh": "请更新桌面应用"
+  },
+  {
+    "key": "freeTier",
+    "en": "Free tier",
+    "zh": "更新已暂停"
+  },
+  {
+    "key": "priceTitle",
+    "en": "Input / Output price per million tokens",
+    "zh": "正在检查更新…"
+  },
+  {
+    "key": "title",
+    "en": "Models",
+    "zh": "无法检查更新"
+  },
+  {
+    "key": "search",
+    "en": "Search models",
+    "zh": "重试"
+  },
+  {
+    "key": "noAuthenticatedProviders",
+    "en": "No authenticated providers.",
+    "zh": "更新不可用"
+  },
+  {
+    "key": "addProvider",
+    "en": "Add provider…",
+    "zh": "此版本的 Hermes 无法在应用内自行更新。"
+  },
+  {
+    "key": "windowControls",
+    "en": "Window controls",
+    "zh": "请检查网络连接后重试。"
+  },
+  {
+    "key": "paneControls",
+    "en": "Pane controls",
+    "zh": "你正在运行最新版本。"
+  },
+  {
+    "key": "appControls",
+    "en": "App controls",
+    "zh": "后端正在运行最新版本。"
+  },
+  {
+    "key": "search",
+    "en": "Search models",
+    "zh": "已是最新"
+  },
+  {
+    "key": "noModels",
+    "en": "No models found",
+    "zh": "有可用更新"
+  },
+  {
+    "key": "editModels",
+    "en": "Edit Models…",
+    "zh": "新版 Hermes 已可安装。"
+  },
+  {
+    "key": "refreshModels",
+    "en": "Refresh Models",
+    "zh": "后端有可用更新"
+  },
+  {
+    "key": "fast",
+    "en": "Fast",
+    "zh": "已连接的 Hermes 后端有新版本可安装。"
+  },
+  {
+    "key": "medium",
+    "en": "Med",
+    "zh": "已有新版本可用。此安装方式无法显示更新日志。"
+  },
+  {
+    "key": "noOptions",
+    "en": "No options for this model",
+    "zh": "立即更新"
+  },
+  {
+    "key": "options",
+    "en": "Options",
+    "zh": "稍后再说"
+  },
+  {
+    "key": "thinking",
+    "en": "Thinking",
+    "zh": "从终端更新"
+  },
+  {
+    "key": "fast",
+    "en": "Fast",
+    "zh": "你是从命令行安装的 Hermes，因此更新也需要在那里运行。请将此命令粘贴到终端："
+  },
+  {
+    "key": "effort",
+    "en": "Effort",
+    "zh": "下次启动 Hermes 时会使用新版本。"
+  },
+  {
+    "key": "minimal",
+    "en": "Minimal",
+    "zh": "请更新桌面应用"
+  },
+  {
+    "key": "low",
+    "en": "Low",
+    "zh": "后端已更新，但此桌面应用包未更改。请更新或重新安装 Hermes 桌面应用（你的 AppImage / .deb / .rpm）以保持一致。"
+  },
+  {
+    "key": "medium",
+    "en": "Medium",
+    "zh": "复制"
+  },
+  {
+    "key": "high",
+    "en": "High",
+    "zh": "已复制"
+  },
+  {
+    "key": "xhigh",
+    "en": "Extra High",
+    "zh": "完成"
+  },
+  {
+    "key": "max",
+    "en": "Max",
+    "zh": "Hermes 更新器会在自己的窗口中接管，并在完成后自动重新打开 Hermes。更新期间请不要自行重新打开 Hermes。"
+  },
+  {
+    "key": "ultra",
+    "en": "Ultra",
+    "zh": "远程后端正在应用更新并将重启。恢复后 Hermes 会自动重新连接。"
+  },
+  {
+    "key": "updateFailed",
+    "en": "Model option update failed",
+    "zh": "此窗口会在更新期间关闭，随后 Hermes 会自动重新打开。"
+  },
+  {
+    "key": "fastFailed",
+    "en": "Fast mode update failed",
+    "zh": "更新未完成"
+  },
+  {
+    "key": "gateway",
+    "en": "Gateway",
+    "zh": "没有数据丢失。你可以现在重试。"
+  },
+  {
+    "key": "connected",
+    "en": "Connected",
+    "zh": "暂不"
+  },
+  {
+    "key": "connecting",
+    "en": "Connecting",
+    "zh": "正在更新后端…"
+  },
+  {
+    "key": "offline",
+    "en": "Offline",
+    "zh": "后端更新中…"
+  },
+  {
+    "key": "inferenceReady",
+    "en": "Inference ready",
+    "zh": "后端正在重启以加载更新…"
+  },
+  {
+    "key": "inferenceNotReady",
+    "en": "Inference not ready",
+    "zh": "此后端无法更新。"
+  },
+  {
+    "key": "checkingInference",
+    "en": "Checking inference",
+    "zh": "后端更新失败。"
+  },
+  {
+    "key": "disconnected",
+    "en": "Disconnected",
+    "zh": "后端未恢复在线。更新可能未完成——请检查后端主机。"
+  },
+  {
+    "key": "openSystem",
+    "en": "Open system panel",
+    "zh": "等待中"
+  },
+  {
+    "key": "recentActivity",
+    "en": "Recent activity",
+    "zh": "安装中"
+  },
+  {
+    "key": "viewAllLogs",
+    "en": "View all logs →",
+    "zh": "完成"
+  },
+  {
+    "key": "messagingPlatforms",
+    "en": "Messaging platforms",
+    "zh": "已跳过"
+  },
+  {
+    "key": "title",
+    "en": "Approval mode",
+    "zh": "失败"
+  },
+  {
+    "key": "manual",
+    "en": "Manual",
+    "zh": "Hermes 需要一次性安装"
+  },
+  {
+    "key": "manualDescription",
+    "en": "Ask before actions that require approval",
+    "zh": "安装命令"
+  },
+  {
+    "key": "smart",
+    "en": "Smart",
+    "zh": "复制命令"
+  },
+  {
+    "key": "smartDescription",
+    "en": "Automatically assess actions and ask when needed",
+    "zh": "查看安装文档"
+  },
+  {
+    "key": "off",
+    "en": "Off",
+    "zh": "将安装到"
+  },
+  {
+    "key": "offDescription",
+    "en": "Run without approval prompts",
+    "zh": "我已运行 -- 重试"
+  },
+  {
+    "key": "unknown",
+    "en": "unknown",
+    "zh": "安装失败"
+  },
+  {
+    "key": "restart",
+    "en": "restart",
+    "zh": "正在设置 Hermes Agent"
+  },
+  {
+    "key": "update",
+    "en": "update",
+    "zh": "正在收尾"
+  },
+  {
+    "key": "updateInProgress",
+    "en": "Update in progress",
+    "zh": "某个安装步骤失败。在 Windows 上，如果另一个 Hermes CLI 或桌面实例正在运行，可能会出现这种情况。请停止正在运行的 Hermes 实例后重试。可查看下面的详情或 desktop 日志中的完整记录。"
+  },
+  {
+    "key": "closeCommandCenter",
+    "en": "Close Command Center",
+    "zh": "这是一次性设置。Hermes 安装器正在下载依赖并配置你的机器。之后启动会跳过此步骤。"
+  },
+  {
+    "key": "openCommandCenter",
+    "en": "Open Command Center",
+    "zh": "正在获取安装器 manifest..."
+  },
+  {
+    "key": "showTerminal",
+    "en": "Show terminal",
+    "zh": "错误"
+  },
+  {
+    "key": "hideTerminal",
+    "en": "Hide terminal",
+    "zh": "隐藏安装器输出"
+  },
+  {
+    "key": "gateway",
+    "en": "Gateway",
+    "zh": "显示安装器输出"
+  },
+  {
+    "key": "gatewayReady",
+    "en": "ready",
+    "zh": "暂无输出。"
+  },
+  {
+    "key": "gatewayNeedsSetup",
+    "en": "needs setup",
+    "zh": "取消中..."
+  },
+  {
+    "key": "gatewayChecking",
+    "en": "checking",
+    "zh": "取消安装"
+  },
+  {
+    "key": "gatewayConnecting",
+    "en": "connecting",
+    "zh": "完整记录已保存到"
+  },
+  {
+    "key": "gatewayOffline",
+    "en": "offline",
+    "zh": "已复制！"
+  },
+  {
+    "key": "gatewayRestarting",
+    "en": "restarting…",
+    "zh": "复制输出"
+  },
+  {
+    "key": "gatewayTitle",
+    "en": "Hermes inference gateway status",
+    "zh": "重新加载并重试"
+  },
+  {
+    "key": "agents",
+    "en": "Agents",
+    "zh": "开始设置 Hermes Agent"
+  },
+  {
+    "key": "closeAgents",
+    "en": "Close agents",
+    "zh": "连接模型提供方即可开始对话。大多数选项只需一次点击。"
+  },
+  {
+    "key": "openAgents",
+    "en": "Open agents",
+    "zh": "Hermes 正在完成安装。首次运行通常不到一分钟。"
+  },
+  {
+    "key": "cron",
+    "en": "Cron",
+    "zh": "正在启动 Hermes…"
+  },
+  {
+    "key": "openCron",
+    "en": "Open cron jobs",
+    "zh": "正在查找提供方..."
+  },
+  {
+    "key": "starmap",
+    "en": "Memory Graph",
+    "zh": "收起"
+  },
+  {
+    "key": "openStarmap",
+    "en": "Open memory graph",
+    "zh": "其他提供方"
+  },
+  {
+    "key": "turnRunning",
+    "en": "Running",
+    "zh": "我有 API 密钥"
+  },
+  {
+    "key": "currentTurnElapsed",
+    "en": "Current turn elapsed",
+    "zh": "稍后再选择提供方"
+  },
+  {
+    "key": "contextUsage",
+    "en": "Context usage",
+    "zh": "推荐"
+  },
+  {
+    "key": "conversation",
+    "en": "Conversation",
+    "zh": "已连接"
+  },
+  {
+    "key": "mcp",
+    "en": "MCP",
+    "zh": "一个订阅，300+ 前沿模型 — 运行 Hermes 的推荐方式"
+  },
+  {
+    "key": "memory",
+    "en": "Memory",
+    "zh": "一个密钥，数百个模型 — 稳妥的默认选择"
+  },
+  {
+    "key": "rules",
+    "en": "Rules",
+    "zh": "自托管"
+  },
+  {
+    "key": "skills",
+    "en": "Skills",
+    "zh": "将 Hermes 指向本地或自托管的 OpenAI 兼容端点 (vLLM、llama.cpp、Ollama 等)。"
+  },
+  {
+    "key": "subagent_definitions",
+    "en": "Subagent definitions",
+    "zh": "返回登录"
+  },
+  {
+    "key": "system_prompt",
+    "en": "System prompt",
+    "zh": "获取密钥"
+  },
+  {
+    "key": "tool_definitions",
+    "en": "Tool definitions",
+    "zh": "替换当前值"
+  },
+  {
+    "key": "empty",
+    "en": "No context data yet",
+    "zh": "粘贴 API 密钥"
+  },
+  {
+    "key": "loading",
+    "en": "Loading breakdown…",
+    "zh": "API 密钥（可选 — 仅当端点需要时填写）"
+  },
+  {
+    "key": "title",
+    "en": "Context Usage",
+    "zh": "无法保存凭据。"
+  },
+  {
+    "key": "openContextUsage",
+    "en": "Open context usage breakdown",
+    "zh": "连接中"
+  },
+  {
+    "key": "session",
+    "en": "Session",
+    "zh": "更新"
+  },
+  {
+    "key": "runtimeSessionElapsed",
+    "en": "Runtime session elapsed",
+    "zh": "打开浏览器登录，然后回到这里继续"
+  },
+  {
+    "key": "yoloOn",
+    "en": "YOLO on — auto-approving dangerous commands. Click to turn off. Shift+click toggles it globally.",
+    "zh": "在浏览器中打开验证页面 — Hermes 会自动连接"
+  },
+  {
+    "key": "yoloOff",
+    "en": "YOLO off — click to auto-approve dangerous commands. Shift+click toggles it globally.",
+    "zh": "先在终端登录一次，然后回来继续对话"
+  },
+  {
+    "key": "modelNone",
+    "en": "none",
+    "zh": "登录失败，请重试。"
+  },
+  {
+    "key": "noModel",
+    "en": "no model",
+    "zh": "选择其他提供方"
+  },
+  {
+    "key": "switchModel",
+    "en": "Switch model",
+    "zh": "请在那里授权 Hermes。"
+  },
+  {
+    "key": "openModelPicker",
+    "en": "Open model picker",
+    "zh": "复制授权码并粘贴到下面。"
+  },
+  {
+    "key": "aria",
+    "en": "Right sidebar",
+    "zh": "粘贴授权码"
+  },
+  {
+    "key": "panelsAria",
+    "en": "Right sidebar panels",
+    "zh": "重新打开授权页面"
+  },
+  {
+    "key": "files",
+    "en": "File system",
+    "zh": "重新打开登录页面"
+  },
+  {
+    "key": "terminal",
+    "en": "Terminal",
+    "zh": "等待你授权..."
+  },
+  {
+    "key": "noFolderSelected",
+    "en": "No folder selected",
+    "zh": "我已登录"
+  },
+  {
+    "key": "changeCwdTitle",
+    "en": "Change working directory",
+    "zh": "重新打开验证页面"
+  },
+  {
+    "key": "remotePickerTitle",
+    "en": "Choose remote folder",
+    "zh": "复制"
+  },
+  {
+    "key": "remotePickerDescription",
+    "en": "Browse folders on the connected backend.",
+    "zh": "默认模型"
+  },
+  {
+    "key": "remotePickerSelect",
+    "en": "Select folder",
+    "zh": "免费层"
+  },
+  {
+    "key": "openFolder",
+    "en": "Open folder",
+    "zh": "Pro"
+  },
+  {
+    "key": "refreshTree",
+    "en": "Refresh tree",
+    "zh": "免费"
+  },
+  {
+    "key": "collapseAll",
+    "en": "Collapse all folders",
+    "zh": "更改"
+  },
+  {
+    "key": "previewUnavailable",
+    "en": "Preview unavailable",
+    "zh": "开始"
+  },
+  {
+    "key": "noProjectTitle",
+    "en": "No project",
+    "zh": "切换模型"
+  },
+  {
+    "key": "noProjectBody",
+    "en": "Open a project to browse its files and review changes.",
+    "zh": "当前："
+  },
+  {
+    "key": "noProjectOpen",
+    "en": "No project open",
+    "zh": "(未知)"
+  },
+  {
+    "key": "noDiffs",
+    "en": "No diffs",
+    "zh": "筛选提供方和模型..."
+  },
+  {
+    "key": "unreadableTitle",
+    "en": "Unreadable",
+    "zh": "未找到模型。"
+  },
+  {
+    "key": "emptyTitle",
+    "en": "Empty",
+    "zh": "添加提供方"
+  },
+  {
+    "key": "emptyBody",
+    "en": "This folder is empty.",
+    "zh": "无法加载模型"
+  },
+  {
+    "key": "treeErrorTitle",
+    "en": "Tree error",
+    "zh": "没有已认证的提供方。"
+  },
+  {
+    "key": "treeErrorBody",
+    "en": "The file tree hit an error rendering this folder.",
+    "zh": "Pro"
+  },
+  {
+    "key": "tryAgain",
+    "en": "Try again",
+    "zh": "Pro 模型需要付费 Nous 订阅。"
+  },
+  {
+    "key": "loadingTree",
+    "en": "Loading file tree",
+    "zh": "免费"
+  },
+  {
+    "key": "loadingFiles",
+    "en": "Loading files",
+    "zh": "免费层"
+  },
+  {
+    "key": "terminalHide",
+    "en": "Hide terminal",
+    "zh": "每百万 token 的输入/输出价格"
+  },
+  {
+    "key": "terminalsAria",
+    "en": "Terminals",
+    "zh": "模型"
+  },
+  {
+    "key": "terminalNew",
+    "en": "New terminal",
+    "zh": "搜索模型"
+  },
+  {
+    "key": "terminalCloseOthers",
+    "en": "Close others",
+    "zh": "没有已认证的提供方。"
+  },
+  {
+    "key": "terminalCloseAll",
+    "en": "Close all",
+    "zh": "添加提供方…"
+  },
+  {
+    "key": "addToChat",
+    "en": "Add to chat",
+    "zh": "窗口控件"
+  },
+  {
+    "key": "tab",
+    "en": "Preview",
+    "zh": "面板控件"
+  },
+  {
+    "key": "closeOthers",
+    "en": "Close others",
+    "zh": "应用控件"
+  },
+  {
+    "key": "closeToRight",
+    "en": "Close to the right",
+    "zh": "搜索模型"
+  },
+  {
+    "key": "closeAll",
+    "en": "Close all",
+    "zh": "未找到模型"
+  },
+  {
+    "key": "closePane",
+    "en": "Close preview pane",
+    "zh": "编辑模型…"
+  },
+  {
+    "key": "loading",
+    "en": "Loading preview",
+    "zh": "刷新模型"
+  },
+  {
+    "key": "unavailable",
+    "en": "Preview unavailable",
+    "zh": "快速"
+  },
+  {
+    "key": "opening",
+    "en": "Opening...",
+    "zh": "中"
+  },
+  {
+    "key": "hide",
+    "en": "Hide",
+    "zh": "此模型没有可用选项"
+  },
+  {
+    "key": "openPreview",
+    "en": "Open preview",
+    "zh": "选项"
+  },
+  {
+    "key": "openInBrowser",
+    "en": "Open in browser",
+    "zh": "思考"
+  },
+  {
+    "key": "linkHint",
+    "en": "⌘/Ctrl-click for preview pane",
+    "zh": "快速"
+  },
+  {
+    "key": "sourceLineTitle",
+    "en": "Click to select · shift-click to extend · drag to composer",
+    "zh": "推理强度"
+  },
+  {
+    "key": "source",
+    "en": "SOURCE",
+    "zh": "最小"
+  },
+  {
+    "key": "renderedPreview",
+    "en": "PREVIEW",
+    "zh": "低"
+  },
+  {
+    "key": "diff",
+    "en": "DIFF",
+    "zh": "中"
+  },
+  {
+    "key": "unknownSize",
+    "en": "unknown size",
+    "zh": "高"
+  },
+  {
+    "key": "binaryTitle",
+    "en": "This looks like a binary file",
+    "zh": "极高"
+  },
+  {
+    "key": "largeTitle",
+    "en": "This file is large",
+    "zh": "最高"
+  },
+  {
+    "key": "previewAnyway",
+    "en": "Preview anyway",
+    "zh": "超高"
+  },
+  {
+    "key": "truncated",
+    "en": "Showing first 512 KB.",
+    "zh": "模型选项更新失败"
+  },
+  {
+    "key": "noInlineTitle",
+    "en": "No inline preview",
+    "zh": "快速模式更新失败"
+  },
+  {
+    "key": "edit",
+    "en": "Edit",
+    "zh": "网关"
+  },
+  {
+    "key": "editing",
+    "en": "Editing",
+    "zh": "已连接"
+  },
+  {
+    "key": "unsavedChanges",
+    "en": "Unsaved changes",
+    "zh": "连接中"
+  },
+  {
+    "key": "diskChangedTitle",
+    "en": "File changed on disk",
+    "zh": "离线"
+  },
+  {
+    "key": "diskChangedBody",
+    "en": "This file changed since you opened it. Overwrite it with your version, or discard your edits and reload?",
+    "zh": "推理已就绪"
+  },
+  {
+    "key": "overwrite",
+    "en": "Overwrite",
+    "zh": "推理未就绪"
+  },
+  {
+    "key": "discardReload",
+    "en": "Discard & reload",
+    "zh": "正在检查推理"
+  },
+  {
+    "key": "deselect",
+    "en": "Deselect entry",
+    "zh": "已断开"
+  },
+  {
+    "key": "select",
+    "en": "Select entry",
+    "zh": "打开系统面板"
+  },
+  {
+    "key": "copyFailed",
+    "en": "Could not copy console output",
+    "zh": "最近活动"
+  },
+  {
+    "key": "copyEntry",
+    "en": "Copy this entry",
+    "zh": "查看全部日志 →"
+  },
+  {
+    "key": "sendEntry",
+    "en": "Send this entry to chat",
+    "zh": "消息平台"
+  },
+  {
+    "key": "resize",
+    "en": "Resize preview console",
+    "zh": "审批模式"
+  },
+  {
+    "key": "title",
+    "en": "Preview Console",
+    "zh": "手动"
+  },
+  {
+    "key": "sendToChat",
+    "en": "Send to chat",
+    "zh": "执行需要审批的操作前询问"
+  },
+  {
+    "key": "copySelected",
+    "en": "Copy selected to clipboard",
+    "zh": "智能"
+  },
+  {
+    "key": "copyAll",
+    "en": "Copy all to clipboard",
+    "zh": "自动评估操作，并在需要时询问"
+  },
+  {
+    "key": "copy",
+    "en": "Copy",
+    "zh": "关闭"
+  },
+  {
+    "key": "clear",
+    "en": "Clear",
+    "zh": "不显示审批提示，直接运行"
+  },
+  {
+    "key": "empty",
+    "en": "No console messages yet.",
+    "zh": "未知"
+  },
+  {
+    "key": "promptHeader",
+    "en": "Preview console:",
+    "zh": "重启"
+  },
+  {
+    "key": "sentTitle",
+    "en": "Sent to chat",
+    "zh": "更新"
+  },
+  {
+    "key": "appFailedToBoot",
+    "en": "Preview app failed to boot",
+    "zh": "正在更新"
+  },
+  {
+    "key": "serverNotFound",
+    "en": "Server not found",
+    "zh": "关闭命令中心"
+  },
+  {
+    "key": "failedToLoad",
+    "en": "Preview failed to load",
+    "zh": "打开命令中心"
+  },
+  {
+    "key": "tryAgain",
+    "en": "Try again",
+    "zh": "显示终端"
+  },
+  {
+    "key": "restarting",
+    "en": "Hermes is restarting...",
+    "zh": "隐藏终端"
+  },
+  {
+    "key": "askRestart",
+    "en": "Ask Hermes to restart the server",
+    "zh": "网关"
+  },
+  {
+    "key": "restartingTitle",
+    "en": "Restarting preview server",
+    "zh": "就绪"
+  },
+  {
+    "key": "restartingMessage",
+    "en": "Hermes is working in the background. Watch the preview console for progress.",
+    "zh": "需要设置"
+  },
+  {
+    "key": "restartFailed",
+    "en": "Server restart failed",
+    "zh": "检查中"
+  },
+  {
+    "key": "hideConsole",
+    "en": "Hide preview console",
+    "zh": "连接中"
+  },
+  {
+    "key": "showConsole",
+    "en": "Show preview console",
+    "zh": "离线"
+  },
+  {
+    "key": "hideDevTools",
+    "en": "Hide preview DevTools",
+    "zh": "重启中…"
+  },
+  {
+    "key": "openDevTools",
+    "en": "Open preview DevTools",
+    "zh": "Hermes 推理网关状态"
+  },
+  {
+    "key": "unknownError",
+    "en": "unknown error",
+    "zh": "代理"
+  },
+  {
+    "key": "restartedTitle",
+    "en": "Preview server restarted",
+    "zh": "关闭代理"
+  },
+  {
+    "key": "reloadingNow",
+    "en": "Reloading the preview now.",
+    "zh": "打开代理"
+  },
+  {
+    "key": "restartFailedTitle",
+    "en": "Preview restart failed",
+    "zh": "排程"
+  },
+  {
+    "key": "restartFailedMessage",
+    "en": "Hermes could not restart the server.",
+    "zh": "打开排程任务"
+  },
+  {
+    "key": "stillWorking",
+    "en": "Hermes is still working, but no restart result has arrived yet. The server command may be running in the foreground.",
+    "zh": "记忆图谱"
+  },
+  {
+    "key": "workspaceReloading",
+    "en": "Workspace changed, reloading preview",
+    "zh": "打开记忆图谱"
+  },
+  {
+    "key": "moduleMimeDescription",
+    "en": "Module scripts are being served with the wrong MIME type. This usually means a static file server is serving a Vite/React app instead of the project dev server.",
+    "zh": "运行中"
+  },
+  {
+    "key": "unreachableDescription",
+    "en": "The preview page could not be reached.",
+    "zh": "当前回合已用时间"
+  },
+  {
+    "key": "fallbackTitle",
+    "en": "Preview",
+    "zh": "上下文用量"
+  },
+  {
+    "key": "loadingSession",
+    "en": "Loading session",
+    "zh": "对话"
+  },
+  {
+    "key": "showEarlier",
+    "en": "Show earlier messages",
+    "zh": "MCP"
+  },
+  {
+    "key": "loadingResponse",
+    "en": "Hermes is loading a response",
+    "zh": "记忆"
+  },
+  {
+    "key": "thinking",
+    "en": "Thinking",
+    "zh": "规则"
+  },
+  {
+    "key": "copy",
+    "en": "Copy",
+    "zh": "技能"
+  },
+  {
+    "key": "refresh",
+    "en": "Refresh",
+    "zh": "子代理定义"
+  },
+  {
+    "key": "moreActions",
+    "en": "More actions",
+    "zh": "系统提示词"
+  },
+  {
+    "key": "branchNewChat",
+    "en": "Branch in new chat",
+    "zh": "工具定义"
+  },
+  {
+    "key": "dismissError",
+    "en": "Dismiss error",
+    "zh": "暂无上下文数据"
+  },
+  {
+    "key": "readAloudFailed",
+    "en": "Read aloud failed",
+    "zh": "正在加载明细…"
+  },
+  {
+    "key": "preparingAudio",
+    "en": "Preparing audio...",
+    "zh": "上下文用量"
+  },
+  {
+    "key": "stopReading",
+    "en": "Stop reading",
+    "zh": "打开上下文用量明细"
+  },
+  {
+    "key": "readAloud",
+    "en": "Read aloud",
+    "zh": "会话"
+  },
+  {
+    "key": "editMessage",
+    "en": "Edit message",
+    "zh": "运行时会话已用时间"
+  },
+  {
+    "key": "expandMessage",
+    "en": "Expand message",
+    "zh": "YOLO 已开启 - 自动批准危险命令。点击关闭。Shift+点击可全局切换。"
+  },
+  {
+    "key": "scrollToBottom",
+    "en": "Scroll to bottom",
+    "zh": "YOLO 已关闭 - 点击自动批准危险命令。Shift+点击可全局切换。"
+  },
+  {
+    "key": "stop",
+    "en": "Stop",
+    "zh": "无"
+  },
+  {
+    "key": "restorePrevious",
+    "en": "Restore previous checkpoint",
+    "zh": "无模型"
+  },
+  {
+    "key": "restoreCheckpoint",
+    "en": "Restore checkpoint",
+    "zh": "切换模型"
+  },
+  {
+    "key": "restoreFromHere",
+    "en": "Restore checkpoint — rerun from this prompt",
+    "zh": "打开模型选择器"
+  },
+  {
+    "key": "restoreTitle",
+    "en": "Restore to this checkpoint?",
+    "zh": "右侧边栏"
+  },
+  {
+    "key": "restoreBody",
+    "en": "Everything after this prompt is removed from the conversation, and the prompt runs again from here.",
+    "zh": "右侧边栏面板"
+  },
+  {
+    "key": "restoreConfirm",
+    "en": "Restore & rerun",
+    "zh": "文件系统"
+  },
+  {
+    "key": "restoreNext",
+    "en": "Restore next checkpoint",
+    "zh": "终端"
+  },
+  {
+    "key": "goForward",
+    "en": "Go forward",
+    "zh": "未选择文件夹"
+  },
+  {
+    "key": "sendEdited",
+    "en": "Send edited message",
+    "zh": "更改工作目录"
+  },
+  {
+    "key": "attachingFile",
+    "en": "Attaching…",
+    "zh": "选择远程文件夹"
+  },
+  {
+    "key": "gatewayDisconnected",
+    "en": "Hermes gateway is not connected",
+    "zh": "浏览已连接后端上的文件夹。"
+  },
+  {
+    "key": "sendFailed",
+    "en": "Could not send approval response",
+    "zh": "选择文件夹"
+  },
+  {
+    "key": "run",
+    "en": "Run",
+    "zh": "打开文件夹"
+  },
+  {
+    "key": "command",
+    "en": "Command",
+    "zh": "刷新文件树"
+  },
+  {
+    "key": "moreOptions",
+    "en": "More approval options",
+    "zh": "折叠所有文件夹"
+  },
+  {
+    "key": "allowSession",
+    "en": "Allow this session",
+    "zh": "预览不可用"
+  },
+  {
+    "key": "alwaysAllowMenu",
+    "en": "Always allow…",
+    "zh": "没有项目"
+  },
+  {
+    "key": "jumpToApproval",
+    "en": "Approval needed",
+    "zh": "打开一个项目以浏览文件并查看更改。"
+  },
+  {
+    "key": "reject",
+    "en": "Reject",
+    "zh": "未打开项目"
+  },
+  {
+    "key": "alwaysTitle",
+    "en": "Always allow this command?",
+    "zh": "无差异"
+  },
+  {
+    "key": "alwaysAllow",
+    "en": "Always allow",
+    "zh": "无法读取"
+  },
+  {
+    "key": "notReady",
+    "en": "Clarify request is not ready yet",
+    "zh": "空文件夹"
+  },
+  {
+    "key": "gatewayDisconnected",
+    "en": "Hermes gateway is not connected",
+    "zh": "此文件夹为空。"
+  },
+  {
+    "key": "sendFailed",
+    "en": "Could not send clarify response",
+    "zh": "文件树错误"
+  },
+  {
+    "key": "loadingQuestion",
+    "en": "Loading question…",
+    "zh": "文件树渲染此文件夹时出错。"
+  },
+  {
+    "key": "other",
+    "en": "Other (type your answer)",
+    "zh": "重试"
+  },
+  {
+    "key": "placeholder",
+    "en": "Type your answer…",
+    "zh": "正在加载文件树"
+  },
+  {
+    "key": "skip",
+    "en": "Skip",
+    "zh": "正在加载文件"
+  },
+  {
+    "key": "skipped",
+    "en": "Skipped",
+    "zh": "隐藏终端"
+  },
+  {
+    "key": "continueLabel",
+    "en": "Continue",
+    "zh": "终端"
+  },
+  {
+    "key": "code",
+    "en": "Code",
+    "zh": "新建终端"
+  },
+  {
+    "key": "copyCode",
+    "en": "Copy code",
+    "zh": "关闭其他"
+  },
+  {
+    "key": "renderingImage",
+    "en": "Rendering image",
+    "zh": "关闭全部"
+  },
+  {
+    "key": "copyOutput",
+    "en": "Copy output",
+    "zh": "添加到对话"
+  },
+  {
+    "key": "copyCommand",
+    "en": "Copy command",
+    "zh": "预览"
+  },
+  {
+    "key": "copyContent",
+    "en": "Copy content",
+    "zh": "关闭其他"
+  },
+  {
+    "key": "copyUrl",
+    "en": "Copy URL",
+    "zh": "关闭右侧"
+  },
+  {
+    "key": "copyResults",
+    "en": "Copy results",
+    "zh": "全部关闭"
+  },
+  {
+    "key": "copyQuery",
+    "en": "Copy query",
+    "zh": "关闭预览面板"
+  },
+  {
+    "key": "copyFile",
+    "en": "Copy file",
+    "zh": "正在加载预览"
+  },
+  {
+    "key": "copyPath",
+    "en": "Copy path",
+    "zh": "预览不可用"
+  },
+  {
+    "key": "outputAlt",
+    "en": "Tool output",
+    "zh": "正在打开..."
+  },
+  {
+    "key": "rawResponse",
+    "en": "Raw response",
+    "zh": "隐藏"
+  },
+  {
+    "key": "copyActivity",
+    "en": "Copy activity",
+    "zh": "打开预览"
+  },
+  {
+    "key": "recoveredOne",
+    "en": "Recovered after 1 failed step",
+    "zh": "在浏览器中打开"
+  },
+  {
+    "key": "failedOne",
+    "en": "1 step failed",
+    "zh": "⌘/Ctrl+点击在预览面板打开"
+  },
+  {
+    "key": "statusRunning",
+    "en": "Running",
+    "zh": "点击选择 · shift 点击扩展 · 拖到输入框"
+  },
+  {
+    "key": "statusError",
+    "en": "Error",
+    "zh": "源码"
+  },
+  {
+    "key": "statusRecovered",
+    "en": "Recovered",
+    "zh": "预览"
+  },
+  {
+    "key": "statusDone",
+    "en": "Done",
+    "zh": "差异"
+  },
+  {
+    "key": "read",
+    "en": "Read",
+    "zh": "大小未知"
+  },
+  {
+    "key": "reading",
+    "en": "Reading",
+    "zh": "这看起来像二进制文件"
+  },
+  {
+    "key": "opened",
+    "en": "Opened",
+    "zh": "此文件较大"
+  },
+  {
+    "key": "opening",
+    "en": "Opening",
+    "zh": "仍然预览"
+  },
+  {
+    "key": "failedToOpen",
+    "en": "Failed to open",
+    "zh": "显示前 512 KB。"
+  },
+  {
+    "key": "searched",
+    "en": "Searched",
+    "zh": "没有内联预览"
+  },
+  {
+    "key": "searching",
+    "en": "Searching",
+    "zh": "编辑"
+  },
+  {
+    "key": "ran",
+    "en": "Ran",
+    "zh": "编辑中"
+  },
+  {
+    "key": "running",
+    "en": "Running",
+    "zh": "未保存的更改"
+  },
+  {
+    "key": "ranCode",
+    "en": "Ran code",
+    "zh": "文件已在磁盘上更改"
+  },
+  {
+    "key": "runningCode",
+    "en": "Scripting",
+    "zh": "此文件自打开以来已更改。用你的版本覆盖，还是放弃你的编辑并重新加载？"
+  },
+  {
+    "key": "browser",
+    "en": "Browser",
+    "zh": "覆盖"
+  },
+  {
+    "key": "web",
+    "en": "Web",
+    "zh": "放弃并重新加载"
+  },
+  {
+    "key": "done",
+    "en": "Captured page snapshot",
+    "zh": "取消选择条目"
+  },
+  {
+    "key": "pending",
+    "en": "Capturing page snapshot",
+    "zh": "选择条目"
+  },
+  {
+    "key": "pendingAction",
+    "en": "Capturing",
+    "zh": "无法复制控制台输出"
+  },
+  {
+    "key": "done",
+    "en": "Captured screenshot",
+    "zh": "复制此条目"
+  },
+  {
+    "key": "pending",
+    "en": "Capturing screenshot",
+    "zh": "将此条目发送到对话"
+  },
+  {
+    "key": "pendingAction",
+    "en": "Capturing",
+    "zh": "调整预览控制台大小"
+  },
+  {
+    "key": "done",
+    "en": "Searched session history",
+    "zh": "预览控制台"
+  },
+  {
+    "key": "pending",
+    "en": "Searching session history",
+    "zh": "发送到对话"
+  },
+  {
+    "key": "pendingAction",
+    "en": "Searching",
+    "zh": "复制所选到剪贴板"
+  },
+  {
+    "key": "gatewayDisconnected",
+    "en": "Hermes gateway is not connected",
+    "zh": "全部复制到剪贴板"
+  },
+  {
+    "key": "sudoSendFailed",
+    "en": "Could not send sudo password",
+    "zh": "复制"
+  },
+  {
+    "key": "secretSendFailed",
+    "en": "Could not send secret",
+    "zh": "清除"
+  },
+  {
+    "key": "sudoTitle",
+    "en": "Administrator password",
+    "zh": "暂无控制台消息。"
+  },
+  {
+    "key": "sudoDesc",
+    "en": "Hermes needs your sudo password to run a privileged command. It is sent only to your local agent.",
+    "zh": "预览控制台："
+  },
+  {
+    "key": "sudoPlaceholder",
+    "en": "sudo password",
+    "zh": "已发送到对话"
+  },
+  {
+    "key": "secretTitle",
+    "en": "Secret required",
+    "zh": "预览应用启动失败"
+  },
+  {
+    "key": "secretDesc",
+    "en": "Hermes needs a credential to continue.",
+    "zh": "未找到服务器"
+  },
+  {
+    "key": "secretPlaceholder",
+    "en": "secret value",
+    "zh": "预览加载失败"
+  },
+  {
+    "key": "audioReadFailed",
+    "en": "Could not read recorded audio",
+    "zh": "重试"
+  },
+  {
+    "key": "sessionUnavailable",
+    "en": "Session unavailable",
+    "zh": "Hermes 正在重启..."
+  },
+  {
+    "key": "createSessionFailed",
+    "en": "Could not create a new session",
+    "zh": "让 Hermes 重启服务器"
+  },
+  {
+    "key": "promptFailed",
+    "en": "Prompt failed",
+    "zh": "正在重启预览服务器"
+  },
+  {
+    "key": "providerCredentialRequired",
+    "en": "Add a provider credential before sending your first message.",
+    "zh": "Hermes 正在后台工作。可在预览控制台查看进度。"
+  },
+  {
+    "key": "emptySlashCommand",
+    "en": "empty slash command",
+    "zh": "服务器重启失败"
+  },
+  {
+    "key": "desktopCommands",
+    "en": "Desktop commands",
+    "zh": "隐藏预览控制台"
+  },
+  {
+    "key": "yoloArmed",
+    "en": "YOLO armed for this chat",
+    "zh": "显示预览控制台"
+  },
+  {
+    "key": "yoloOff",
+    "en": "YOLO off",
+    "zh": "隐藏预览 DevTools"
+  },
+  {
+    "key": "yoloTitle",
+    "en": "YOLO",
+    "zh": "打开预览 DevTools"
+  },
+  {
+    "key": "yoloToggleFailed",
+    "en": "Could not toggle YOLO",
+    "zh": "未知错误"
+  },
+  {
+    "key": "unknownProfile",
+    "en": "Unknown profile",
+    "zh": "预览服务器已重启"
+  },
+  {
+    "key": "setProfileFailed",
+    "en": "Failed to set profile",
+    "zh": "正在重新加载预览。"
+  },
+  {
+    "key": "sttDisabled",
+    "en": "Speech-to-text is disabled in settings.",
+    "zh": "预览重启失败"
+  },
+  {
+    "key": "stopFailed",
+    "en": "Stop failed",
+    "zh": "Hermes 无法重启服务器。"
+  },
+  {
+    "key": "regenerateFailed",
+    "en": "Regenerate failed",
+    "zh": "Hermes 仍在工作，但还没有收到重启结果。服务器命令可能正在前台运行。"
+  },
+  {
+    "key": "editFailed",
+    "en": "Edit failed",
+    "zh": "工作区已变更，正在重新加载预览"
+  },
+  {
+    "key": "resumeFailed",
+    "en": "Resume failed",
+    "zh": "模块脚本使用了错误的 MIME 类型。这通常表示静态文件服务器正在服务 Vite/React 应用，而不是项目开发服务器。"
+  },
+  {
+    "key": "resumeStrandedBody",
+    "en": "The connection to this session failed and automatic retries gave up. Check that the gateway is running, then try again.",
+    "zh": "无法访问预览页面。"
+  },
+  {
+    "key": "resumeRetry",
+    "en": "Retry",
+    "zh": "预览"
+  },
+  {
+    "key": "nothingToBranch",
+    "en": "Nothing to branch",
+    "zh": "正在加载会话"
+  },
+  {
+    "key": "branchNeedsChat",
+    "en": "Start or resume a chat before branching.",
+    "zh": "显示更早的消息"
+  },
+  {
+    "key": "sessionBusy",
+    "en": "Session busy",
+    "zh": "Hermes 正在加载回复"
+  },
+  {
+    "key": "branchStopCurrent",
+    "en": "Stop the current turn before branching this chat.",
+    "zh": "思考中"
+  },
+  {
+    "key": "branchNoText",
+    "en": "This message has no text to branch from.",
+    "zh": "复制"
+  },
+  {
+    "key": "branchFailed",
+    "en": "Branch failed",
+    "zh": "刷新"
+  },
+  {
+    "key": "deleteFailed",
+    "en": "Delete failed",
+    "zh": "更多操作"
+  },
+  {
+    "key": "archived",
+    "en": "Archived",
+    "zh": "在新对话中分支"
+  },
+  {
+    "key": "archiveFailed",
+    "en": "Archive failed",
+    "zh": "关闭错误"
+  },
+  {
+    "key": "cwdChangeFailed",
+    "en": "Working directory change failed",
+    "zh": "朗读失败"
+  },
+  {
+    "key": "cwdStagedTitle",
+    "en": "Working directory staged",
+    "zh": "正在准备音频..."
+  },
+  {
+    "key": "cwdStagedMessage",
+    "en": "Restart the desktop backend to apply cwd changes to this active session.",
+    "zh": "停止朗读"
+  },
+  {
+    "key": "modelSwitchFailed",
+    "en": "Model switch failed",
+    "zh": "朗读"
+  },
+  {
+    "key": "sessionExported",
+    "en": "Session exported",
+    "zh": "编辑消息"
+  },
+  {
+    "key": "sessionExportFailed",
+    "en": "Could not export session",
+    "zh": "展开消息"
+  },
+  {
+    "key": "imageSaved",
+    "en": "Image saved",
+    "zh": "滚动到底部"
+  },
+  {
+    "key": "downloadStarted",
+    "en": "Download started",
+    "zh": "停止"
+  },
+  {
+    "key": "restartToUseSaveImage",
+    "en": "Restart Hermes Desktop to use Save Image.",
+    "zh": "恢复上一个检查点"
+  },
+  {
+    "key": "restartToSaveImages",
+    "en": "Restart Hermes Desktop to save images",
+    "zh": "恢复检查点"
+  },
+  {
+    "key": "imageDownloadFailed",
+    "en": "Image download failed",
+    "zh": "恢复检查点 — 从此提示重新运行"
+  },
+  {
+    "key": "openImage",
+    "en": "Open image",
+    "zh": "恢复到此检查点？"
+  },
+  {
+    "key": "downloadImage",
+    "en": "Download image",
+    "zh": "此提示之后的所有消息将从对话中移除，并从此处重新运行该提示。"
+  },
+  {
+    "key": "savingImage",
+    "en": "Saving image",
+    "zh": "恢复并重新运行"
+  },
+  {
+    "key": "imagePreviewFailed",
+    "en": "Image preview failed",
+    "zh": "恢复下一个检查点"
+  },
+  {
+    "key": "imageAttach",
+    "en": "Image attach",
+    "zh": "前进"
+  },
+  {
+    "key": "imageWriteFailed",
+    "en": "Failed to write image to disk.",
+    "zh": "发送编辑后的消息"
+  },
+  {
+    "key": "imageAttachFailed",
+    "en": "Image attach failed",
+    "zh": "正在附加…"
+  },
+  {
+    "key": "attachImages",
+    "en": "Attach images",
+    "zh": "Hermes 网关未连接"
+  },
+  {
+    "key": "clipboard",
+    "en": "Clipboard",
+    "zh": "无法发送审批响应"
+  },
+  {
+    "key": "noClipboardImage",
+    "en": "No image found in clipboard",
+    "zh": "运行"
+  },
+  {
+    "key": "clipboardPasteFailed",
+    "en": "Clipboard paste failed",
+    "zh": "命令"
+  },
+  {
+    "key": "dropFiles",
+    "en": "Drop files",
+    "zh": "更多审批选项"
+  },
+  {
+    "key": "pickPlatform",
+    "en": "Choose a destination",
+    "zh": "允许本会话"
+  },
+  {
+    "key": "timedOut",
+    "en": "Timed out waiting for the gateway. Is `hermes gateway` running?",
+    "zh": "始终允许…"
+  },
+  {
+    "key": "genericFailure",
+    "en": "Something went wrong",
+    "zh": "需要审批"
+  },
+  {
+    "key": "boundaryTitle",
+    "en": "Something broke in the interface",
+    "zh": "拒绝"
+  },
+  {
+    "key": "boundaryDesc",
+    "en": "The view hit an unexpected error. Your chats and settings are safe.",
+    "zh": "始终允许此命令？"
+  },
+  {
+    "key": "reloadWindow",
+    "en": "Reload window",
+    "zh": "始终允许"
+  },
+  {
+    "key": "openLogs",
+    "en": "Open logs",
+    "zh": "澄清请求尚未就绪"
+  },
+  {
+    "key": "clear",
+    "en": "Clear search",
+    "zh": "Hermes 网关未连接"
+  },
+  {
+    "key": "label",
+    "en": "pagination",
+    "zh": "无法发送澄清响应"
+  },
+  {
+    "key": "previous",
+    "en": "Prev",
+    "zh": "正在加载问题…"
+  },
+  {
+    "key": "previousAria",
+    "en": "Go to previous page",
+    "zh": "其他 (输入你的答案)"
+  },
+  {
+    "key": "next",
+    "en": "Next",
+    "zh": "输入你的答案…"
+  },
+  {
+    "key": "nextAria",
+    "en": "Go to next page",
+    "zh": "跳过"
+  },
+  {
+    "key": "title",
+    "en": "Sidebar",
+    "zh": "已跳过"
+  },
+  {
+    "key": "description",
+    "en": "Displays the mobile sidebar.",
+    "zh": "继续"
+  },
+  {
+    "key": "toggle",
+    "en": "Toggle Sidebar",
+    "zh": "代码"
+  }
+]
