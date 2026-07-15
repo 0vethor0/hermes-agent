@@ -11023,7 +11023,7 @@ def _normalize_mcp_server_create(
 
     issues = validate_mcp_server_entry(name, server_config)
     if issues:
-        raise ValueError("; ".join(issues))
+        raise ValueError(f"Server '{name}' rejected: {'; '.join(issues)}")
     return name, server_config, bearer_token
 
 
