@@ -1,0 +1,208 @@
+    fieldLabels: defineFieldCopy({
+      model: 'Modelo predeterminado',
+      modelContextLength: 'Ventana de contexto',
+      fallbackProviders: 'Modelos de respaldo',
+      toolsets: 'Conjuntos de herramientas habilitados',
+      timezone: 'Zona horaria',
+      display: {
+        personality: 'Personalidad',
+        showReasoning: 'Bloques de razonamiento'
+      },
+      agent: {
+        maxTurns: 'Pasos máximos del agente',
+        imageInputMode: 'Adjuntos de imagen',
+        apiMaxRetries: 'Reintentos de API',
+        serviceTier: 'Nivel de servicio',
+        toolUseEnforcement: 'Forzar uso de herramientas'
+      },
+      terminal: {
+        cwd: 'Directorio de trabajo',
+        backend: 'Backend de ejecución',
+        timeout: 'Tiempo de espera de comandos',
+        persistentShell: 'Shell persistente',
+        envPassthrough: 'Pasar variables de entorno',
+        dockerImage: 'Imagen Docker',
+        singularityImage: 'Imagen Singularity',
+        modalImage: 'Imagen Modal',
+        daytonaImage: 'Imagen Daytona'
+      },
+      fileReadMaxChars: 'Límite de lectura de archivos',
+      toolOutput: {
+        maxBytes: 'Límite de salida de terminal',
+        maxLines: 'Límite de páginas de archivo',
+        maxLineLength: 'Límite de longitud de línea'
+      },
+      codeExecution: {
+        mode: 'Modo de ejecución de código'
+      },
+      approvals: {
+        mode: 'Modo de aprobación',
+        timeout: 'Tiempo de espera de aprobación',
+        mcpReloadConfirm: 'Confirmar recarga de MCP'
+      },
+      commandAllowlist: 'Lista de comandos permitidos',
+      security: {
+        redactSecrets: 'Ocultar secretos',
+        allowPrivateUrls: 'Permitir URLs privadas'
+      },
+      browser: {
+        allowPrivateUrls: 'URLs privadas en el navegador',
+        autoLocalForPrivateUrls: 'Usar navegador local para URLs privadas'
+      },
+      checkpoints: {
+        enabled: 'Puntos de control de archivos',
+        maxSnapshots: 'Límite de puntos de control'
+      },
+      voice: {
+        recordKey: 'Atajo de voz',
+        maxRecordingSeconds: 'Duración máxima de grabación',
+        autoTts: 'Leer respuestas en voz alta'
+      },
+      stt: {
+        enabled: 'Reconocimiento de voz',
+        provider: 'Proveedor de STT',
+        local: {
+          model: 'Modelo local de transcripción',
+          language: 'Idioma de transcripción'
+        },
+        openai: {
+          model: 'Modelo STT de OpenAI'
+        },
+        groq: {
+          model: 'Modelo STT de Groq'
+        },
+        mistral: {
+          model: 'Modelo STT de Mistral'
+        },
+        elevenlabs: {
+          modelId: 'Modelo STT de ElevenLabs',
+          languageCode: 'Idioma de ElevenLabs',
+          tagAudioEvents: 'Etiquetar eventos de audio',
+          diarize: 'Diarización'
+        }
+      },
+      tts: {
+        provider: 'Proveedor de TTS',
+        edge: {
+          voice: 'Voz Edge'
+        },
+        openai: {
+          model: 'Modelo TTS de OpenAI',
+          voice: 'Voz de OpenAI'
+        },
+        elevenlabs: {
+          voiceId: 'Voz de ElevenLabs',
+          modelId: 'Modelo de ElevenLabs'
+        },
+        xai: {
+          voiceId: 'Voz de xAI (Grok)',
+          language: 'Idioma de xAI'
+        },
+        minimax: {
+          model: 'Modelo TTS de MiniMax',
+          voiceId: 'Voz de MiniMax'
+        },
+        mistral: {
+          model: 'Modelo TTS de Mistral',
+          voiceId: 'Voz de Mistral'
+        },
+        gemini: {
+          model: 'Modelo TTS de Gemini',
+          voice: 'Voz de Gemini'
+        },
+        neutts: {
+          model: 'Modelo NeuTTS',
+          device: 'Dispositivo NeuTTS'
+        },
+        kittentts: {
+          model: 'Modelo KittenTTS',
+          voice: 'Voz KittenTTS'
+        },
+        piper: {
+          voice: 'Voz Piper'
+        }
+      },
+      memory: {
+        memoryEnabled: 'Memoria persistente',
+        userProfileEnabled: 'Perfil de usuario',
+        memoryCharLimit: 'Presupuesto de memoria',
+        userCharLimit: 'Presupuesto de perfil',
+        provider: 'Proveedor de memoria'
+      },
+      context: {
+        engine: 'Motor de contexto'
+      },
+      compression: {
+        enabled: 'Compresión automática',
+        threshold: 'Umbral de compresión',
+        targetRatio: 'Objetivo de compresión',
+        protectLastN: 'Proteger últimos mensajes'
+      },
+      delegation: {
+        model: 'Modelo de subagente',
+        provider: 'Proveedor de subagente',
+        maxIterations: 'Turnos máximos de subagente',
+        maxConcurrentChildren: 'Subagentes en paralelo',
+        childTimeoutSeconds: 'Tiempo de espera de subagente',
+        reasoningEffort: 'Esfuerzo de razonamiento del subagente'
+      },
+      updates: {
+        nonInteractiveLocalChanges: 'Cambios locales en actualizaciones in-app'
+      }
+    }),
+    fieldDescriptions: defineFieldCopy({
+      model: 'Se usa en chats nuevos a menos que elijas otro modelo en el compositor.',
+      modelContextLength: 'Déjalo en 0 para usar la ventana de contexto detectada del modelo seleccionado.',
+      fallbackProviders: 'Respaldo en formato provider:model cuando falla el modelo predeterminado.',
+      display: {
+        personality: 'Estilo predeterminado del asistente para sesiones nuevas.',
+        showReasoning: 'Muestra el razonamiento cuando el backend lo proporciona.'
+      },
+      timezone: 'Usado cuando Hermes necesita contexto de hora local. Vacío usa la zona horaria del sistema.',
+      agent: {
+        imageInputMode: 'Controla cómo se envían las imágenes adjuntas al modelo.',
+        maxTurns: 'Límite de turnos de herramientas antes de que Hermes detenga una ejecución.'
+      },
+      terminal: {
+        cwd: 'Carpeta de proyecto predeterminada para herramientas y trabajo en terminal.',
+        persistentShell: 'Mantiene el estado del shell entre comandos cuando el backend lo admite.',
+        envPassthrough: 'Variables de entorno que se pasan a la ejecución de herramientas.'
+      },
+      codeExecution: {
+        mode: 'Controla cuánto se restringe la ejecución de código al proyecto actual.'
+      },
+      fileReadMaxChars: 'Máximo de caracteres que Hermes puede leer de un archivo en una sola lectura.',
+      approvals: {
+        mode: 'Controla cómo Hermes maneja comandos que requieren aprobación explícita.',
+        timeout: 'Cuánto esperar antes de que expire un aviso de aprobación.'
+      },
+      security: {
+        redactSecrets: 'Oculta secretos detectados de lo visible para el modelo cuando es posible.'
+      },
+      checkpoints: {
+        enabled: 'Crea instantáneas para revertir antes de editar archivos.'
+      },
+      memory: {
+        memoryEnabled: 'Guarda memoria persistente útil para sesiones futuras.',
+        userProfileEnabled: 'Mantiene un perfil breve de preferencias del usuario.'
+      },
+      context: {
+        engine: 'Estrategia para gestionar conversaciones largas cerca del límite de contexto.'
+      },
+      compression: {
+        enabled: 'Resume contexto antiguo cuando la conversación crece.'
+      },
+      voice: {
+        autoTts: 'Lee automáticamente las respuestas del asistente en voz alta.'
+      },
+      stt: {
+        enabled: 'Habilita transcripción de voz local o por proveedor.',
+        elevenlabs: {
+          languageCode: 'Código ISO-639-3 opcional. Vacío deja que ElevenLabs lo detecte.'
+        }
+      },
+      updates: {
+        nonInteractiveLocalChanges:
+          'Elige si conservar o descartar cambios locales al actualizar Hermes desde la app. En terminal siempre se pregunta.'
+      }
+    }),
