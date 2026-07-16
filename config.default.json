@@ -1,0 +1,23 @@
+{
+    "GROQ_API_KEY": "",
+    "WHISPER_MODEL": "whisper-large-v3-turbo",
+    "LLM_MODEL": "llama-3.3-70b-versatile",
+    "MICROPHONE": "",
+    "HOTKEY_DICTATE": "right ctrl+right shift",
+    "HOTKEY_CONTEXT": "right alt+right shift",
+    "HOTKEY_DICTATE_MODE": "hold",
+    "HOTKEY_CONTEXT_MODE": "hold",
+    "HOTKEY_AGENT": "ctrl+alt+a",
+    "CONFIRMATION_SOUND": "true",
+    "SHOW_OVERLAY": "true",
+    "UI_LANGUAGE": "es",
+    "DICTATION_LANGUAGE": "es",
+    "ELEVENLABS_API_KEY": "",
+    "ELEVENLABS_AGENT_ID": "",
+    "ELEVENLABS_VOICE_ID": "",
+    "ELEVENLABS_TTS_MODEL": "eleven_flash_v2_5",
+    "WAKE_WORD_MODEL": "hey_jarvis",
+    "WAKE_WORD_ENABLED": "true",
+    "OS_CONTROL_ENABLED": "true",
+    "OS_CONTROL_FILES_DIR": ""
+}

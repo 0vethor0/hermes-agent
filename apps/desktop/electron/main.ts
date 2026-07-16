@@ -1,5 +1,7 @@
 
 import { execFile, execFileSync, spawn } from 'node:child_process'
+import { promisify } from 'node:util'
+const execFilePromise = promisify(execFile)
 import crypto from 'node:crypto'
 import fs from 'node:fs'
 import http from 'node:http'
@@ -420,7 +422,7 @@ const BOOT_FAKE_STEP_MS = (() => {
   return Math.max(120, raw)
 })()
 
-const APP_NAME = process.env.HERMES_DESKTOP_APP_NAME || 'Hermes'
+const APP_NAME = process.env.HERMES_DESKTOP_APP_NAME || 'BMO Agent'
 const TITLEBAR_HEIGHT = 34
 const MACOS_TRAFFIC_LIGHTS_HEIGHT = 14
 
@@ -797,6 +799,7 @@ function registerMediaProtocol() {
 
 let mainWindow = null
 let hermesProcess = null
+let _acouzProcess = null
 let connectionPromise = null
 // True while connection-config:apply soft-rehomes the primary — suppresses the
 // backend-exit toast so an intentional kill doesn't look like a crash.
@@ -3419,7 +3422,7 @@ function resolveHermesBackend(backendArgs) {
   //    is a recoverable state the GUI can drive through.
   return {
     kind: 'bootstrap-needed',
-    label: 'Hermes Agent not installed yet; bootstrap required',
+    label: 'BMO Agent not installed yet; bootstrap required',
     command: null,
     args: backendArgs,
     bootstrap: true,
@@ -8833,7 +8836,7 @@ async function runDesktopUninstall(mode) {
     return {
       ok: false,
       error: 'agent-missing',
-      message: `Can't run the uninstaller: no Hermes agent venv at ${VENV_ROOT}.`
+      message: `Can't run the uninstaller: no BMO agent venv at ${VENV_ROOT}.`
     }
   }
 
@@ -8946,6 +8949,132 @@ ipcMain.handle('hermes:vscode-theme:fetch', async (_event, id) => fetchMarketpla
 
 // Search the Marketplace for color-theme extensions (empty query = top installs).
 ipcMain.handle('hermes:vscode-theme:search', async (_event, query) => searchMarketplaceThemes(String(query || ''), 20))
+
+// ---------------------------------------------------------------------------
+// AcouZ (Voiceless) voice integration handlers
+// ---------------------------------------------------------------------------
+function resolveAcouZBackend() {
+  // First try development source
+  if (!IS_PACKAGED && isHermesSourceRoot(SOURCE_REPO_ROOT)) {
+    const python = findPythonForRoot(SOURCE_REPO_ROOT)
+    if (python) {
+      const venvRoot = path.join(SOURCE_REPO_ROOT, 'venv')
+      const venvPython = getVenvPython(venvRoot)
+      const command = IS_WINDOWS && fileExists(venvPython) ? venvPython : python
+      return {
+        kind: 'python',
+        command,
+        args: ['-m', 'tools.acouz_integration'],
+        env: buildDesktopBackendEnv({
+          hermesHome: HERMES_HOME,
+          pythonPathEntries: [SOURCE_REPO_ROOT, ...getVenvSitePackagesEntries(venvRoot)],
+          venvRoot
+        }),
+        root: SOURCE_REPO_ROOT
+      }
+    }
+  }
+
+  // Try active root
+  if (isBootstrapComplete()) {
+    const venvPython = getVenvPython(VENV_ROOT)
+    const command = fileExists(venvPython) ? venvPython : findSystemPython()
+    if (command) {
+      return {
+        kind: 'python',
+        command,
+        args: ['-m', 'tools.acouz_integration'],
+        env: buildDesktopBackendEnv({
+          hermesHome: HERMES_HOME,
+          pythonPathEntries: [ACTIVE_HERMES_ROOT, ...getVenvSitePackagesEntries(VENV_ROOT)],
+          venvRoot: VENV_ROOT
+        }),
+        root: ACTIVE_HERMES_ROOT
+      }
+    }
+  }
+
+  return null
+}
+
+async function runAcouZCommand(...args) {
+  const backend = resolveAcouZBackend()
+  if (!backend) {
+    throw new Error('Could not resolve AcouZ backend')
+  }
+
+  const { command, env, root } = backend
+  const allArgs = [...backend.args, ...args]
+
+  // For one-shot commands, spawn and capture output
+  if (args[0] !== 'open') {
+    const { stdout, stderr } = await execFilePromise(command, allArgs, {
+      cwd: root,
+      env: { ...process.env, ...env },
+      encoding: 'utf8'
+    })
+    if (stderr) {
+      rememberLog(`[acouz] stderr: ${stderr}`)
+    }
+    return stdout
+  }
+
+  // For open command, spawn a long-running process
+  if (_acouzProcess) {
+    // Check if it's still running
+    try {
+      process.kill(_acouzProcess.pid, 0)
+      return
+    } catch (e) {
+      // Not running, continue
+    }
+  }
+
+  _acouzProcess = spawn(command, allArgs, {
+    cwd: root,
+    env: { ...process.env, ...env },
+    detached: false
+  })
+
+  _acouzProcess.stdout?.on('data', (data) => {
+    rememberLog(`[acouz] stdout: ${data}`)
+  })
+  _acouzProcess.stderr?.on('data', (data) => {
+    rememberLog(`[acouz] stderr: ${data}`)
+  })
+  _acouzProcess.on('close', (code) => {
+    rememberLog(`[acouz] process exited with code ${code}`)
+    _acouzProcess = null
+  })
+}
+
+ipcMain.handle('hermes:acouz:open', async () => {
+  await runAcouZCommand('open')
+  return { success: true }
+})
+
+ipcMain.handle('hermes:acouz:is_running', async () => {
+  if (!_acouzProcess) {
+    return { running: false }
+  }
+  try {
+    process.kill(_acouzProcess.pid, 0)
+    return { running: true }
+  } catch (e) {
+    _acouzProcess = null
+    return { running: false }
+  }
+})
+
+ipcMain.handle('hermes:acouz:get_config', async (_event, key, defaultValue) => {
+  const stdout = await runAcouZCommand('get_config', key, defaultValue || '')
+  return JSON.parse(stdout)
+})
+
+ipcMain.handle('hermes:acouz:set_config', async (_event, key, value) => {
+  const stdout = await runAcouZCommand('set_config', key, JSON.stringify(value))
+  return JSON.parse(stdout)
+})
 
 // ---------------------------------------------------------------------------
 // hermes:// deep links (e.g. hermes://blueprint/morning-brief?time=08:00).

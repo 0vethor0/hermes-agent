@@ -263,5 +263,11 @@ contextBridge.exposeInMainWorld('hermesDesktop', {
   themes: {
     fetchMarketplace: id => ipcRenderer.invoke('hermes:vscode-theme:fetch', id),
     searchMarketplace: query => ipcRenderer.invoke('hermes:vscode-theme:search', query)
+  },
+  acouz: {
+    open: () => ipcRenderer.invoke('hermes:acouz:open'),
+    isRunning: () => ipcRenderer.invoke('hermes:acouz:is_running'),
+    getConfig: (key: string, defaultValue: string) => ipcRenderer.invoke('hermes:acouz:get_config', key, defaultValue),
+    setConfig: (key: string, value: any) => ipcRenderer.invoke('hermes:acouz:set_config', key, value)
   }
 })

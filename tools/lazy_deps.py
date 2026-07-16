@@ -238,6 +238,26 @@ LAZY_DEPS: dict[str, tuple[str, ...]] = {
         "mcp==1.26.0",
         "starlette==1.0.1",  # CVE-2026-48710 — keep in sync with pyproject [computer-use]
     ),
+    # Voiceless (AcouZ) — voice dictation and agent integration
+    "tool.acouz": (
+        "groq==1.1.2",
+        "keyboard==0.13.5",
+        "numpy==2.4.3",
+        "pillow==12.2.0",
+        "pycomm3==1.2.16",
+        "pynput==1.8.1",
+        "pyperclip==1.11.0",
+        "pystray==0.19.5",
+        "python-dotenv==1.2.2",
+        "scipy==1.15.3",
+        "sounddevice==0.5.5",
+        "soundfile>=0.12.1",
+        "psutil>=5.9.0",
+        "PySide6>=6.0",
+        "elevenlabs[pyaudio]>=2.45.0",
+        "openwakeword>=0.6.0",
+        "onnxruntime>=1.16.0",
+    ),
     # HF Agent Trace Viewer upload (hermes trace upload / /upload-trace).
     "tool.trace_upload": ("huggingface-hub==1.2.3",),
 }

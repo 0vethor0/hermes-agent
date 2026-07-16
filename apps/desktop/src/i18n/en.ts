@@ -1783,6 +1783,8 @@ export const en: Translations = {
     snippetsDesc: 'Pick a starter prompt to drop into the composer.',
     dropFiles: 'Drop files to attach',
     dropSession: 'Drop to link this chat',
+    acouzOpen: 'Open AcouZ',
+    acouzOpenTip: 'Open AcouZ voice interface (Voiceless)',
     snippets: {
       codeReview: {
         label: 'Code review',

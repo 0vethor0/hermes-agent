@@ -222,6 +222,19 @@ declare global {
         // returns the most-installed themes.
         searchMarketplace: (query: string) => Promise<DesktopMarketplaceSearchItem[]>
       }
+      // AcouZ (Voiceless integration): voice dictation + direct voice channel
+      // with Hermes. Exposed by the Electron preload bridge; optional so the
+      // renderer gracefully degrades when running outside Electron (e.g. web).
+      acouz?: {
+        /** Launch the native AcouZ UI (PySide6 window). */
+        open: () => Promise<{ success: boolean }>
+        /** Check whether the AcouZ Python process is currently running. */
+        isRunning: () => Promise<{ running: boolean }>
+        /** Read a persisted AcouZ config value. */
+        getConfig: (key: string, defaultValue: string) => Promise<{ value: any }>
+        /** Write a persisted AcouZ config value. */
+        setConfig: (key: string, value: any) => Promise<{ success: boolean }>
+      }
     }
   }
 }

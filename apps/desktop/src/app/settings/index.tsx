@@ -124,7 +124,14 @@ export function SettingsView({ onClose, onConfigSaved, onMainModelChanged }: Set
         icon: s.icon,
         id: view,
         label: t.settings.sections[s.id] ?? s.label,
-        onSelect: () => setActiveView(view)
+        onSelect: () => {
+          if (s.id === 'voice' && window.hermesDesktop?.acouz) {
+            triggerHaptic('open')
+            window.hermesDesktop.acouz.open().catch(console.error)
+          } else {
+            setActiveView(view)
+          }
+        }
       }
     }),
     {
