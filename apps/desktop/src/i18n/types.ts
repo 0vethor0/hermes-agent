@@ -1452,6 +1452,8 @@ export interface Translations {
     snippets: Record<string, { label: string; description: string; text: string }>
     dropFiles: string
     dropSession: string
+    acouzOpen: string
+    acouzOpenTip: string
   }
 
   statusStack: {

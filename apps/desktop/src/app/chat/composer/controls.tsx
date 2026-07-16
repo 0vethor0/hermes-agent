@@ -1,10 +1,12 @@
+import React from 'react'
+
 import { Button } from '@/components/ui/button'
 import { Codicon } from '@/components/ui/codicon'
 import { KbdCombo } from '@/components/ui/kbd'
 import { Tip } from '@/components/ui/tooltip'
 import { useI18n } from '@/i18n'
 import { triggerHaptic } from '@/lib/haptics'
-import { AudioLines, iconSize, Layers3, Loader2, Square, SteeringWheel, Volume2, VolumeX } from '@/lib/icons'
+import { AudioLines, iconSize, Layers3, Loader2, Mic, Square, SteeringWheel, Volume2, VolumeX } from '@/lib/icons'
 import { formatCombo } from '@/lib/keybinds/combo'
 import { cn } from '@/lib/utils'
 
@@ -107,7 +109,31 @@ export function ComposerControls({
           </Button>
         </Tip>
       ) : (
-        <DictationButton disabled={disabled} onToggle={onDictate} state={state.voice} status={voiceStatus} />
+        <>
+          <DictationButton disabled={disabled} onToggle={onDictate} state={state.voice} status={voiceStatus} />
+          {window.hermesDesktop?.acouz && (
+            <Tip label={c.acouzOpenTip || 'Open AcouZ (Voiceless)'}>
+              <Button
+                aria-label={c.acouzOpen || 'Open AcouZ'}
+                className={cn(GHOST_ICON_BTN, 'p-0 text-primary/80 hover:text-primary')}
+                disabled={disabled}
+                onClick={async () => {
+                  triggerHaptic('open')
+                  try {
+                    await window.hermesDesktop.acouz?.open()
+                  } catch (err) {
+                    console.error('Failed to open AcouZ:', err)
+                  }
+                }}
+                size="icon"
+                type="button"
+                variant="ghost"
+              >
+                <Mic className={cn(iconSize.sm, 'stroke-[2.5] text-indigo-500 dark:text-indigo-400')} />
+              </Button>
+            </Tip>
+          )}
+        </>
       )}
       <AutoSpeakButton active={autoSpeak} disabled={disabled} onToggle={onToggleAutoSpeak} />
       {showVoicePrimary ? (
